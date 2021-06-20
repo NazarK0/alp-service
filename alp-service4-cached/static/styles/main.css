@@ -792,3 +792,59 @@ li {
   margin: 0; /* Отступ слева в браузере IE и Opera */
   padding: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
 }
+
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav {
+  display: none;
+}
+
+.topnav .phone-link {
+  display: flex;
+  justify-content: center;
+}
+
+.topnav .phone {
+  color: #00ade6;
+}
+
+.topnav #mobile-menu {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #00ade6;;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #444;
+  color: #00ade6;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #444;
+  color: #00ade6;
+}

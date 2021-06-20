@@ -1,7 +1,7 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   table {
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
 
   .main-navigation-menu {
@@ -12,6 +12,12 @@
 @media only screen and (max-width: 768px) {
   .service-list .service-list-details li {
     font-size: 0.7rem;
+  }
+  .topnav {
+    display: block;
+  }
+  header, .site-menu {
+    display: none;
   }
 }
 
