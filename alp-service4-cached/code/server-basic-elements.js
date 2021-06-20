@@ -7,6 +7,7 @@
 var JS_FILE = "server-basic-elements.js";
 // ----------------------------------------------------------------------------
 var fs = require("fs");
+const pathNode = require('path');
 var express = require('express');
 var bodyParser = require('body-parser'); // for reading POSTed form data into `req.body`
 var expressSession = require('express-session');
@@ -18,23 +19,23 @@ function getApp() {
     app.use(cookieParser()); // must use cookieParser before expressSession
     app.use(expressSession({ secret: sessionID.makeID() }));
     app.use(bodyParser());
-    app.use("/images", express.static('../static/images'));
-    app.use("/styles", express.static('../static/styles'));
-    app.use("/scripts", express.static('../static/scripts'));
+    app.use("/images", express.static(pathNode.join(__dirname, "../static/images")));
+    app.use("/styles", express.static(pathNode.join(__dirname, "../static/styles")));
+    app.use("/scripts", express.static(pathNode.join(__dirname, "../static/scripts")));
     app.get('/favicon.ico', function(request, response){
         response.writeHead(200, {"Content-Type": "image/x-icon"});
-        var img = fs.readFileSync('../static/images/favicon.ico');
+        var img = fs.readFileSync(pathNode.join(__dirname, '../static/images/favicon.ico'));
         response.end(img, 'binary');
     });
     app.get('/robots.txt', function(request, response){
         response.writeHead(200, {"Content-Type": "text/plain"});
-        var txt = fs.readFileSync('../compiled-data/robots.txt');
+        var txt = fs.readFileSync(pathNode.join(__dirname, '../compiled-data/robots.txt'));
         response.write(txt);
         response.end();
     });
     app.get('/sitemap.xml', function(request, response){
         response.writeHead(200, {"Content-Type": "text/xml"});
-        var txt = fs.readFileSync('../compiled-data/sitemap.xml');
+        var txt = fs.readFileSync(pathNode.join(__dirname, '../compiled-data/sitemap.xml'));
         response.write(txt);
         response.end();
     });

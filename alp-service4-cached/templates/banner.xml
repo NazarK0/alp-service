@@ -3,119 +3,102 @@
 -->
 <fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
     <fest:set name="body_content_main_banner_1">
-        <div class="body-main-banner body-main-banner1">
-            <div class="t">
-                <div class="tr">
-                    <div>
-                        <div class="block block1">
-                            <div class="block-content">
-                                <table border="0" cellpadding="0" cellspacing="0">
-                                    <tbody>
-                                        <tr>
-                                            <td class="block-title">
-                                                <span>Бесплатная консультация</span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="block-msg">
-                                                <span>Готовы проконсультировать по всем интересующим вопросам,<br />связанным с предстоящими высотными работами на объекте.</span>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-
-                        <div class="block block2">
-                            <div class="block-content">
-                                <table border="0" cellpadding="0" cellspacing="0">
-                                    <tbody>
-                                        <tr>
-                                            <td class="block-title">
-                                                <span>Бесплатный расчёт сметы</span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="block-msg">
-                                                <span>Совершенно бесплатно сделаем расчёт сметы высотных работ,<br /> с учётом всех требуемых спецификаций.</span>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-
-                        </div>
-                    </div>
+        <div class="banner-section">
+            <div class="banner-row cards">
+                <div class="banner-card">
+                    <h3 class="block-title">Бесплатная консультация</h3>
+                    <p class="block-msg">
+            Готовы проконсультировать по всем интересующим вопросам,
+                        <br />
+            связанным с предстоящими высотными работами на объекте.
+                    </p>
                 </div>
-
-                <div style="display: table-row; color: white; vertical-align: bottom; text-align:center; padding-bottom: 15px; border: 1px solid red; height: 35%;">
-                    <div style="padding-top:12px;">
-                        Позвоните нам:<br />
-                        <span style="color: #00ade6;"><big><big>+7 812<fest:space /><big><big>326-26-29</big></big></big></big></span>
-                    </div>
+                <div class="banner-card">
+                    <h3 class="block-title">Бесплатный расчёт сметы</h3>
+                    <p class="block-msg">
+            Совершенно бесплатно сделаем расчёт сметы высотных работ,
+                        <br />
+            с учётом всех требуемых спецификаций.
+                    </p>
                 </div>
             </div>
-            <br />
+            <div class="banner-row contacts">
+                <h2 style="color: lightgray;">Свяжитесь с нами:</h2>
+                <div class="phone">
+                    <a href="tel:+7(812)326-26-29" class="phone-link contact">
+                        <span id="telephone">
+              +7 812
+                            <span>326-26-29</span>
+                        </span>
+                    </a>
+                </div>
+                <ul class="socials">
+                    <li>
+                        <a target="_blank" href="https://telegram.me/@alp-service" class="contact">
+              Telegram
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://api.whatsapp.com/send/?phone=+78123262629" class="contact">
+              WhatsApp
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://vk.com/alpinisty_promyshlennye">
+              ВКонтакте
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </fest:set>
 
     <fest:set name="body_content_main_banner_2">
-        <div class="body-main-banner2">
-            <div class="t t60">
-
-                <table border="0" cellpadding="0" cellspacing="0">
-                    <tbody>
-                        <tr>
-                            <td class="block-title">
-                                <span>Постоянному клиенту — неизменно низкая стоимость работ!</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="block-msg">
-                                <span>Не смотря ни на какую инфляцию и рост курса валют,<br />для наших постоянных клиентов цена на несколько лет останется неизменно низкой.</span>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-
-            </div>
-
-            <div class="t t40">
-                <div class="trow">
-                    <div class="tt">
-                        <div class="ttrow1">
-                            Позвоните нам:
-                        </div>
-                        <div class="ttrow2">
-                            <span style="color: #00ade6;"><big><big>+7 812<fest:space /><big><big>326-26-29</big></big></big></big></span>
-                        </div>
+        <div class="banner-section-2">
+            <div class="banner-row cards">
+                <div class="banner-card">
+                    <div class="banner-card-inner">
+                        <h3 class="block-title">
+              Постоянному клиенту — неизменно низкая стоимость работ!
+                        </h3>
+                        <p class="block-msg">
+              Для всех постоянных клиентов компании &laquo;Альп-Сервис&raquo;, не
+              смотря на инфляцию и колебания курса валют,
+                            <br />
+              цена предоставляемых услуг остаётся неизменно низкой.
+                        </p>
                     </div>
                 </div>
+            </div>
+            <div class="banner-row phone">
+                <h4 style="color: lightgray;">Позвоните нам:</h4>
+                <a href="tel:+7(812)326-26-29" class="phone-link">
+                    <span id="telephone">
+            +7 812
+                        <span>
+                            <big>326-26-29</big>
+                        </span>
+                    </span>
+                </a>
             </div>
         </div>
     </fest:set>
 
     <fest:set name="body_content_main_banner_2_1">
-        <div class="body-main-banner2-1">
-            <div class="t t100">
-
-                <table border="0" cellpadding="0" cellspacing="0">
-                    <tbody>
-                        <tr>
-                            <td class="block-title">
-                                <span>Постоянному клиенту — неизменно низкая стоимость работ!</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="block-msg">
-                                <span>Не смотря ни на какую инфляцию и рост курса валют,<br />для наших постоянных клиентов цена на несколько лет останется неизменно низкой.</span>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-
+        <div class="banner-section-2">
+            <div class="banner-row cards">
+                <div class="banner-card">
+                    <div class="banner-card-inner">
+                        <h3 class="block-title">
+              Постоянному клиенту — неизменно низкая стоимость работ!
+                        </h3>
+                        <p class="block-msg">
+              Не смотря ни на какую инфляцию и рост курса валют,                            <br />
+для наших постоянных клиентов цена на несколько лет останется неизменно низкой.
+                        </p>
+                    </div>
+                </div>
             </div>
-
         </div>
     </fest:set>
 </fest:template>

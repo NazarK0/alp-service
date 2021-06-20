@@ -8,6 +8,7 @@ var expressSession = require('express-session');
 var cookieParser = require('cookie-parser'); // the session is stored in a cookie, so we use this to parse it
 var fest = require("fest");
 var fs = require("fs");
+const pathNode = require("path");
 var sessionHelper = require("./session-helper.js")
 var structHelper = require("./struct-helper.js")
 
@@ -18,9 +19,9 @@ app.use(expressSession({ secret: sessionHelper.makeID() }));
 app.use(bodyParser());
 
 // Раздача статических файлов
-app.use("/images", express.static('../static/images'));
-app.use("/styles", express.static('../static/styles'));
-app.use("/scripts", express.static('../static/scripts'));
+app.use("/images", express.static(pathNode.join(__dirname, "../static/images")));
+app.use("/styles", express.static(pathNode.join(__dirname, "../static/styles")));
+app.use("/scripts", express.static(pathNode.join(__dirname, "../static/scripts")));
 
 
 app.get('/', function(request, response) {
@@ -102,7 +103,7 @@ function defaultPage(request, response) {
 
 app.get('/favicon.ico', function(request, response){
     response.writeHead(200, {"Content-Type": "image/x-icon"});
-    var img = fs.readFileSync('../static/images/favicon.ico');
+    var img = fs.readFileSync(pathNode.join(__dirname, '../static/images/favicon.ico'));
     response.end(img, 'binary');
 });
 

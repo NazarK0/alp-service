@@ -1,13 +1,13 @@
 <fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
- 	<fest:include context_name="json" src="./base.xml" />
+    <fest:include context_name="json" src="./base.xml" />
     <fest:include context_name="json" src="./counters.xml" />
 
-	<fest:set name="verifications" test="json.modes.verification">
+    <fest:set name="verifications" test="json.modes.verification">
         <fest:if test="json.modes.verification">
             <meta name='yandex-verification' content='55b40f367cd80bde' />
         </fest:if>
 
-	</fest:set>
+    </fest:set>
 
     <fest:set name="header_content">
         <link rel="shortcut icon" href="/favicon.ico" />
@@ -34,6 +34,7 @@
     <fest:set name="header_content_styles">
         <link rel="stylesheet" href="/styles/main.css" />
         <link rel="stylesheet" href="/styles/navtable.css" />
+        <link rel="stylesheet" href="/styles/media-queries.css" />
         <link href="/styles/fonts-googleapis-com-css.css" rel="stylesheet" type="text/css" />
         <fest:get name="header_content_styles_addition" />
     </fest:set>
@@ -41,38 +42,38 @@
 
 
 
-	<fest:set name="body_content">
-		<fest:get name="body_content_header" />
-		<fest:get name="body_content_main" />
-		<fest:get name="body_content_footer" />
+    <fest:set name="body_content">
+        <fest:get name="body_content_header" />
+        <fest:get name="body_content_main" />
+        <fest:get name="body_content_footer" />
 
-		<fest:get name="body_content_script" />
-		<fest:get name="body_content_bottom" />
+        <fest:get name="body_content_script" />
+        <fest:get name="body_content_bottom" />
         <fest:get name="body_content_counters" />
-	</fest:set>
+    </fest:set>
 
     <fest:set name="body_content_header">
-        <navigation>
-            <div class="logo">
-                <table border="0" cellspacing="0" cellpadding="0" width="100%">
-                    <tbody>
-                        <tr>
-                            <td>
-                                <a href="/" title="Промышленные альпинисты в Санкт-Петербурге">
-                                    <img src="/images/logo.png" alt="Альп Сервис" title="Промышленные альпинисты компании Альп Сервис (Санкт-Петербург)" />
-                                </a>
-                            </td>
-                            <td style="text-align: right;">
-                                <nobr>
-                                    <span id="telephone">+7 812<fest:space /><span><big>326-26-29</big></span></span>
-                                    <br /><span style="color: white;">info@alp-service.ru</span>
-                                </nobr>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+        <header>
+            <div>
+                <a href="/" title="Промышленные альпинисты в Санкт-Петербурге">
+                    <img src="/images/logo.png" alt="Альп Сервис" title="Промышленные альпинисты компании Альп Сервис (Санкт-Петербург)" />
+                </a>
             </div>
-            <div class="nav-menu">
+            <div>
+                <nobr>
+                    <a href="tel:+7(812)326-26-29" class="phone-link">
+                        <span id="telephone">
+              +7 812
+                            <span>
+                                <big>326-26-29</big>
+                            </span>
+                        </span>
+                    </a>
+                    <br />
+                    <span style="color: white;">info@alp-service.ru</span>
+                </nobr>
+            </div>
+            <nav class="site-menu">
                 <ul>
                     <fest:each iterate="json.navigation.menu" index="i" value="v">
                         <li id="nav-{i}" class="menu">
@@ -90,34 +91,35 @@
                         </li>
                     </fest:each>
                 </ul>
-            </div>
-        </navigation>
+            </nav>
+        </header>
     </fest:set>
 
-	<fest:set name="body_content_footer">
-		<footer>
-			<div class="footer">
-				<div style="font-size:0.8em; display:table; width: 100%; padding-top: 10px; padding-bottom: 10px;">
+    <fest:set name="body_content_footer">
+        <footer>
+            <div class="footer">
+                <div style="font-size:0.8em; display:table; width: 100%; padding-top: 10px; padding-bottom: 10px;">
                     <div style="display:table-cell; padding-left: 10px;">
-					<![CDATA[
-						&#169; 2010–2016 Компания &laquo;Альп-Сервис&raquo; &mdash; промышленные альпинисты в Санкт-Петербурге
+                        <![CDATA[
+						&#169; 2010–2021 Компания &laquo;Альп-Сервис&raquo; &mdash; промышленные альпинисты в Санкт-Петербурге
 					]]>
                     </div>
-					<div style="display:table-cell; text-align: right; padding-right: 10px;">
-					    <a href="/sitemap.xml" style="margin-top: 5px;">Карта сайта</a><fest:space />
+                    <div style="display:table-cell; text-align: right; padding-right: 10px;">
+                        <a href="/sitemap.xml" style="margin-top: 5px;">Карта сайта</a>
+                        <fest:space />
                     </div>
 
-				</div>
-			</div>
-		</footer>
-	</fest:set>
+                </div>
+            </div>
+        </footer>
+    </fest:set>
 
-	<fest:set name="body_content_bottom">
-		<![CDATA[
+    <fest:set name="body_content_bottom">
+        <![CDATA[
 			<!-- <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">-->
-			<link href="/styles/fonts-googleapis-com-css.css" rel="stylesheet" type="text/css">
+<link href="/styles/fonts-googleapis-com-css.css" rel="stylesheet" type="text/css">
 		]]>
-	</fest:set>
+    </fest:set>
 
     <fest:set name="body_content_counters">
         <fest:if test="json.modes.counters">
