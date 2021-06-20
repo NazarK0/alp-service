@@ -1,0 +1,35 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .main-navigation-menu {
+    margin: 20px 5px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .service-list .service-list-details li {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .service-list > li {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .service-list .service-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

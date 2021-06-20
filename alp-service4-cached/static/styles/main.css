@@ -2,14 +2,23 @@ body {
   background: url('/images/background/bg-206-2.png') repeat center center;
   font-family: 'PT Sans';
   color: #444;
-  font-size: 1em;
+  font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+.phone-link {
+  border: none;
+  outline: none;
+  background: none;
+  text-decoration: none;
 }
 
 header {
-	margin: 5px 23px ;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+  margin: 5px 43px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .container {
@@ -38,18 +47,18 @@ h1 {
   padding-top: 10px;
   padding-left: 0px;
   color: #444;
-  font-size: 1.3em;
+  font-size: 2.3rem;
 }
 
 h2 {
-  font-size: 1.1em;
+  font-size: 1.8rem;
   margin: 0px;
   margin-bottom: 2px;
   padding-left: 0px;
 }
 
 h3 {
-  font-size: 1.1em;
+  font-size: 1.4rem;
   margin: 0px;
   margin-bottom: 2px;
   padding-left: 0px;
@@ -66,9 +75,9 @@ div.main {
   width: 100%;
 }
 
-div.main-allr {
+/* div.main-allr {
   border-radius: 9px 9px 9px 9px;
-}
+} */
 div.main-upr {
   border-radius: 9px 9px 0 0;
 }
@@ -92,17 +101,17 @@ span#telephone {
   text-shadow: 1px 1px 1px #111;
 }
 
-span#telephone span {
+/* span#telephone span {
   font-size: 1.3em;
-}
+} */
 
-navigation div {
+/* navigation div {
   background: inherit;
 }
 
 navigation div img {
   width: 100px;
-}
+} */
 
 div.logo {
   margin: 0 auto;
@@ -115,21 +124,21 @@ div.logo img {
 
 .site-menu {
   /* width: 100%; */
-  
+
   margin: 0 20px;
-  
+
   display: flex;
-	align-items: center;
-	justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .site-menu ul {
-	max-width: 1100px;
-	width: 100%;
-	height: 40px;
-	display: block;
+  max-width: 1100px;
+  width: 100%;
+  height: 40px;
+  display: block;
   /* border-radius: 5px; */
-	border-radius: 9px;
+  border-radius: 9px;
   background: -webkit-linear-gradient(top, #585858, #2b2b2b);
   background: -moz-linear-gradient(top, #585858, #2b2b2b);
   background: -o-linear-gradient(top, #585858, #2b2b2b);
@@ -190,12 +199,12 @@ div.body-nav-tab ul li a.simple {
 /* templates/banner.xml                                                         */
 /* banner1                                                                      */
 
-div.body-main-banner1 {
+/* div.body-main-banner1 {
   border-radius: 9px 9px 0px 0px;
 }
 
 div.body-main-banner {
-  /*background: rgba(0, 0, 0, 0.3);*/
+  //background: rgba(0, 0, 0, 0.3); 
   height: 250px;
 }
 
@@ -305,7 +314,7 @@ div.body-main-banner
   div.block
   div.block-content
   div.block-title {
-  /*display: table-row;*/
+  //display: table-row;
 
   border: 1px solid red;
   font-size: 1.6em;
@@ -347,11 +356,11 @@ div.body-main-banner
   font-size: 0.9em;
 }
 
-/* ---------------------------------------------------------------------------- */
+
 div.body-main-banner2 {
   margin-top: 20px;
   height: 250px;
-  /*background: rgba(0, 0, 0, 0.3);*/
+  //background: rgba(0, 0, 0, 0.3);
 }
 
 div.body-main-banner2 div.t {
@@ -371,9 +380,70 @@ div.body-main-banner2 div.t40 {
 
 div.body-main-banner2 div.t div.trow {
   display: table-row;
+} */
+.banner-section .banner-row {
+	margin-bottom: 7px;
+}
+.banner-section .cards {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	
 }
 
-div.tt {
+.banner-section .phone {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 10px;
+
+}
+
+.banner-section .socials {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-bottom: 70px;
+	
+}
+.banner-section .socials li{
+	margin: 5px;
+	
+}
+.banner-section .socials a{
+	color: #00ade6;
+	text-decoration: none;
+	font-size: 1.4rem;
+	text-shadow: 1px 1px 1px #111;
+	
+}
+
+.banner-row.contacts{
+	margin-left: 15px;
+}
+.banner-row .contact{
+	font-size: 1rem;
+}
+
+.banner-card {
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 7px;
+	box-sizing: border-box;
+	padding: 7px 37px;
+	margin: 5px;
+	min-width: 517px;
+
+}
+
+.banner-card .block-title {
+	color: #00ade6;
+}
+
+.banner-card .block-msg {
+	color: lightgray;
+}
+
+/* div.tt {
   display: table;
   height: 100%;
   width: 100%;
@@ -419,11 +489,11 @@ div.body-main-banner2 div.t table td.block-msg span {
 
 /* ---------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------- */
-div.body-main-banner2-1 {
+/*div.body-main-banner2-1 {
   margin-top: 20px;
   margin-bottom: 7px;
   height: 150px;
-  /*background: rgba(0, 0, 0, 0.3);*/
+  background: rgba(0, 0, 0, 0.3);
 }
 
 div.body-main-banner2-1 div.t {
@@ -466,7 +536,7 @@ div.body-main-banner2-1 div.t table td.block-msg span {
   font-style: italic;
   color: lightgray;
   font-size: 0.9em;
-}
+} */
 
 /* ---------------------------------------------------------------------------- */
 
@@ -517,91 +587,127 @@ ul.index-list li ul.sub-index-list li a:hover {
 /* templates/index2.xml															*/
 /*																				*/
 
-div.service-list {
+/* div.service-list {
   padding-bottom: 4px;
 }
 div.service-list div.line:hover {
-  /*background: #DDD;*/
-  background: url('/images/background/az_subtle.png'); /*#F2F2F2;*/
+  background: url('/images/background/az_subtle.png'); 
 }
 div.service-list div.line {
   display: table;
   border-radius: 5px 5px 5px 5px;
   margin-bottom: 15px;
-  background: url('/images/background/az_subtle_light.png'); /*#F2F2F2;*/
-  /*border: 1px dashed #DDD;*/
+  background: url('/images/background/az_subtle_light.png');
   min-height: 100px;
 }
 div.service-list div.specline {
   background: #f2f2f2;
-}
-div.service-list div.line div.image {
-  display: table-cell;
-  border-radius: 3px 3px 3px 3px;
-  width: 120px;
-  height: 100%;
+}*/
 
-  /* default background */
+.service-list-details {
+	display: flex;
+	flex-wrap: wrap;
+	font-weight: bold;
+	justify-content: space-evenly;
+
+}
+
+.service-list-details li {
+	margin: 1px 5px;
+}
+
+.service-list-details .bullet {
+	color: #ccc;
+}
+
+.service-list {
+	margin: 0 30px;
+}
+
+.service-list>li {
+	height: 110px;
+	display: flex;
+	background: url('/images/background/az_subtle_light.png');
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.service-list>li:hover {
+  background: url('/images/background/az_subtle.png'); 
+}
+
+.service-list .service-item-title {
+	margin-bottom: 10px;
+}
+
+.service-list .image {
+  border-radius: 3px;
+  width: 120px;
+  height: 110px;
+  min-width: 120px;
+  min-height: 110px;
+	margin-right: 20px;
+
   background: url('/images/service-icons/icon-vse-raboty-1-100x100.jpg') 100%
     100% no-repeat;
   background-size: cover;
 }
-div.service-list div.line div.icon-vse-raboty {
+.service-list .icon-vse-raboty {
   background: url('/images/service-icons/icon-vse-raboty-1-100x100.jpg') 100%
     100% no-repeat;
   background-size: cover;
 }
-div.service-list div.line div.icon-krovelnye-raboty {
+.service-list .icon-krovelnye-raboty {
   background: url('/images/service-icons/icon-krovelnye-raboty-1-100x100.jpg')
     100% 100% no-repeat;
   background-size: cover;
 }
-div.service-list div.line div.icon-fasadnye-raboty {
+.service-list .icon-fasadnye-raboty {
   background: url('/images/service-icons/icon-fasadnye-raboty-1-100x100.jpg')
     100% 100% no-repeat;
   background-size: cover;
 }
-div.service-list div.line div.icon-germetizaciya {
+.service-list .icon-germetizaciya {
   background: url('/images/service-icons/icon-germetizaciya-1-100x100.jpg') 100%
     100% no-repeat;
   background-size: cover;
 }
-div.service-list div.line div.icon-montazhnye-raboty {
+.service-list .icon-montazhnye-raboty {
   background: url('/images/service-icons/icon-montazhnye-raboty-1-100x100.jpg')
     100% 100% no-repeat;
   background-size: cover;
 }
-div.service-list div.line div.icon-demontazhnye-raboty {
+.service-list .icon-demontazhnye-raboty {
   background: url('/images/service-icons/icon-demontazhnye-raboty-1-100x100.jpg')
     100% 100% no-repeat;
   background-size: cover;
 }
-div.service-list div.line div.icon-dopolnitelnye-raboty {
+.service-list .icon-dopolnitelnye-raboty {
   background: url('/images/service-icons/icon-dopolnitelnye-raboty-1-100x100.jpg')
     100% 100% no-repeat;
   background-size: cover;
 }
-div.service-list div.line div.icon-vysotnyj-klining {
+.service-list .icon-vysotnyj-klining {
   background: url('/images/service-icons/icon-vysotnyj-klining-1-100x100.jpg')
     100% 100% no-repeat;
   background-size: cover;
 }
-div.service-list div.line div.icon-uborka-snega {
+.service-list .icon-uborka-snega {
   background: url('/images/service-icons/icon-uborka-snega-1-100x100.jpg') 100%
     100% no-repeat;
   background-size: cover;
 }
-div.service-list div.line div.icon-mojka-okon-i-fasadov {
+.service-list .icon-mojka-okon-i-fasadov {
   background: url('/images/service-icons/icon-mojka-okon-i-fasada-1-100x100.jpg')
     100% 100% no-repeat;
   background-size: cover;
 }
-div.service-list div.line div.icon-obespylivanie {
+.service-list .icon-obespylivanie {
   background: url('/images/service-icons/icon-obespylivanie-1-100x100.jpg') 100%
     100% no-repeat;
   background-size: cover;
 }
-div.service-list div.line div.icon-poslestroitelnaya {
+.service-list .icon-poslestroitelnaya {
   background: url('/images/service-icons/icon-poslestroitelnaya-chistka-1-100x100.jpg')
     100% 100% no-repeat;
   background-size: cover;
@@ -617,6 +723,18 @@ div.service-list div.line div.list a {
 }
 div.service-list div.line div.list a h3 {
   display: inline;
+}
+
+.banner-section-2 .banner-card {
+	display: flex;
+	justify-content: center;
+  min-width: 200px;
+}
+.banner-section-2 .banner-row.phone {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
 }
 /*
 style=" border-radius: 9px 9px 9px 9px; display:table-cell;"
