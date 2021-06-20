@@ -1,0 +1,134 @@
+
+div.brands {
+	background-color: rgba(122, 122, 122, 0.35);
+	height: 200px;
+	width: 1020px;
+	margin: 0 auto;
+	border-top: 1px solid #777;
+	border-radius: 10px;
+	margin-top: 1px;
+text-align: center;
+}
+
+div.brands div {
+	display: inline-block;
+	
+	margin: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+	
+	padding-left: 22px;
+	padding-top: 15px;
+	border: 0px solid gray;
+}
+
+div.brands div#brand-gazprom {
+	height: 50px;
+	width: 100px;
+	background: url('../images/Gazprom_neft_logo.svg-gray.png') no-repeat;
+	background-size: cover; /* Масштабируем фон */
+}
+div.brands div#brand-gazprom:hover {
+	height: 50px;
+	width: 100px;
+	background: url('../images/Gazprom_neft_logo.svg.png') no-repeat;
+	background-size: cover; /* Масштабируем фон */
+}
+
+div.brands div#brand-gazprom-en {
+	height: 50px;
+	width: 112px;
+	background: url('../images/brands/gazprom1-logo-gray.png') no-repeat;
+	background-size: cover;
+}
+div.brands div#brand-gazprom-en:hover {
+	height: 50px;
+	width: 112px;
+	background: url('../images/brands/gazprom2-logo.png') no-repeat;
+	background-size: cover;
+}
+
+div.brands div#brand-russtandart {
+	width: 43px;
+	height: 50px;
+
+	background: url('../images/brands/russtand3-logo-gray.png') no-repeat;
+	background-size: cover;
+}
+div.brands div#brand-russtandart:hover {
+	background: url('../images/brands/russtand3-logo.png') no-repeat;
+	background-size: cover;
+}
+
+div.brands div#brand-mega {
+	width: 200px;
+	height: 45px;
+
+	background: url('../images/brands/mega-logo-gray.png') no-repeat;
+	background-size: cover;
+}
+div.brands div#brand-mega:hover {
+	background: url('../images/brands/mega-logo.png') no-repeat;
+	background-size: cover;
+}
+
+div.brands div#brand-transneft {
+	width: 130px;
+	height: 50px;
+
+	background: url('../images/brands/transneft2-logo-gray.png') no-repeat;
+	background-size: cover;
+}
+div.brands div#brand-transneft:hover {
+	background: url('../images/brands/transneft2-logo.png') no-repeat;
+	background-size: cover;
+}
+
+div.brands div#brand-ptk {
+	width: 30px;
+	height: 50px;
+
+	background: url('../images/brands/ptk2-logo-gray.png') no-repeat;
+	background-size: cover;
+}
+div.brands div#brand-ptk:hover {
+	background: url('../images/brands/ptk2-logo.png') no-repeat;
+	background-size: cover;
+}
+
+div.brands div#brand-toyota {
+	width: 62px;
+	height: 50px;
+
+	background: url('../images/brands/toyota1-logo-gray.png') no-repeat;
+	background-size: cover;
+}
+div.brands div#brand-toyota:hover {
+	background: url('../images/brands/toyota1-logo.png') no-repeat;
+	background-size: cover;
+}
+
+div.brands div#brand-hyundai {
+	width: 92px;
+	height: 50px;
+
+	background: url('../images/brands/hyundai-logo-gray.png') no-repeat;
+	background-size: cover;
+}
+div.brands div#brand-hyundai:hover {
+	background: url('../images/brands/hyundai-logo.png') no-repeat;
+	background-size: cover;
+}
+
+div.brands div#brand-rzhd {
+	width: 127px;
+	height: 45px;
+
+	background: url('../images/brands/rzhd1-logo-gray.png') no-repeat;
+	background-size: cover;
+}
+div.brands div#brand-rzhd:hover {
+	background: url('../images/brands/rzhd1-logo.png') no-repeat;
+	background-size: cover;
+}

@@ -1,0 +1,13 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+    <fest:include context="json" src="./service-page-base.xml" />
+
+    <fest:set name="body_content_main_inner_text">
+
+        <h2>Ремонт фасадов</h2>
+        <p style="margin-top: 0px;">
+            Промышленные альпинисты компании «Альп-Сервис» обладают большим опытом ремонтных работ и способны качественно и точно в срок выполнить все фасадные работы.
+        </p>
+
+    </fest:set>
+
+</fest:template>

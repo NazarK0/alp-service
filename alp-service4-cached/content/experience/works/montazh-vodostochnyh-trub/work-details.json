@@ -1,0 +1,31 @@
+{
+    "_id": "montazh-vodostochnyh-trub",
+    "work": {
+        "url": "montazh-vodostochnyh-trub-v-dome",
+        "name": "Монтаж водосточных труб",
+        "images": {
+            "fullscreen": {
+                "dir": "fullscreen",
+                "list": [
+                    "img001.jpg",
+                    "img002.jpg",
+                    "img003.jpg",
+                    "img004.jpg",
+                    "img005.jpg"
+                ]
+            },
+            "thumbnails": {
+                "dir": "thumbnails",
+                "list": [
+                    "img001.jpg",
+                    "img002.jpg",
+                    "img003.jpg",
+                    "img004.jpg",
+                    "img005.jpg"
+                ]
+            },
+            "icon": "icon.jpg"
+        },
+        "icon": "icon.jpg"
+    }
+}

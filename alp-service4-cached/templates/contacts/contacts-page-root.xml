@@ -1,0 +1,31 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+    <fest:include context_name="json" src="./contacts-page.xml" />
+
+    <fest:set name="body_content_main_inner">
+        <br />
+        <table id="contact-info-table">
+            <tbody>
+                <tr>
+                    <td class="name">Телефон:</td><td class="data">
+                        <small>+7 812</small><fest:space />326-26-29
+                    </td>
+                </tr>
+                <tr>
+                    <td class="name">Электропочта:</td><td class="data"><a href="mailto:info@alp-service.ru">info@alp-service.ru</a></td>
+                </tr>
+                <tr>
+                    <td class="name">Публичная страница VK:</td>
+                    <td class="data"><a href="http://vk.com/alpinisty_promyshlennye" title="Промышленные альпинисты">alpinisty_promyshlennye</a></td>
+                </tr>
+                <tr>
+                    <td class="name">Блог (blogspot)</td>
+                    <td class="data">
+                        <a href="http://promyshlennye-alpinisty.blogspot.ru/" title="Промышленные альпинисты в Санкт-Петербурге (блог компании «Альп Сервис»)">Промышленные альпинисты в СПБ</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+    </fest:set>
+
+</fest:template>

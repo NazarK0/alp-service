@@ -1,0 +1,174 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+    <fest:include context_name="json" src="./page.xml" />
+    <fest:include context_name="json" src="./navtable.xml" />
+    <fest:include context_name="json" src="./banner.xml" />
+
+    <fest:set name="body_content_main">
+
+        <fest:get name="body_content_main_navtable" />
+        <fest:get name="body_content_main_banner_1" />
+
+        <div class="main main-allr" style="margin-top: 1px;">
+            <div class="main-text">
+
+                <h1>
+                    <fest:value>json.page.h1</fest:value>
+                </h1>
+                <![CDATA[
+                    <p>
+                        Компания &laquo;Альп-Сервис&raquo; основана в 2010 году и предлагает услуги профессиональных промышленных альпинистов
+                        в Санкт-Петербурге и Ленинградской области. Специалисты способны выполнить широчайший спектр высотных работ:
+                        провести ремонт фасада и кровельные работы; качественно и быстро осуществить высотный клининг больших площадей
+                        остекления и фасада; в сжатый срок, обусловненный плановой остановкой производственных линий, выполнить
+                        качественное обеспыливание металлоконструкций промышленного объекта или склада.
+                    </p>
+                    <p>
+                        Мы готовы разработать индивидуальный проект производства работ и решить самую сложную задачу.
+                    </p>
+                    <!--<p>
+                        Стоит отметить, что все альпинисты компании «Альп-Сервис» прошли аттестацию и имеют соответствующие сертификаты.
+                        Все специалисты регулярно подтверждают свой разряд, что является залогом безопасности и качества работ.
+                    </p>-->
+                ]]>
+
+                <br />
+
+<!--                <h2>Выполняемые услуги</h2>-->
+                <!--
+                json.lines
+                  icon
+                  name
+                  url
+                  children
+                    name
+                -->
+                <div class="service-list">
+                    <fest:for iterate="json.servicelist" index="i" value="v">
+                        <div class="line" style="width: 100%;">
+                            <div>
+                                <!--class=image icon-...-->
+                                <fest:attributes>
+                                    <fest:attribute name="class">
+                                        image
+                                        <fest:space />
+                                        <fest:value>v.icon</fest:value>
+                                    </fest:attribute>
+                                </fest:attributes>
+
+                            </div>
+                            <div class="list">
+                                <a>
+                                    <fest:attributes>
+                                        <fest:attribute name="href">
+                                            <fest:value>v.url</fest:value>
+                                        </fest:attribute>
+                                        <fest:attribute name="title">
+                                            <fest:value>v.name</fest:value>
+                                        </fest:attribute>
+                                    </fest:attributes>
+                                    <h3 style="padding-left: 20px;">
+                                        <fest:attributes>
+                                            <fest:attribute name="title">
+                                                <fest:value>v.name</fest:value>
+                                            </fest:attribute>
+                                        </fest:attributes>
+                                        <fest:value>v.name</fest:value>
+                                    </h3>
+                                </a>
+                                <fest:space />
+                                <![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]]>
+                                <fest:space />
+                                <a>
+                                    <fest:attributes>
+                                        <fest:attribute name="href">
+                                            <fest:value>v.price_url</fest:value>
+                                        </fest:attribute>
+                                        <fest:attribute name="title">
+                                            <fest:value>v.price_name</fest:value>
+                                        </fest:attribute>
+                                    </fest:attributes>
+                                    <fest:value>v.price_name</fest:value>
+                                </a>
+                                <ul style="padding-left:20px;">
+                                    <fest:for iterate="v.children" index="j" value="w">
+                                        <li style="display: inline; margin-right: 15px;">
+                                            <span style="color:#CCC;">
+                                                <![CDATA[&#9632;]]>
+                                                <fest:space />
+                                            </span>
+                                            <![CDATA[&nbsp;]]>
+                                            <fest:value>v.children[j]</fest:value>
+                                        </li>
+                                    </fest:for>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </fest:for>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+        <fest:get name="body_content_main_banner_2" />
+
+        <div class="main-allr" style="margin-top: 1px;    background: rgba(0,0, 0, 0.2);">
+            <div class="main-text" style="text-align: center;">
+                <h2 style="text-align: center; padding-bottom: 10px; color: gray;">Наши клиенты</h2>
+                <ul class="brands-text-block">
+                    <li>
+                        <img src="/images/brands/100px/mega.png" title="Мега" alt="Мега" />
+                    </li>
+                    <li>
+                        <img src="/images/brands/100px/toyota.png" title="Toyota" alt="Toyota" />
+                    </li>
+                    <li>
+                        <img src="/images/brands/100px/hyundai.png" title="Hyundai" alt="Hyundai" />
+                    </li>
+                    <li>
+                        <img src="/images/brands/russtand3-logo-gray.png" title="Русский Стандарт" alt="Русский Стандарт" />
+                    </li>
+                    <li>
+                        <img src="/images/brands/100px/transneft.png" title="Транснефть" alt="Транснефть" />
+                    </li>
+                    <li>
+                        <img src="/images/brands/100px/gazprom.png" title="Газпром" alt="Газпром" />
+                    </li>
+                    <li>
+                        <img src="/images/brands/100px/ptk.png" title="ПТК" alt="ПТК" />
+                    </li>
+                    <li>
+                        <img src="/images/brands/100px/rzhd.png" title="РЖД" alt="РЖД" />
+                    </li>
+                </ul>
+
+                <br /><br />
+                <hr style="border:1px dashed #444;" />
+                <h2 style="text-align: center; padding-bottom: 10px; color: gray;"><a href="/partners">Партнёры</a></h2>
+                <ul class="brands-text-block">
+                    <li>
+                        <a href="/partners/peterburgskaya-nedvizhimost" style="border: 0px solid white; text-decoration: none;">
+                            <img src="/images/brands/100px/peterburgkaya-nedvizhimost-3.png" title="Петербургская Недвижимость" alt="Петербургская Недвижимость" />
+                        </a>
+                    </li>
+                </ul>
+                <br /><br />
+
+
+            </div>
+        </div>
+    </fest:set>
+
+    <fest:set name="header_content_styles_addition">
+        <!--<link rel="stylesheet" href="/styles/mainPage.css" />
+        <link rel="stylesheet" href="/styles/navtable.css" />
+        <link rel="stylesheet" href="/styles/brands.css" />
+        <link rel="stylesheet" href="/styles/service.css" />
+        <link rel="stylesheet" href="/styles/experience.css" />
+        <link rel="stylesheet" href="/styles/prettyPhoto.css" type="text/css" media="all" charset="utf-8" />-->
+    </fest:set>
+
+</fest:template>

@@ -1,0 +1,323 @@
+{
+	"images-info" : {
+		"montazh-polikarbonata-trk-nevsky" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg", "img010.jpg", "img011.jpg", "img012.jpg", "img013.jpg", "img014.jpg", "img015.jpg", "img016.jpg", "img017.jpg", "img018.jpg", "img019.jpg", "img020.jpg", "img021.jpg", "img022.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg", "img010.jpg", "img011.jpg", "img012.jpg", "img013.jpg", "img014.jpg", "img015.jpg", "img016.jpg", "img017.jpg", "img018.jpg", "img019.jpg", "img020.jpg", "img021.jpg", "img022.jpg"]
+			},
+			"icon" : "icon.jpg"
+		},
+		"remont-fasada-i-krovli-administrativnogo-zdaniya-oao-gazprom" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg", "img010.jpg", "img011.jpg", "img012.jpg", "img013.jpg", "img014.jpg", "img015.jpg", "img016.jpg", "img017.jpg", "img018.jpg", "img019.jpg", "img020.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg", "img010.jpg", "img011.jpg", "img012.jpg", "img013.jpg", "img014.jpg", "img015.jpg", "img016.jpg", "img017.jpg", "img018.jpg", "img019.jpg", "img020.jpg"]
+			},
+			"icon" : "icon.jpg"
+		},
+		"zamena-truby-demontazh-montazh-pokraska-pushechnaya-na-zhelyabova" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg"]
+			},
+			"icon" : "icon.jpg"
+		},
+		"montazh-vyveski-transneft" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg", "img010.jpg", "img011.jpg", "img012.jpg", "img013.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg", "img010.jpg", "img011.jpg", "img012.jpg", "img013.jpg"]
+			},
+			"icon" : "icon.jpg"
+		},
+		"vysotnyj-demontazh-steny-v-avarijnom-sostoyanii" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg"]
+			},
+			"icon" : "icon.jpg"
+		},
+		"ustrojstvo-naplavlyaemoj-krovli-na-sklade" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg", "img010.jpg", "img011.jpg", "img012.jpg", "img013.jpg", "img014.jpg", "img015.jpg", "img016.jpg", "img017.jpg", "img018.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg", "img010.jpg", "img011.jpg", "img012.jpg", "img013.jpg", "img014.jpg", "img015.jpg", "img016.jpg", "img017.jpg", "img018.jpg"]
+			},
+			"icon" : "icon.jpg"
+		},
+		"mojka-ostekleniya-aeroplaza" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg"]
+			},
+			"icon" : "icon.jpg"
+		},
+		"chistka-kryshi-ot-snega-koncertnyj-zal-mariinsky" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg"]
+			},
+			"icon" : "icon.jpg"
+		},
+		"germetizaciya-mezhpanelnyh-shvov-mendeleevskaya-ulitsa" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg"]
+			},
+			"icon" : "icon.jpg"
+		},
+		"germetizaciya-mezhpanelnyh-shvov-otechestvennya-ulitsa" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg"]
+			},
+			"icon" : "icon.jpg"
+		},
+		"germetizaciya-mezhpanelnyh-shvov-zhilogo-doma" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg"]
+			},
+			"icon" : "icon.jpg"
+		},
+		"mojka-fasada-i-ostekleniya-tszh-nevskiy-152" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg", "img010.jpg", "img011.jpg", "img012.jpg", "img013.jpg", "img014.jpg", "img015.jpg", "img016.jpg", "img017.jpg", "img018.jpg", "img019.jpg", "img020.jpg", "img021.jpg", "img022.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg", "img010.jpg", "img011.jpg", "img012.jpg", "img013.jpg", "img014.jpg", "img015.jpg", "img016.jpg", "img017.jpg", "img018.jpg", "img019.jpg", "img020.jpg", "img021.jpg", "img022.jpg"]
+			},
+			"icon" : "icon.jpg"
+		},
+		"mojka-fasada-i-ostekleniya-biznes-centr-oktava" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg"]
+			},
+			"icon" : "icon.jpg"
+		},
+		"mojka-ostekleniya-chistka-fasada-i-mednykh-elementov-koncertnyj-zal-mariinsky" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg"]
+			},
+			"icon" : "icon.jpg"
+		},
+		"montazh-vodostochnyh-trub" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg"]
+			},
+			"icon" : "icon.jpg"
+		},
+		"moyka-ostekleniya-biznes-centr-alia-tempora" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg", "img010.jpg", "img011.jpg", "img012.jpg", "img013.jpg", "img014.jpg", "img015.jpg", "img016.jpg", "img017.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg", "img010.jpg", "img011.jpg", "img012.jpg", "img013.jpg", "img014.jpg", "img015.jpg", "img016.jpg", "img017.jpg"]
+			},
+			"icon" : "icon.jpg"
+		},
+		"moyka-ostekleniya-zavoda-russkij-standart" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg"]
+			},
+			"icon" : "icon.jpg"
+		},
+		"obespylivanie-metallokonstrukcij-trc-mega" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg", "img010.jpg", "img011.jpg", "img012.jpg", "img013.jpg", "img014.jpg", "img015.jpg", "img016.jpg", "img017.jpg", "img018.jpg", "img019.jpg", "img020.jpg", "img021.jpg", "img022.jpg", "img023.jpg", "img024.jpg", "img025.jpg", "img026.jpg", "img027.jpg", "img028.jpg", "img029.jpg", "img030.jpg", "img031.jpg", "img032.jpg", "img033.jpg", "img034.jpg", "img035.jpg", "img036.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg", "img010.jpg", "img011.jpg", "img012.jpg", "img013.jpg", "img014.jpg", "img015.jpg", "img016.jpg", "img017.jpg", "img018.jpg", "img019.jpg", "img020.jpg", "img021.jpg", "img022.jpg", "img023.jpg", "img024.jpg", "img025.jpg", "img026.jpg", "img027.jpg", "img028.jpg", "img029.jpg", "img030.jpg", "img031.jpg", "img032.jpg", "img033.jpg", "img034.jpg", "img035.jpg", "img036.jpg"]
+			},
+			"icon" : "icon.jpg"
+		},
+		"obespylivanie-na-promyshlennom-objekte" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg", "img010.jpg", "img011.jpg", "img012.jpg", "img013.jpg", "img014.jpg", "img015.jpg", "img016.jpg", "img017.jpg", "img018.jpg", "img019.jpg", "img020.jpg", "img021.jpg", "img022.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg", "img010.jpg", "img011.jpg", "img012.jpg", "img013.jpg", "img014.jpg", "img015.jpg", "img016.jpg", "img017.jpg", "img018.jpg", "img019.jpg", "img020.jpg", "img021.jpg", "img022.jpg"]
+			},
+			"icon" : "icon.jpg"
+		},
+		"obespylivanie-na-promyshlennom-objekte" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg", "img010.jpg", "img011.jpg", "img012.jpg", "img013.jpg", "img014.jpg", "img015.jpg", "img016.jpg", "img017.jpg", "img018.jpg", "img019.jpg", "img020.jpg", "img021.jpg", "img022.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg", "img010.jpg", "img011.jpg", "img012.jpg", "img013.jpg", "img014.jpg", "img015.jpg", "img016.jpg", "img017.jpg", "img018.jpg", "img019.jpg", "img020.jpg", "img021.jpg", "img022.jpg"]
+			},
+			"icon" : "icon.jpg"
+		},
+		"obespylivanie-trk-evropolis" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg"]
+			},
+			"icon" : "icon.jpg"
+		},
+		"pokraska-fasadnyh-truboprovodov" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg"]
+			},
+			"icon" : "icon.jpg"
+		},
+		"poslestoitelnaya-ochistka-moyka-ostekleniya-moyka-liftovyh-shaht-biznes-centr-sinop" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg", "img010.jpg", "img011.jpg", "img012.jpg", "img013.jpg", "img014.jpg", "img015.jpg", "img016.jpg", "img017.jpg", "img018.jpg", "img019.jpg", "img020.jpg", "img021.jpg", "img022.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg", "img010.jpg", "img011.jpg", "img012.jpg", "img013.jpg", "img014.jpg", "img015.jpg", "img016.jpg", "img017.jpg", "img018.jpg", "img019.jpg", "img020.jpg", "img021.jpg", "img022.jpg"]
+			},
+			"icon" : "icon.jpg"
+		},
+		"remont-fasada-zdaniya" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg", "img010.jpg", "img011.jpg", "img012.jpg", "img013.jpg", "img014.jpg", "img015.jpg", "img016.jpg", "img017.jpg", "img018.jpg", "img019.jpg", "img020.jpg", "img021.jpg", "img022.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg", "img010.jpg", "img011.jpg", "img012.jpg", "img013.jpg", "img014.jpg", "img015.jpg", "img016.jpg", "img017.jpg", "img018.jpg", "img019.jpg", "img020.jpg", "img021.jpg", "img022.jpg"]
+			},
+			"icon" : "icon.jpg"
+		},
+		"remont-fasada-zdaniya-imperatorskogo-farforovogo-zavoda" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg", "img010.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg", "img010.jpg"]
+			},
+			"icon" : "icon.jpg"
+		},
+		"remont-fasada-zdaniya-na-furshtadskaya-60" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg", "img010.jpg", "img011.jpg", "img012.jpg", "img013.jpg", "img014.jpg", "img015.jpg", "img016.jpg", "img017.jpg", "img018.jpg", "img019.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg", "img010.jpg", "img011.jpg", "img012.jpg", "img013.jpg", "img014.jpg", "img015.jpg", "img016.jpg", "img017.jpg", "img018.jpg", "img019.jpg"]
+			},
+			"icon" : "icon.jpg"
+		},
+		"uborka-snega-s-kryshy-zagorodnogo-doma" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg"]
+			},
+			"icon" : "icon.jpg"
+		},
+		"valka-derevyev-na-zagorodnom-uchastke" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg"]
+			},
+			"icon" : "icon.jpg"
+		},
+		"obespylivanie-na-zavode-pischevoj-upakovki" : {
+			"fullscreen" : {
+				"dir" : "fullscreen",
+				"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg", "img010.jpg", "img011.jpg", "img012.jpg", "img013.jpg", "img014.jpg", "img015.jpg", "img016.jpg", "img017.jpg", "img018.jpg", "img019.jpg"]
+			},
+			"thumbnails" : {
+				"dir" : "thumbnails",
+			"list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg", "img009.jpg", "img010.jpg", "img011.jpg", "img012.jpg", "img013.jpg", "img014.jpg", "img015.jpg", "img016.jpg", "img017.jpg", "img018.jpg", "img019.jpg"]
+			},
+			"icon" : "icon.jpg"
+		}
+	}
+}

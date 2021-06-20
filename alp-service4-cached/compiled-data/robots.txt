@@ -1,0 +1,16 @@
+# HTTP://ALP-SERVICE.RU/
+
+Host: alp-service.ru
+Sitemap: http://alp-service.ru/sitemap.xml
+
+User-agent: Yandex
+Disallow:
+Allow: /
+
+User-agent: Googlebot
+Disallow:
+Allow: /
+
+User-agent: *
+Disallow:
+Allow: /

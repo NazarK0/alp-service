@@ -1,0 +1,13 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+<fest:doctype>html</fest:doctype>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<fest:get name="verifications" />
+		<fest:get name="header_content" />
+	</head>
+	<body>
+		<fest:get name="body_content" />
+	</body>
+</html>
+</fest:template>

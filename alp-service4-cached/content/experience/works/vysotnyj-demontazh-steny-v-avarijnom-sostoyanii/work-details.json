@@ -1,0 +1,29 @@
+{
+    "_id": "vysotnyj-demontazh-steny-v-avarijnom-sostoyanii",
+    "work": {
+        "url": "vysotnyj-demontazh-steny-v-avarijnom-sostoyanii",
+        "name": "Высотный демонтаж кирипчной стены в аварийном состоянии",
+        "images": {
+            "fullscreen": {
+                "dir": "fullscreen",
+                "list": [
+                    "img001.jpg",
+                    "img002.jpg",
+                    "img003.jpg",
+                    "img004.jpg"
+                ]
+            },
+            "thumbnails": {
+                "dir": "thumbnails",
+                "list": [
+                    "img001.jpg",
+                    "img002.jpg",
+                    "img003.jpg",
+                    "img004.jpg"
+                ]
+            },
+            "icon": "icon.jpg"
+        },
+        "icon": "icon.jpg"
+    }
+}

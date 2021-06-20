@@ -1,0 +1,675 @@
+body {
+  background: url('/images/background/bg-206-2.png') repeat center center;
+  font-family: 'PT Sans';
+  color: #444;
+  font-size: 1em;
+}
+
+header {
+	margin: 5px 23px ;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+li.focused a {
+  color: #00ade6;
+}
+
+a {
+  color: #00ade6;
+}
+
+a.menu {
+  color: white;
+  text-decoration: none;
+}
+a.menu:hover {
+  color: #00ade6;
+}
+
+h1 {
+  margin: 0px;
+  padding-top: 10px;
+  padding-left: 0px;
+  color: #444;
+  font-size: 1.3em;
+}
+
+h2 {
+  font-size: 1.1em;
+  margin: 0px;
+  margin-bottom: 2px;
+  padding-left: 0px;
+}
+
+h3 {
+  font-size: 1.1em;
+  margin: 0px;
+  margin-bottom: 2px;
+  padding-left: 0px;
+}
+
+div.main {
+  /*background-color: rgba(30, 30, 30, 0.45);*/
+  /*background-color: rgba(230, 230, 230, 0.85);*/
+  background: #fff url('../images/gradient.png') 0 0 repeat-x;
+
+  margin-top: 0px;
+  margin: 0 auto;
+
+  width: 100%;
+}
+
+div.main-allr {
+  border-radius: 9px 9px 9px 9px;
+}
+div.main-upr {
+  border-radius: 9px 9px 0 0;
+}
+div.main-dnr {
+  border-radius: 0 0 9px 9px;
+}
+
+div.main-mrg-top {
+  margin-top: 20px;
+}
+
+div.main-text {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 6px;
+}
+
+span#telephone {
+  font-size: 1.4em;
+  color: #00ade6;
+  text-shadow: 1px 1px 1px #111;
+}
+
+span#telephone span {
+  font-size: 1.3em;
+}
+
+navigation div {
+  background: inherit;
+}
+
+navigation div img {
+  width: 100px;
+}
+
+div.logo {
+  margin: 0 auto;
+  width: 100%;
+}
+
+div.logo img {
+  padding-top: 10px;
+}
+
+.site-menu {
+  /* width: 100%; */
+  
+  margin: 0 20px;
+  
+  display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.site-menu ul {
+	max-width: 1100px;
+	width: 100%;
+	height: 40px;
+	display: block;
+  /* border-radius: 5px; */
+	border-radius: 9px;
+  background: -webkit-linear-gradient(top, #585858, #2b2b2b);
+  background: -moz-linear-gradient(top, #585858, #2b2b2b);
+  background: -o-linear-gradient(top, #585858, #2b2b2b);
+  background: -ms-linear-gradient(top, #585858, #2b2b2b);
+  background: linear-gradient(top, #585858, #2b2b2b);
+  border-top: 1px solid #6f6e6e;
+}
+
+.site-menu ul li {
+  width: 20%;
+  float: left;
+  margin: 0;
+  padding: 0;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+footer {
+  /*background-color: rgba(0, 0, 0, 0.2);*/
+
+  /*height: 100px;*/
+  color: lightgray;
+  width: 100%;
+
+  /*margin-bottom: 30px;*/
+
+  margin: 0 auto;
+  /*border-top: 1px solid #777;*/
+  /*margin-top: 1px; color: white;*/
+  /*border-right: 1px solid #555;
+	border-left: 1px solid #555;*/
+}
+
+div.body-nav-tab {
+  margin-top: 5px;
+  font-size: 0.9em;
+}
+
+div.body-nav-tab ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+div.body-nav-tab ul li {
+  display: inline;
+  padding-right: 4px;
+}
+
+div.body-nav-tab ul li a.simple {
+  text-decoration: none;
+  color: #444;
+}
+
+/* ---------------------------------------------------------------------------- */
+/* templates/banner.xml                                                         */
+/* banner1                                                                      */
+
+div.body-main-banner1 {
+  border-radius: 9px 9px 0px 0px;
+}
+
+div.body-main-banner {
+  /*background: rgba(0, 0, 0, 0.3);*/
+  height: 250px;
+}
+
+div.body-main-banner div.t {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+div.body-main-banner div.t div.tr {
+  display: table-row;
+}
+
+div.body-main-banner div.t div.tr div {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+div.body-main-banner div.t div.tr div div.block {
+  display: table-cell;
+  color: white;
+  text-align: center;
+  vertical-align: top;
+  width: 50%;
+  padding-top: 15px;
+}
+
+div.body-main-banner div.t div.tr div div.block1 {
+  padding-right: 7px;
+  padding-left: 0px;
+}
+
+div.body-main-banner div.t div.tr div div.block2 {
+  padding-right: 0px;
+  padding-left: 7px;
+}
+
+div.body-main-banner div.t div.tr div div.block div.block-content {
+  display: table;
+  background: rgba(0, 0, 0, 0.2);
+  height: 100%;
+  width: 100%;
+  border-radius: 7px 7px 7px 7px;
+}
+
+div.body-main-banner div.t div.tr div div.block div.block-content table {
+  height: 100%;
+  width: 100%;
+}
+
+div.body-main-banner
+  div.t
+  div.tr
+  div
+  div.block
+  div.block-content
+  table
+  td.block-title {
+  vertical-align: bottom;
+  padding-bottom: 10px;
+}
+
+div.body-main-banner
+  div.t
+  div.tr
+  div
+  div.block
+  div.block-content
+  table
+  td.block-title
+  span {
+  font-size: 1.6em;
+  color: #00ade6;
+}
+
+div.body-main-banner
+  div.t
+  div.tr
+  div
+  div.block
+  div.block-content
+  table
+  td.block-msg {
+  vertical-align: top;
+  padding-top: 10px;
+}
+
+div.body-main-banner
+  div.t
+  div.tr
+  div
+  div.block
+  div.block-content
+  table
+  td.block-msg
+  span {
+  font-style: italic;
+  color: lightgray;
+  font-size: 0.9em;
+}
+
+div.body-main-banner
+  div.t
+  div.tr
+  div
+  div.block
+  div.block-content
+  div.block-title {
+  /*display: table-row;*/
+
+  border: 1px solid red;
+  font-size: 1.6em;
+
+  color: #00ade6;
+}
+div.body-main-banner
+  div.t
+  div.tr
+  div
+  div.block
+  div.block-content
+  div.block-title
+  div {
+  border: 1px solid white;
+}
+
+div.body-main-banner
+  div.t
+  div.tr
+  div
+  div.block:hover
+  div.block-content
+  div.block-title {
+  color: #00ade6;
+}
+
+div.body-main-banner
+  div.t
+  div.tr
+  div
+  div.block
+  div.block-content
+  div.block-msg {
+  display: table-row;
+  height: 50%;
+  font-style: italic;
+  color: lightgray;
+  font-size: 0.9em;
+}
+
+/* ---------------------------------------------------------------------------- */
+div.body-main-banner2 {
+  margin-top: 20px;
+  height: 250px;
+  /*background: rgba(0, 0, 0, 0.3);*/
+}
+
+div.body-main-banner2 div.t {
+  display: table;
+  width: 100%;
+}
+div.body-main-banner2 div.t60 {
+  height: 60%;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 9px 9px 9px 9px;
+}
+div.body-main-banner2 div.t40 {
+  height: 40%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+div.body-main-banner2 div.t div.trow {
+  display: table-row;
+}
+
+div.tt {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+div.ttrow1 {
+  display: table-row;
+  text-align: center;
+  color: white;
+}
+div.ttrow2 {
+  display: table-row;
+  text-align: center;
+  color: white;
+}
+
+div.body-main-banner2 div.t table {
+  height: 100%;
+  width: 100%;
+}
+
+div.body-main-banner2 div.t table td.block-title {
+  vertical-align: bottom;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+div.body-main-banner2 div.t table td.block-title span {
+  font-size: 1.6em;
+  color: #00ade6;
+}
+
+div.body-main-banner2 div.t table td.block-msg {
+  vertical-align: top;
+  padding-top: 0px;
+  text-align: center;
+}
+
+div.body-main-banner2 div.t table td.block-msg span {
+  font-style: italic;
+  color: lightgray;
+  font-size: 0.9em;
+}
+
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+div.body-main-banner2-1 {
+  margin-top: 20px;
+  margin-bottom: 7px;
+  height: 150px;
+  /*background: rgba(0, 0, 0, 0.3);*/
+}
+
+div.body-main-banner2-1 div.t {
+  display: table;
+  width: 100%;
+}
+div.body-main-banner2-1 div.t100 {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 9px 9px 9px 9px;
+}
+
+div.body-main-banner2-1 div.t div.trow {
+  display: table-row;
+}
+
+div.body-main-banner2-1 div.t table {
+  height: 100%;
+  width: 100%;
+}
+
+div.body-main-banner2-1 div.t table td.block-title {
+  vertical-align: bottom;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+div.body-main-banner2-1 div.t table td.block-title span {
+  font-size: 1.6em;
+  color: #00ade6;
+}
+
+div.body-main-banner2-1 div.t table td.block-msg {
+  vertical-align: top;
+  padding-top: 0px;
+  text-align: center;
+}
+
+div.body-main-banner2-1 div.t table td.block-msg span {
+  font-style: italic;
+  color: lightgray;
+  font-size: 0.9em;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+/*ul.index-list {
+	padding-left: 25px;
+	color: #777;
+}
+
+ul.index-list li {
+	list-style-type: none;
+	padding-bottom: 10px;
+}
+
+ul.index-list li:hover {
+	background: #F5F5F5;
+}
+
+ul.index-list li a {
+	text-decoration: none;
+	font-size: 1.0em;
+	font-weight: bold;
+}
+
+ul.index-list li a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+ul.index-list li ul.sub-index-list {
+	padding-left: 15px;
+}
+ul.index-list li ul.sub-index-list li {
+	padding-bottom: 0px;
+
+	padding-right: 10px;
+}
+
+ul.index-list li ul.sub-index-list li a {
+	font-weight: normal;
+	font-size: 1.0em;
+
+}
+
+ul.index-list li ul.sub-index-list li a:hover {
+	color: #00ade6;
+}*/
+
+/* ---------------------------------------------------------------------------- */
+/* templates/index2.xml															*/
+/*																				*/
+
+div.service-list {
+  padding-bottom: 4px;
+}
+div.service-list div.line:hover {
+  /*background: #DDD;*/
+  background: url('/images/background/az_subtle.png'); /*#F2F2F2;*/
+}
+div.service-list div.line {
+  display: table;
+  border-radius: 5px 5px 5px 5px;
+  margin-bottom: 15px;
+  background: url('/images/background/az_subtle_light.png'); /*#F2F2F2;*/
+  /*border: 1px dashed #DDD;*/
+  min-height: 100px;
+}
+div.service-list div.specline {
+  background: #f2f2f2;
+}
+div.service-list div.line div.image {
+  display: table-cell;
+  border-radius: 3px 3px 3px 3px;
+  width: 120px;
+  height: 100%;
+
+  /* default background */
+  background: url('/images/service-icons/icon-vse-raboty-1-100x100.jpg') 100%
+    100% no-repeat;
+  background-size: cover;
+}
+div.service-list div.line div.icon-vse-raboty {
+  background: url('/images/service-icons/icon-vse-raboty-1-100x100.jpg') 100%
+    100% no-repeat;
+  background-size: cover;
+}
+div.service-list div.line div.icon-krovelnye-raboty {
+  background: url('/images/service-icons/icon-krovelnye-raboty-1-100x100.jpg')
+    100% 100% no-repeat;
+  background-size: cover;
+}
+div.service-list div.line div.icon-fasadnye-raboty {
+  background: url('/images/service-icons/icon-fasadnye-raboty-1-100x100.jpg')
+    100% 100% no-repeat;
+  background-size: cover;
+}
+div.service-list div.line div.icon-germetizaciya {
+  background: url('/images/service-icons/icon-germetizaciya-1-100x100.jpg') 100%
+    100% no-repeat;
+  background-size: cover;
+}
+div.service-list div.line div.icon-montazhnye-raboty {
+  background: url('/images/service-icons/icon-montazhnye-raboty-1-100x100.jpg')
+    100% 100% no-repeat;
+  background-size: cover;
+}
+div.service-list div.line div.icon-demontazhnye-raboty {
+  background: url('/images/service-icons/icon-demontazhnye-raboty-1-100x100.jpg')
+    100% 100% no-repeat;
+  background-size: cover;
+}
+div.service-list div.line div.icon-dopolnitelnye-raboty {
+  background: url('/images/service-icons/icon-dopolnitelnye-raboty-1-100x100.jpg')
+    100% 100% no-repeat;
+  background-size: cover;
+}
+div.service-list div.line div.icon-vysotnyj-klining {
+  background: url('/images/service-icons/icon-vysotnyj-klining-1-100x100.jpg')
+    100% 100% no-repeat;
+  background-size: cover;
+}
+div.service-list div.line div.icon-uborka-snega {
+  background: url('/images/service-icons/icon-uborka-snega-1-100x100.jpg') 100%
+    100% no-repeat;
+  background-size: cover;
+}
+div.service-list div.line div.icon-mojka-okon-i-fasadov {
+  background: url('/images/service-icons/icon-mojka-okon-i-fasada-1-100x100.jpg')
+    100% 100% no-repeat;
+  background-size: cover;
+}
+div.service-list div.line div.icon-obespylivanie {
+  background: url('/images/service-icons/icon-obespylivanie-1-100x100.jpg') 100%
+    100% no-repeat;
+  background-size: cover;
+}
+div.service-list div.line div.icon-poslestroitelnaya {
+  background: url('/images/service-icons/icon-poslestroitelnaya-chistka-1-100x100.jpg')
+    100% 100% no-repeat;
+  background-size: cover;
+}
+
+div.service-list div.line div.list {
+  display: table-cell;
+  padding-top: 15px;
+  padding-left: 5px;
+}
+div.service-list div.line div.list a {
+  display: inline;
+}
+div.service-list div.line div.list a h3 {
+  display: inline;
+}
+/*
+style=" border-radius: 9px 9px 9px 9px; display:table-cell;"
+<img style=" border-radius: 4px 0px 0px 4px;" src="http://alp-service.ru/images/experience/montazh-polikarbonata-trk-nevsky/icon.jpg" width="120px" height="120px" />
+*/
+
+/*<img style=" border-radius: 4px 0px 0px 4px;" src="http://alp-service.ru/images/experience/montazh-polikarbonata-trk-nevsky/icon.jpg" width="120px" height="120px" />
+</div>
+  <div class="list" style="display:table-cell;">
+  */
+
+/* ---------------------------------------------------------------------------- */
+/* templates/index2.xml															*/
+/* Список с брендами клиентов													*/
+
+ul.brands-text-block {
+  display: inline;
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+
+  padding-top: 15px;
+}
+
+ul.brands-text-block li {
+  display: inline;
+  margin-right: 30px;
+}
+ul.brands-text-block li:hover img {
+  opacity: 1;
+}
+ul.brands-text-block li img {
+  height: 50px;
+  opacity: 0.9;
+}
+
+ul.brands-text-block li div#brand-mega {
+  width: 100px;
+  height: 100px;
+  background: url('/images/brands/mega-logo.png') 100% 100% no-repeat;
+  background-size: cover;
+}
+
+div#counters {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+li {
+  list-style-type: none; /* Убираем маркеры */
+}
+ul,
+li {
+  margin: 0; /* Отступ слева в браузере IE и Opera */
+  padding: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}

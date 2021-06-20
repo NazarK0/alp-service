@@ -1,0 +1,935 @@
+{
+  "_file_comment" : "Идентификаторы всех предлагаемых на сайте услуг, а также их взаимное отношение друг к другу.",
+  "_version" : "v.1 [FIXED]",
+  "_fixed_by" : "pageGenerator/experience/compile_categories-urls.js",
+  "id" : "root",
+  "children": [
+    {
+      "id" : "krov",
+      "children" : [
+        {
+          "id" : "krov-zh",
+          "children" : [
+            {
+              "id" : "krov-zh-metal",
+              "children" : [
+                {
+                  "id" : "krov-zh-metal-ustroj",
+                  "children" : []
+                },
+                {
+                  "id" : "krov-zh-metal-montazh",
+                  "children" : []
+                },
+                {
+                  "id" : "krov-zh-metal-vozved",
+                  "children" : []
+                },
+                {
+                  "id" : "krov-zh-metal-remont",
+                  "children" : []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id" : "krov-naplav",
+          "children" : [
+            {
+              "id" : "krov-naplav-ustroj",
+              "children" : []
+            },
+            {
+              "id" : "krov-naplav-montazh",
+              "children" : []
+            },
+            {
+              "id" : "krov-naplav-vozved",
+              "children" : []
+            },
+            {
+              "id" : "krov-naplav-remont",
+              "children" : []
+            }
+          ]
+        },
+        {
+          "id" : "krov-myagk",
+          "children" : []
+        },
+        {
+          "id" : "krov-fason",
+          "children" : [
+            {
+              "id" : "krov-fason-parapet",
+              "children" : []
+            },
+            {
+              "id" : "krov-fason-kolpaki",
+              "children" : []
+            }
+          ]
+        },
+        {
+          "id" : "krov-polikarb",
+          "children" : []
+        }
+      ]
+    },
+    {
+      "id" : "fasad",
+      "children" : [
+        {
+          "id" : "fasad-nov",
+          "children" : []
+        },
+        {
+          "id" : "fasad-remont",
+          "children" : [
+            {
+              "id" : "fasad-remont-kosmetik",
+              "children" : []
+            },
+            {
+              "id" : "fasad-remont-kapital",
+              "children" : []
+            },
+            {
+              "id": "fasad-remont-restav",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id" : "fasad-otd",
+          "children" : [
+            {
+              "id" : "fasad-otd-pokraska",
+              "children" : [
+                {
+                  "id" : "fasad-otd-pokraska-odin",
+                  "children" : []
+                },
+                {
+                  "id" : "fasad-otd-pokraska-dva",
+                  "children" : []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id" : "fasad-uteplenie",
+          "children" : []
+        },
+        {
+          "id" : "fasad-gidrofob",
+          "children" : []
+        },
+        {
+          "id" : "fasad-podsvetka",
+          "children" : []
+        }
+      ]
+    },
+    {
+      "id" : "germ",
+      "children" : [
+        {
+          "id" : "germ-shov",
+          "children" : [
+            {
+              "id" : "germ-shov-perv",
+              "children" : []
+            },
+            {
+              "id" : "germ-shov-vt",
+              "children" : []
+            },
+            {
+              "id" : "germ-shov-vtbez",
+              "children" : []
+            },
+            {
+              "id" : "germ-shov-zima",
+              "children" : []
+            }
+          ]
+        },
+        {
+          "id" : "germ-elfasad",
+          "children" : [
+            {
+              "id" : "germ-elfasad-otkos",
+              "children" : []
+            },
+            {
+              "id" : "germ-elfasad-vitrazh",
+              "children" : []
+            }
+          ]
+        },
+        {
+          "id" : "germ-krovli",
+          "children" : []
+        }
+      ]
+    },
+    {
+      "id" : "mont",
+      "children" : [
+        {
+          "id" : "mont-naruzh",
+          "children" : []
+        },
+        {
+          "id" : "mont-metal",
+          "children" : []
+        },
+        {
+          "id" : "mont-ngukrash",
+          "children" : []
+        },
+        {
+          "id" : "mont-elfasad",
+          "children" : []
+        },
+        {
+          "id" : "mont-vozduh",
+          "children" : []
+        },
+        {
+          "id" : "mont-vodostok",
+          "children" : []
+        },
+        {
+          "id" : "mont-antenna",
+          "children" : [
+            {
+              "id" : "mont-antenna-sputnik",
+              "children" : []
+            },
+            {
+              "id" : "mont-antenna-kabel",
+              "children" : []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id" : "demont",
+      "children" : [
+        {
+          "id" : "demont-elfasad",
+          "children" : []
+        },
+        {
+          "id" : "demont-kirp",
+          "children" : []
+        },
+        {
+          "id" : "demont-vozduh",
+          "children" : []
+        },
+        {
+          "id" : "demont-vodostok",
+          "children" : []
+        }
+      ]
+    },
+    {
+      "id" : "dop",
+      "children" : [
+        {
+          "id" : "dop-valka",
+          "children" : []
+        }
+      ]
+    },
+    {
+      "id" : "clean",
+      "children" : [
+        {
+          "id" : "clean-sneg",
+          "children" : [
+            {
+              "id" : "clean-sneg-toplivo",
+              "children" : []
+            }
+          ]
+        },
+        {
+          "id": "clean-mojka",
+          "children": [
+            {
+              "id": "clean-mojka-osteklfasad",
+              "children": []
+            },
+            {
+              "id": "clean-mojka-vert",
+              "children": []
+            },
+            {
+              "id": "clean-mojka-goriz",
+              "children": []
+            },
+            {
+              "id": "clean-mojka-otdokon",
+              "children": []
+            },
+            {
+              "id": "clean-mojka-panoramlift",
+              "children": []
+            },
+            {
+              "id":"clean-mojka-fasad",
+              "children": []
+            },
+            {
+              "id": "clean-mojka-fasadsredstvo",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id" : "clean-obesp",
+          "children" : [
+            {
+              "id" : "clean-obesp-pokras",
+              "children" : []
+            },
+            {
+              "id" : "clean-obesp-prom",
+              "children" : [
+                {
+                  "id" : "clean-obesp-prom-avto",
+                  "children" : []
+                },
+                {
+                  "id" : "clean-obesp-prom-eda",
+                  "children" : []
+                }
+              ]
+            },
+            {
+              "id" : "clean-obesp-torg",
+              "children" : []
+            },
+            {
+              "id" : "clean-obesp-sklad",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id" : "clean-posle",
+          "children" : [
+            {
+              "id" : "clean-posle-chistka",
+              "children" : []
+            },
+            {
+              "id" : "clean-posle-spec",
+              "children" : []
+            },
+            {
+              "id" : "clean-posle-mramor",
+              "children" : []
+            },
+            {
+              "id": "clean-posle-lift",
+              "chilrden": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "list" : {
+    "root": {
+      "_parents": ["root"],
+      "name": "Все виды работ",
+      "url": "",
+      "icon": "icon-vse-raboty",
+      "state": "enable",
+      "display" : ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "krov": {
+      "name": "Кровельные работы",
+      "url": "krovelnye-raboty",
+      "icon": "icon-krovelnye-raboty",
+      "state": "enable",
+      "display" : ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "krov-zh": {
+      "name": "Работы с жёсткой кровлей",
+      "short": "Жёсткая кровля",
+      "url": "zhestkaya-krovlya",
+      "icon": "",
+      "state": "enable",
+      "display" : ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "krov-zh-metal": {
+      "name": "Работы с металлической кровлей",
+      "short": "Металлическая кровля",
+      "url": "metallicheskaya-krovlya",
+      "icon": "",
+      "state": "enable",
+      "display" : ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "krov-zh-metal-ustroj": {
+      "name": "Устройство металлической кровли",
+      "url": "ustrojstvo-metallicheskoj-krovli",
+      "icon": "",
+      "state": "disable",
+      "display" : []
+    },
+    "krov-zh-metal-montazh": {
+      "name": "Монтаж металлической кровли",
+      "url": "montazh-metallicheskoj-krovli",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "krov-zh-metal-vozved": {
+      "name": "Возведение металлической кровли",
+      "url": "vozvedenie-metallicheskoj-krovli",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "krov-zh-metal-remont": {
+      "name": "Ремонт металлической кровли",
+      "url": "remont-metallicheskoj-krovli",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "krov-naplav": {
+      "name": "Работы с наплавляемой кровлей",
+      "short": "Наплавляемая кровля",
+      "url": "naplavlyaemaya-krovlya",
+      "icon": "",
+      "state": "enable",
+      "display" : ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "krov-naplav-ustroj": {
+      "name": "Устройство наплавляемой кровли",
+      "url": "ustrojstvo-naplavlyaemoj-krovli",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "krov-naplav-montazh": {
+      "name": "Монтаж наплавляемой кровли",
+      "url": "montazh-naplavlyaemoj-krovli",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "krov-naplav-vozved": {
+      "name": "Возведение наплавляемой кровли",
+      "url": "vozvedenie-naplavlyaemoj-krovli",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "krov-naplav-remont": {
+      "name": "Ремонт наплавляемой кровли",
+      "url": "remont-naplavlyaemoj-krovli",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "krov-myagk": {
+      "name": "Работы с мягкой кровлей",
+      "short": "Мягкая кровля",
+      "url": "myagkaya-krovlya",
+      "icon": "",
+      "state": "enable",
+      "display" : ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "krov-fason": {
+      "name": "Замена и монтаж фасонных элементов",
+      "url": "zamena-i-montazh-fasonnyh-elementov",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "krov-fason-parapet": {
+      "name": "Изготовление и монтаж парапетного окрытия",
+      "url": "izgotovlenie-i-montazh-parapetnogo-okrytiya",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "krov-fason-kolpaki": {
+      "name": "Изготовление и монтаж металлических колпаков дымовых и вентиляционных труб",
+      "url": "izgotovlenie-i-montazh-metallicheskih-kolpakov-dymovyh-i-vent-trub",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "krov-polikarb" : {
+      "name" : "Работы с поликарбонатом",
+      "url" : "polikarbonat",
+      "icon" : "",
+      "state" : "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "fasad": {
+      "name": "Фасадные работы",
+      "url": "fasadnye-raboty",
+      "icon": "icon-fasadnye-raboty",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "fasad-nov": {
+      "name": "Устройство нового фасада",
+      "url": "ustrojstvo-novogo-fasada",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "fasad-remont": {
+      "name": "Ремонт фасада",
+      "url": "remont-fasada",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "fasad-remont-kosmetik": {
+      "name": "Косметический ремонт фасада",
+      "short": "Косметический ремонт",
+      "url": "kosmeticheskij-remont-fasada",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "fasad-remont-kapital": {
+      "name": "Капитальный ремонт фасада",
+      "url": "kapitalnyj-remont-fasada",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "fasad-remont-restav": {
+      "name": "Реставрация фасада",
+      "url": "restavraciya-fasada",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "fasad-otd": {
+      "name": "Отделочные работы",
+      "short": "Отделка",
+      "url": "otdelochnye-raboty",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "fasad-otd-pokraska": {
+      "name": "Покрасочные работы",
+      "url": "pokrasochnye-raboty",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "fasad-otd-pokraska-odin": {
+      "name": "Покраска в один слой",
+      "url": "pokraska-v-odin-sloj",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "fasad-otd-pokraska-dva": {
+      "name": "Покраска в два слоя",
+      "url": "pokraska-v-dva-sloya",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "fasad-uteplenie": {
+      "name": "Утепление фасада",
+      "url": "uteplenie-fasada",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "fasad-gidrofob": {
+      "name": "Гидрофобизация фасада",
+      "url": "gidrofobizaciya-fasada",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "fasad-podsvetka": {
+      "name": "Подсветка фасада",
+      "url": "podsvetka-fasada",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "germ": {
+      "name": "Герметизация",
+      "short": "Герметизация",
+      "url": "germetizaciya",
+      "icon": "icon-germetizaciya",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "germ-shov": {
+      "name": "Герметизация межпанельных стыков и швов",
+      "short": "Герметизация стыков и швов",
+      "url": "germetizaciya-mezhpanelnykh-stykov-shvov",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "germ-shov-perv": {
+      "name": "Первичная герметизация швов (вилатерм + герметик)",
+      "url": "pervichnaya-germetizaciya-shvov-vilaterm-germetik",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "germ-shov-vt": {
+      "name": "Вторичная герметизация швов с ремонтом",
+      "url": "vtorichnaya-germetizaciya-shvov-s-remontom",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "germ-shov-vtbez": {
+      "name": "Вторичная герметизация без ремонта швов",
+      "url": "vtorichnaya-germetizaciya-bez-remonta-shvov",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "germ-shov-zima": {
+      "name": "Герметизация межпанельных швов зимой",
+      "url": "germetizaciya-mezhpanelnyh-shvov-zimoj",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "germ-elfasad": {
+      "name": "Герметизация элементов фасада",
+      "url": "germetizaciya-elementov-fasada",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "germ-elfasad-otkos": {
+      "name": "Герметизация оконных откосов",
+      "url": "germetizaciya-okonnyh-otkosov",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "germ-elfasad-vitrazh": {
+      "name": "Герметизация витражей",
+      "url": "germetizaciya-vitrazhej",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "germ-krovli": {
+      "name": "Герметизация кровли",
+      "url": "germetizaciya-krovli",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "mont": {
+      "name": "Монтажные работы",
+      "url": "montazhnye-raboty",
+      "icon": "icon-montazhnye-raboty",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "mont-naruzh" : {
+      "name": "Монтаж наружной рекламы",
+      "url": "montazh-naruzhnoj-reklamy",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "mont-metal" : {
+      "name": "Монтаж металлоконструкций",
+      "url": "montazh-metallokonstrukcij",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "mont-ngukrash" : {
+      "name": "Монтаж новогодних украшений",
+      "url": "montazh-novogodnih-ukrashenij",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "mont-elfasad" : {
+      "name": "Монтаж элементов фасада",
+      "url": "montazh-elementov-fasada",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "mont-vozduh" : {
+      "name": "Монтаж воздуховодов",
+      "url": "montazh-vozduhovodov",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "mont-vodostok" : {
+      "name": "Монтаж водосточных труб",
+      "url": "montazh-vodostochnyh-trub",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "mont-antenna": {
+      "name": "Монтаж антенн и оборудования",
+      "url": "montazh-antenn-i-oborudovaniya",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "mont-antenna-sputnik": {
+      "name": "Монтаж спутниковых антенн",
+      "url": "montazh-sputnikovyh-antenn",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "mont-antenna-kabel": {
+      "name": "Монтаж антенного кабеля",
+      "url": "montazh-antennogo-kabelya",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "demont": {
+      "name": "Демонтажные работы",
+      "url": "demontazhnye-raboty",
+      "icon": "icon-demontazhnye-raboty",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "demont-elfasad" : {
+      "name": "Демонтаж элементов фасада",
+      "url": "demontazh-elementov-fasada",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "demont-kirp":{
+      "name": "Демонтаж кирпичной стены",
+      "url": "demontazh-kirpichnoj-steny",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "demont-vozduh": {
+      "name": "Демонтаж воздуховодов",
+      "url": "demontazh-vozduhovodov",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "demont-vodostok": {
+      "name": "Демонтаж водосточных труб",
+      "url": "demontazh-vodostochnyh-trub",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "dop": {
+      "name": "Дополнительные работы",
+      "url": "dopolnitelnye-raboty",
+      "icon": "icon-dopolnitelnye-raboty",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "dop-valka": {
+      "name": "Валка деревьев",
+      "url": "valka-derevyev",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "clean": {
+      "name": "Высотный клининг",
+      "url": "vysotnyj-klining",
+      "icon": "icon-vysotnyj-klining",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "clean-sneg": {
+      "name": "Уборка снега и наледи",
+      "short": "Уборка снега",
+      "url": "uborka-snega",
+      "icon": "icon-uborka-snega",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "clean-sneg-toplivo": {
+      "name": "Чистка снежного покрова на топливо-наливных ёмкостях",
+      "short": "Чистка снега на топливно-наливных ёмкостях",
+      "url": "chistka-snezhnogo-pokrova-na-toplivno-nalivnyh emkostyah",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "clean-mojka": {
+      "name": "Мойка окон и фасадов",
+      "url": "mojka-okon-i-fasadov",
+      "icon": "icon-mojka-okon-i-fasadov",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "clean-mojka-osteklfasad": {
+      "name": "Мойка сплошного фасадного остекления",
+      "url": "mojka-sploshnogo-fasadnogo-osteklenija",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "clean-mojka-vert": {
+      "name": "Мойка вертикальных стёкол",
+      "url": "mojka-vertikalnyh-stekol",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "clean-mojka-goriz": {
+      "name": "Мойка поэтажного горизонтального остекления",
+      "url": "mojka-poetazhnogo-gorizontalnogo-ostekleniya",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "clean-mojka-otdokon": {
+      "name": "Мойка отдельных окон",
+      "url": "mojka-otdelnyh-okon",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "clean-mojka-panoramlift": {
+      "name": "Мойка остекления панорманых лифтов",
+      "url": "mojka-ostekleniya-panoramnyh-liftov",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "clean-mojka-fasad": {
+      "name": "Мойка фасадов (аппарат высокого давления)",
+      "url": "mojka-fasadov-apparat-vysokogo-davleniya",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "clean-mojka-fasadsredstvo": {
+      "name": "Мытьё фасадов аппаратом высокого давления с использованием моющего средства и щёток",
+      "url": "mojka-fasadov-apparatom-vysokogo-davleniya-s-ispolzovaniem-mojushego-sredstva-i-shetok",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "clean-obesp" : {
+      "name": "Обеспыливание конструкций",
+      "short": "Обеспыливание",
+      "url": "obespylivanie",
+      "icon": "icon-obespylivanie",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "clean-obesp-pokras": {
+      "name": "Обеспыливание перед покрасочными работами",
+      "url": "obespylivanie-pered-pokraskoj",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "clean-obesp-prom": {
+      "name": "Обеспыливание металлоконструкций промышленного объекта",
+      "short-name": "Обеспыливание промобъекта",
+      "url": "obespylivanie-metallokonstrukcij-promyshlennogo-objekta",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "clean-obesp-prom-avto": {
+      "name": "Обеспыливание металлоконструкций на автомобильном заводе",
+      "url": "obespylivanie-metallokonstrukcij-na-avtomobilnom-zavode",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "clean-obesp-prom-eda": {
+      "name": "Обеспыливание металлоконструкций предприятия пищевой промышленности",
+      "url": "obespylivanie-metallokonstrukcij-predpriyatiya-pishevoj-promyshlennosti",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "clean-obesp-torg": {
+      "name": "Обеспыливание металлоконструкций торгового центра",
+      "short": "Обеспыливание торгового центра",
+      "url": "obespylivanie-metallokonstrukcij-torgovogo-centra",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "clean-obesp-sklad": {
+      "name": "Обеспыливание металлоконструкций склада",
+      "short": "Обеспыливание склада",
+      "url": "obespylivanie-metallokonstrukcij-sklada",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "clean-posle": {
+      "name": "Послестроительная чистка",
+      "url": "poslestroitelnaya-chistka",
+      "icon": "icon-poslestroitelnaya",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "clean-posle-chistka": {
+      "name": "Чистка помещения после ремонта",
+      "url": "chistka-pomesheniya-posle-remonta",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "clean-posle-spec": {
+      "name": "Послестроительная уборка с применением спецтехники",
+      "url": "poslestroitelnaya-uborka-s-primeneniem-spectehniki",
+      "icon": "",
+      "state": "disable",
+      "display": []
+    },
+    "clean-posle-mramor": {
+      "name": "Очистка мрамора от строительных загрязнений",
+      "url": "ochistka-mramora-ot-stroitelnyh-agryaznenij",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    },
+    "clean-posle-lift": {
+      "name": "Чистка лифтовых шахт",
+      "url": "ochistka-liftovyh-shaht",
+      "icon": "",
+      "state": "enable",
+      "display": ["service-main-hierarchy", "experience-main-hierarchy"]
+    }
+  }
+}
+

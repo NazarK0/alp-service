@@ -1,0 +1,32 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+    <fest:include context_name="json" src="./experience-page.xml" />
+    <fest:include context="json.page.categories_blocks" src="./block-categories-blocks.xml" />
+    <fest:include context="json.page.works" src="./block-works-table-examples.xml" />
+
+    <fest:set name="body_content_main_inner">
+        <fest:get name="body_content_main_inner_customers" />
+        <fest:get name="body_content_main_inner_categories" />
+        <fest:get name="body_content_main_inner_works" />
+    </fest:set>
+
+    <fest:set name="body_content_main_inner_categories">
+        <h2 style="margin-top: 20px;">
+            Выбранные виды работ
+        </h2>
+        <fest:get name="body_content_main_inner_categories_blocks" />
+    </fest:set>
+
+    <fest:set name="body_content_main_inner_works">
+        <h2 style="margin-top: 20px;">
+            Примеры выполненных работ
+        </h2>
+
+        <!--<span style="border: 1px solid gray; padding-left: 5px; padding-right: 5px;">
+            <fest:value>
+                json.page.works_empty_msg
+            </fest:value>
+        </span>-->
+
+        <fest:get name="body_content_main_inner_works_table_examples" />
+    </fest:set>
+</fest:template>

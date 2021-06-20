@@ -1,0 +1,15 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="images">
+    <fest:set name="body_content_main_inner_images_list">
+        <ul style="display:inline; margin: 0px; padding: 0px;" class="gallery clearfix">
+
+            <fest:each iterate="images.list" index="i" value="v">
+                <li style="display:inline; padding-right: 7px; padding-bottom: 6px;">
+                    <a href="/images/experience/{images.urlpart}/{images.fullscreen}/{v}" title="<a href='/experience/{images.urlpart}'>{images.title}</a>" rel="prettyPhoto[{images.urlpart}-gallery]">
+                        <img src="/images/experience/{images.urlpart}/{images.thumbnails}/{v}" title="{images.title}" alt="{images.title}" width="100" height="100" />
+                    </a>
+                </li>
+            </fest:each>
+
+        </ul>
+    </fest:set>
+</fest:template>

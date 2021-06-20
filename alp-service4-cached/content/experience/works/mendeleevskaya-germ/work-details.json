@@ -1,0 +1,29 @@
+{
+    "_id": "mendeleevskaya-germ",
+    "work": {
+        "url": "germetizaciya-mezhpanelnyh-shvov-mendeleevskaya-ulitsa",
+        "name": "Герметизация межпанельных швов дома на Менделеевской улице",
+        "images": {
+            "fullscreen": {
+                "dir": "fullscreen",
+                "list": [
+                    "img001.jpg",
+                    "img002.jpg",
+                    "img003.jpg",
+                    "img004.jpg"
+                ]
+            },
+            "thumbnails": {
+                "dir": "thumbnails",
+                "list": [
+                    "img001.jpg",
+                    "img002.jpg",
+                    "img003.jpg",
+                    "img004.jpg"
+                ]
+            },
+            "icon": "icon.jpg"
+        },
+        "icon": "icon.jpg"
+    }
+}

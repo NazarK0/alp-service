@@ -1,0 +1,37 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+ 	<fest:include context_name="json" src="./page.xml" />
+
+ 	<fest:set name="in_head_title">
+ 		<title>Ошибка 404 | Промышленные альпинисты компании «Альп Сервис»</title>
+ 	</fest:set>
+
+ 	<fest:set name="in_head_description">
+ 		<meta name="description" content="ошибка 404" />
+ 	</fest:set>
+
+ 	<fest:set name="in_head_keywords">
+ 		<meta name="keywords" content="ошибка 404" />
+	</fest:set>
+
+	<fest:set name="in_body_main">
+		<div class="main" style="margin-top: 1px;">
+			<div class="main-text">
+				<h1>
+					Допрыгались! Ошибка<fest:space /><nobr>№ 404</nobr>
+				</h1>
+
+				<p>
+					Что-то пошло не так и, возможно, в этом нет ничего страшного.<br />
+					Пожалуйста, проверьте адресную строку: там могла быть допущена опечатка, которая и послужила причиной<fest:space /><nobr>ошибки № 404.</nobr>
+				</p>
+
+				<p>
+					В конце концов, всегда можно вернуться в самое начало сайта →<fest:space /><a href="/" title="Промышленные альпинисты в Санкт-Петербурге">Alp-Service.ru</a>
+				</p>
+
+				<br />
+			</div>
+		</div>
+	</fest:set>
+
+</fest:template>

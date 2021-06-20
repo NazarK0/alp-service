@@ -1,0 +1,21 @@
+{
+    "block": "service",
+    "urls": [
+        "",
+        "krovelnye-raboty",
+        "fasadnye-raboty",
+        "germetizaciya",
+        "montazhnye-raboty",
+        "demontazhnye-raboty",
+        "dopolnitelnye-raboty",
+        "vysotnyj-klining",
+        "uborka-snega",
+        "mojka-okon-i-fasadov",
+        "obespylivanie",
+        "poslestroitelnaya-chistka"
+    ],
+    "http301": {
+        "germetizaciya-mezhpanelnykh-stykov-shvov": "germetizaciya",
+        "mojka-okon-i-fasadov-vysotnyj-klining": "mojka-okon-i-fasadov"
+    }
+}

@@ -1,0 +1,202 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+ 	<fest:include context_name="json" src="./page.xml" />
+ 	<fest:include context_name="json" src="./navm.xml" />
+	<fest:include context_name="json" src="./brands.xml" />
+
+
+
+	<fest:set name="in_body_main">
+	
+		<fest:get name="in_body_navm" /> <!-- from navm.xml -->
+		<fest:get name="in_body_brands" /> <!-- from brands.xml -->
+
+		<div class="main" style="margin-top: 1px;">
+			<div class="main-text">
+			
+			<a name="{json.h1.tagname}" title="{json.h1.title}">
+				<h1 title="{json.h1.title}">
+					<fest:value>json.h1.title</fest:value>
+				</h1>
+			</a>
+			
+			<p>
+				Предлагаем услуги<fest:space /><a href="" title="">профессиональных промышленных альпинистов</a><fest:space />в Санкт-Петербурге и Ленинградской области. Мы готовы разработать индивидуальный проект производства работ и решить самую сложную задачу.
+			</p>
+			<p>
+				<![CDATA[Все альпинисты компании «Альп Сервис» прошли аттестацию и имеют соответствующие сертификаты. Наши специалисты регулярно подтверждают свой разряд, что является залогом безопасности и качества работ.]]>
+			</p>
+
+			 
+
+			<ul class="mainpage-index-list">
+				<li>
+					<a href="/service/krovelnye-raboty" title="">Кровельные работы</a>
+					<ul class="mainpage-sub-index-list">
+						<li><![CDATA[&rarr;]]><fest:space /><a href="/service/krovelnye-raboty">Устройство наплавляемой кровли</a></li>
+						<li><![CDATA[&rarr;]]><fest:space /><a href="/service/krovelnye-raboty">Устройство металлической кровли</a></li>
+						<li><![CDATA[&rarr;]]><fest:space /><a href="/service/krovelnye-raboty">Замена и монтаж фасонных элементов</a></li>
+						<li><![CDATA[&rarr;]]><fest:space /><a href="/service/krovelnye-raboty">Монтаж поликарбоната</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="/service/fasadnye-raboty" title="">Фасадные работы</a>
+					<ul class="mainpage-sub-index-list">
+						<li><![CDATA[&rarr;]]><fest:space /><a href="/service/fasadnye-raboty">Устройство нового фасада</a></li>
+						<li><![CDATA[&rarr;]]><fest:space /><a href="/service/fasadnye-raboty">Косметический ремонт фасада</a></li>
+						<li><![CDATA[&rarr;]]><fest:space /><a href="/service/fasadnye-raboty">Капитальный ремонт фасада</a></li>
+						<li><![CDATA[&rarr;]]><fest:space /><a href="/service/fasadnye-raboty">Реставрация фасада</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="/service/germetizaciya-mezhpanelnykh-stykov-shvov" title="">Герметизация межпанельных швов</a>
+					<ul class="mainpage-sub-index-list">
+						<li><![CDATA[&rarr;]]><fest:space /><a href="/service/germetizaciya-mezhpanelnykh-stykov-shvov">Первичная герметизация</a></li>
+						<li><![CDATA[&rarr;]]><fest:space /><a href="/service/germetizaciya-mezhpanelnykh-stykov-shvov">Вторичная герметизация</a></li>
+						<li><![CDATA[&rarr;]]><fest:space /><a href="/service/germetizaciya-mezhpanelnykh-stykov-shvov">Герметзиация межпанельных швов жилого дома</a></li>
+					</ul>
+				</li>
+
+				<!--<li>
+					<a href="/service/" title="">Монтажные работы</a>
+					<ul class="mainpage-sub-index-list">
+						<li><![CDATA[&rarr;]]><fest:space /><a href="">Монтаж вывесок</a></li>
+						<li><![CDATA[&rarr;]]><fest:space /><a href="">Монтаж труб</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="/service/" title="">Демонтажные работы</a>
+					<ul class="mainpage-sub-index-list">
+						<li><![CDATA[&rarr;]]><fest:space /><a href="">Демонтаж кирпичных стен</a></li>
+						<li><![CDATA[&rarr;]]><fest:space /><a href="">Демонтаж конструкций в аварийном состоянии</a></li>
+						<li><![CDATA[&rarr;]]><fest:space /><a href="">Демонтаж труб</a></li>
+					</ul>
+				</li>-->
+
+				<!--<li>
+					<a href="/service/" title="">Дополнительные работы</a>
+					<ul class="mainpage-sub-index-list">
+						<li><![CDATA[&rarr;]]><fest:space /><a href="">Валка деревьев</a></li>
+					</ul>
+				</li>-->
+
+				<li>
+					<a href="/service/uborka-snega" title="">Уборка снега и наледи</a>
+					<ul class="mainpage-sub-index-list">
+						<li><![CDATA[&rarr;]]><fest:space /><a href="/service/uborka-snega">Очистка кровли от снега и наледи</a></li>
+						<li><![CDATA[&rarr;]]><fest:space /><a href="/service/uborka-snega">Обслуживание кровли в течение всего сезона</a></li>
+						<li><![CDATA[&rarr;]]><fest:space /><a href="/service/uborka-snega">Быстрая уборка снега с крыши на 1-2 метра от края ("аварийная очистка")</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="/service/mojka-okon-i-fasadov-vysotnyj-klining" title="">Высотный клининг</a>
+					<ul class="mainpage-sub-index-list">
+						<li><![CDATA[&rarr;]]><fest:space /><a href="/service/mojka-okon-i-fasadov-vysotnyj-klining">Мойка остеклений окон и фасадов</a></li>
+						<li><![CDATA[&rarr;]]><fest:space /><a href="/service/mojka-okon-i-fasadov-vysotnyj-klining">Мойка окон зимой</a></li>
+						<li><![CDATA[&rarr;]]><fest:space /><a href="/service/mojka-okon-i-fasadov-vysotnyj-klining">Очистка мрамора от строительных загрязнений</a></li>
+						<li><![CDATA[&rarr;]]><fest:space /><a href="/service/mojka-okon-i-fasadov-vysotnyj-klining">Чистка вентляционных шахт</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="/service/obespylivanie" title="">Обеспыливание металлоконструкций</a>
+					<ul class="mainpage-sub-index-list">
+						<li><![CDATA[&rarr;]]><fest:space /><a href="/service/obespylivanie">Обеспыливание промышленных объектов</a></li>
+						<li><![CDATA[&rarr;]]><fest:space /><a href="/service/obespylivanie">Обеспыливание помещений после ремонта</a></li>
+						<li><![CDATA[&rarr;]]><fest:space /><a href="/service/obespylivanie">Обеспыливание перед покрасочными работами</a></li>
+					</ul>
+				</li>
+			</ul>
+
+			<h2>Стоимость работ</h2>
+			На нашем сайте представлены ориентировочные<fest:space /><a href="/vidy-vysotnykh-rabot-i-ceny-na-vysotnye-raboty" title="">цены на высотные работы</a>. Конечная стоимость рассчитывается индивидуально в зависимости от сложности, объёма и срока сдачи — она может отличаться от представленной на сайте. Поэтому, пожалуйста, уточняйте информацию у наших менеджеров по телефону: (812) 326-26-29.
+			<br /><br />
+
+				<div class="serv">
+					<span style="font-weight: bold; font-size: 1.0em;">Постоянному клиенту — неизменно низкая стоимость работ!</span>
+					<br />
+					Хорошей традицией для нашей компании стало из года в год сохранять неизменной стоимость работ. Это означает, что не смотря ни на какую инфляцию и рост курса валют, для наших постоянных клиентов цена на несколько лет останется неизменно низкой. А ведь это тоже сохранение своих денег!
+					
+				</div>
+
+<br />
+			
+
+			<h2>Опыт работ</h2>
+			Промышленные альпинисты компании «Альп Сервис» — это профессионалы, обладающие специфическими знаниями и внушительным<fest:space /><a href="/experience/" title="">опытом высотных работ</a>.
+
+
+
+<br /><br />			
+
+		
+
+
+
+<!-- 
+			<iframe width="970" height="591" src="//www.youtube.com/embed/uzSevph_AIw" frameborder="0" allowfullscreen=""></iframe>
+ -->
+
+			
+			<h2 title="Партнёры компании «Альп Сервис»">Наши партнёры</h2>
+			В разделе<fest:space /><a href="/partners/" title="Партнёры компании «Альп Сервис»" style="font-decoration:none;">«Наши партнёры»</a><fest:space />вы можете ознакомиться с партнёрами нашей компании.
+			<ul style="list-style-type: none;" style="padding-left:0px;">
+				<li style="display: inline; padding-right: 20px; padding-bottom: 10px;">
+					<a href="/partners/peterburgskaya-nedvizhimost" title="«Петербургская недвижимость» — партнёр компании «Альп Сервис»">
+						<img src="/images/partners/peterburgskaya-nedvizhimost-logo-300px.png" height="50px" title="«Петербургская недвижимость» — партнёр компании «Альп Сервис»" alt="«Петербургская недвижимость»" />
+					</a>
+				</li>
+			</ul>
+
+
+			<h2 title="Клиенты компании «Альп Сервис»">Наши клиенты</h2>
+			<span>Кстати, работы, выполненные для наших клиентов, представлены в разделе<fest:space /><a href="/experience/">«Опыт работ»</a>.</span>
+			<ul class="brands-text-block">
+				<li>
+					<a href="/experience/#trk-mega" title="">
+						<img src="/images/brands/mega-logo.png" height="50px" title="" alt="" />
+					</a>
+				</li>
+				<li>
+					<a href="/experience/toyota" title="">
+						<img src="/images/brands/toyota1-logo.png" height="50px" title="" alt="" />
+					</a>
+				</li>
+				<li>
+					<a href="/experience/transneft" title="">
+						<img src="/images/brands/transneft1-logo.png" height="50px" title="" alt="" />
+					</a>
+				</li>
+				<li>
+					<a href="/experience/oao-gazprom" title="">
+						<img src="/images/brands/gazprom2-logo.png" height="50px" title="" alt="" />
+					</a>
+				</li>
+				<li>
+					<a href="/experience/oao-rzhd" title="">
+						<img src="/images/brands/rzhd-logo.png" height="50px" title="" alt="" />
+					</a>
+				</li>
+				<li>
+					<a href="/experience/russkij-standart" title="">
+						<img src="/images/brands/russtand3-logo-gray.png" height="50px" title="" alt="" />
+					</a>
+				</li>
+			</ul>
+
+
+			<br /><br />
+			</div>
+		</div>
+	</fest:set>
+
+	<fest:set name="in_body_script">
+		<fest:script>
+			<script type="text/javascript" src="/scripts/brands-updater.js"></script>
+			<script type="text/javascript">
+				<![CDATA[
+					;;;
+			    ]]>
+			</script>
+		</fest:script>
+	</fest:set>
+ </fest:template>

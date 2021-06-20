@@ -1,0 +1,56 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+    <fest:include context_name="json" src="../page.xml" />
+
+    <fest:set name="body_content_main">
+
+        <div class="main main-allr main-mrg-top">
+            <div class="main-text" style="padding-bottom: 10px;">
+
+                <div class="body-nav-tab">
+                    <ul>
+                        <fest:for iterate="json.breadcrumbs" index="i" value="v">
+                            <li>
+                                <a>
+                                    <fest:attributes>
+                                        <fest:attribute name="href">
+                                            <fest:value>
+                                                v.url
+                                            </fest:value>
+                                        </fest:attribute>
+                                        <fest:attribute name="title">
+                                            <fest:value>
+                                                v.title
+                                            </fest:value>
+                                        </fest:attribute>
+                                        <fest:attribute name="class">
+                                            <fest:value>
+                                                v.class
+                                            </fest:value>
+                                        </fest:attribute>
+                                    </fest:attributes>
+                                    <fest:value>
+                                        v.name
+                                    </fest:value>
+                                </a>
+                                <fest:space />
+                                <fest:value>
+                                    v.delimiter
+                                </fest:value>
+                            </li>
+                        </fest:for>
+                    </ul>
+                </div>
+
+                <h1>
+                    <fest:value>json.page.h1</fest:value>
+                </h1>
+
+                <fest:get name="body_content_main_inner" />
+           </div>
+        </div>
+    </fest:set>
+
+    <fest:set name="header_content_styles_addition">
+        <link rel="stylesheet" href="/styles/experience.css" />
+    </fest:set>
+</fest:template>

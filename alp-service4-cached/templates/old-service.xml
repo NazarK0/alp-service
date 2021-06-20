@@ -1,0 +1,156 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+ 	<fest:include context_name="json" src="./page.xml" />
+	<fest:include context_name="json" src="./navm.xml" />
+	<fest:include context_name="json" src="./brands.xml" />
+
+ 	<fest:set name="in_head_title">
+ 		<title><fest:value>json.page.title</fest:value></title>
+ 	</fest:set>
+
+ 	<fest:set name="in_head_description">
+ 		<meta name="description">
+			<fest:attributes>
+				<fest:attribute name="content">
+					<fest:value>json.page.description</fest:value>
+				</fest:attribute>
+			</fest:attributes>
+ 		</meta>
+ 	</fest:set>
+
+ 	<fest:set name="in_head_keywords">
+ 		<meta name="keywords">
+			<fest:attributes>
+				<fest:attribute name="content">
+					<fest:value>json.page.keywords</fest:value>
+				</fest:attribute>
+			</fest:attributes>
+ 		</meta>
+ 	</fest:set>
+
+	<fest:set name="in_body_main">
+
+		<!-- <fest:get name="in_body_navm" /> --> 				<!-- from navm.xml -->
+		<!-- <fest:get name="in_body_brands_short" /> --> 		<!-- from brands.xml -->
+
+		<div class="main" style="margin-top: 1px;">
+			<div class="main-text">
+				<a name="{json.h1.tagname}" title="{json.h1.title}">
+					<h1 title="{json.h1.title}">
+						<fest:value>json.h1.title</fest:value>
+					</h1>
+				</a>
+
+				<ul class="serv">
+					<li>
+						<h2>
+							<a href="/service/krovelnye-raboty" title="Кровельные работы">Кровельные работы</a>
+						</h2>
+						<ul>
+							<li>— ремонт кровли</li>
+							<li>— устройство жёсткой кровли</li>
+							<li>— монтаж антенн, мачт и прочих конструкций</li>
+							<li>— очистка от снега и наледи периметра кровли и всей площади</li>
+						</ul>
+					</li>
+
+					<li>
+						<h2>
+							<a href="/service/fasadnye-raboty" title="Фасадные работы">Фасадные работы</a>
+						</h2>
+						<ul>
+							<li>— работы по утеплению фасадов и домов</li>
+							<li>— декоративная отделка фасадов</li>
+							<li>— ремонт фасада (косметический и капитальный)</li>
+							<li>— работы по очистке фасадов</li>
+							<li>— окраска фасада</li>
+						</ul>
+					</li>
+
+					<!--<li>
+						<h2>
+							<a href="" title="Герметизация межпанельных швов">Герметизация межпанельных швов</a>
+						</h2>
+						<ul>
+							<li></li>
+						</ul>
+					</li>-->
+
+					<!--<li>
+						<h2>
+							<a href="/service" title="Монтажные работы">Монтажные работы</a>
+						</h2>
+						<ul>
+							<li>— монтаж труб</li>
+							<li>— монтаж вывесок</li>
+						</ul>
+					</li>-->
+
+					<li>
+						<h2>
+							<a href="/service/obespylivanie" title="Обеспыливание конструкций">Обеспыливание конструкций</a>
+						</h2>
+						<ul>
+							<li></li>
+						</ul>
+					</li>
+					<li>
+						<h2>
+							<a href="/service/mojka-okon-i-fasadov-vysotnyj-klining" title="Мойка окон и фасадов (высотный клининг)">Мойка окон и фасадов (высотный клининг)</a>
+						</h2>
+						<ul>
+							<li></li>
+						</ul>
+					</li>
+					<li>
+						<h2>
+							<a href="/service/uborka-snega" title="Уборка снега и наледи">Уборка снега и наледи</a>
+						</h2>
+						<ul>
+							<li>— очистка кровли от снега</li>
+							<li>— удаление сосулек с крыш</li>
+						</ul>
+					</li>
+
+					<li>
+						<h2>Постоянному клиенту — неизменно низкая стоимость работ</h2>
+						<ul>
+							<p>Хорошей традицией для нашей компании стало из года в год сохранять неизменной стоимость работ. Это означает, что не смотря ни на какую инфляцию и рост курса валют, для наших постоянных клиентов цена останется неизменно низкой на несколько лет, а ведь это тоже сохранение своих денег.</p>
+						</ul>
+					</li>
+
+					
+				</ul>
+
+				
+				<div class="serv">
+					<h2 style="display:inline;">
+						<a href="vidy-vysotnykh-rabot-i-ceny-na-vysotnye-raboty">Виды высотных работ и цены</a>
+					</h2> 
+								
+					<div style="padding-left: 10px; margin-top: 10px; margin-bottom: 10px;">
+						Стоимость высотных работ может отличаться от<fest:space /><a href="vidy-vysotnykh-rabot-i-ceny-na-vysotnye-raboty">представленных на сайте</a>, поэтому уточняйте информацию у наших менеджеров<fest:space /><nobr>по телефону</nobr>: (812) 326-26-29.
+					</div>			
+				</div>
+
+				<p>
+					<![CDATA[
+					Промышленные альпинисты компании &laquo;Альп Сервис&raquo;&nbsp;&mdash; это профессионалы, обладающие специфическими знаниями и&nbsp;внушительным опытом высотной работы.
+					]]>
+				</p>
+
+				<br />
+			</div>
+		</div>
+	</fest:set>
+
+ 	<fest:set name="in_body_script">
+		<fest:script>
+			<script type="text/javascript">
+				<![CDATA[
+					;;;
+			    ]]>
+			</script>
+		</fest:script>
+	</fest:set>
+ </fest:template>
+

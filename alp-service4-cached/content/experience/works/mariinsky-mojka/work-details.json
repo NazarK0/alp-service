@@ -1,0 +1,37 @@
+{
+    "_id": "mariinsky-mojka",
+    "work": {
+        "url": "mojka-ostekleniya-chistka-fasada-i-mednykh-elementov-koncertnyj-zal-mariinsky",
+        "name": "Мойка остекления, чистка фасада и медных элементов Концертного зала (Мариинский театр)",
+        "images": {
+            "fullscreen": {
+                "dir": "fullscreen",
+                "list": [
+                    "img001.jpg",
+                    "img002.jpg",
+                    "img003.jpg",
+                    "img004.jpg",
+                    "img005.jpg",
+                    "img006.jpg",
+                    "img007.jpg",
+                    "img008.jpg"
+                ]
+            },
+            "thumbnails": {
+                "dir": "thumbnails",
+                "list": [
+                    "img001.jpg",
+                    "img002.jpg",
+                    "img003.jpg",
+                    "img004.jpg",
+                    "img005.jpg",
+                    "img006.jpg",
+                    "img007.jpg",
+                    "img008.jpg"
+                ]
+            },
+            "icon": "icon.jpg"
+        },
+        "icon": "icon.jpg"
+    }
+}

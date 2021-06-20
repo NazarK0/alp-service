@@ -1,0 +1,57 @@
+{
+  "navtable" : [
+    {
+      "tab-krovelnye-raboty": {
+        "url"   : "/service/krovelnye-raboty",
+        "name"  : "Кровельные работы",
+        "title" : "Кровельные работы в Санкт-Петербурге"
+      },
+      "tab-fasadnye-raboty": {
+        "url"   : "/service/fasadnye-raboty",
+        "name"  : "Фасадные работы",
+        "title" : "Фасадные работы в Санкт-Петербурге"
+      },
+      "tab-germetizaciya": {
+        "url"   : "/service/germetizaciya",
+        "old_url"   : "/service/germetizaciya-mezhpanelnykh-stykov-shvov",
+        "name"  : "Герметизация швов",
+        "title" : "Герметизация межпанельных стыков и швов в Санкт-Петербурге"
+      }
+    },
+    {
+      "tab-montazhnye-raboty": {
+        "url"   : "/service/montazhnye-raboty",
+        "name"  : "Монтажные работы",
+        "title" : "Монтажные работы в Санкт-Петербурге"
+      },
+      "tab-demontazhnye-raboty": {
+        "url"   : "/service/demontazhnye-raboty",
+        "name"  : "Демонтажные работы",
+        "title" : "Демонтажные работы в Санкт-Петербурге"
+      },
+      "tab-dopolnitelnye-raboty": {
+        "url"   : "/service/dopolnitelnye-raboty",
+        "name"  : "Дополнительные работы",
+        "title" : "Дополнительные работы в Санкт-Петербурге: валка деревьев"
+      }
+    },
+    {
+      "tab-uborka-snega": {
+        "url"   : "/service/uborka-snega",
+        "name"  : "Уборка снега и наледи",
+        "title" : "Уборка снега и наледи, уборка кровли от снега, чистка кровель от снега в Санкт-Петербурге"
+      },
+      "tab-mojka-okon-i-fasadov": {
+        "url" : "/service/mojka-okon-i-fasadov",
+        "old_url"   : "/service/mojka-okon-i-fasadov-vysotnyj-klining",
+        "name"  : "Мойка окон и фасадов",
+        "title" : "Мойка окон и фасадов (высотный клининг) в Санкт-Петербурге"
+      },
+      "tab-obespylivanie": {
+        "url"   : "/service/obespylivanie",
+        "name"  : "Обеспыливание",
+        "title" : "Обеспыливание металлоконструкций в Санкт-Петербурге"
+      }
+    }
+  ]
+}

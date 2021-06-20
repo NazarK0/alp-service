@@ -1,0 +1,73 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="works">
+    <fest:set name="body_content_main_inner_works_table_new">
+        <table id="works" width="100%" style="margin-left:0px;">
+            <tbody>
+                <fest:for iterate="works" index="i" value="v">
+                    <tr>
+                        <td width="70px" style="vertical-align: top;">
+                            <img src="{v.icon_img}" width="70px" height="70px" style="border: 1px solid gray;" />
+                        </td>
+                        <td>
+                            №<fest:value>i+1</fest:value>.
+                            <fest:space />
+                            <a>
+                                <fest:attributes>
+                                    <fest:attribute name="href">
+                                        <fest:value>
+                                            v.url
+                                        </fest:value>
+                                    </fest:attribute>
+                                    <fest:attribute name="title">
+                                        <fest:value>
+                                            v.name
+                                        </fest:value>
+                                    </fest:attribute>
+                                </fest:attributes>
+                                <fest:value>
+                                    v.name
+                                </fest:value>
+                            </a>
+                            <div class="exp-service-tags">
+                                <span style="padding-right: 7px;">
+                                    Заказчик:
+                                </span>
+                                <span>
+                                    <fest:value>
+                                        v.customer
+                                    </fest:value>
+                                </span>
+                                <br />
+                                <span style="padding-right: 7px;">
+                                    Виды работ:
+                                </span>
+                                <ul class="exp-service-tags" style="display:inline;">
+                                    <fest:for iterate="v.tags" index="j" value="w">
+                                        <li>
+                                            <a>
+                                                <fest:attributes>
+                                                    <fest:attribute name="href">
+                                                        <fest:value>
+                                                            w.url
+                                                        </fest:value>
+                                                    </fest:attribute>
+                                                    <fest:attribute name="title">
+                                                        <fest:value>
+                                                            w.name
+                                                        </fest:value>
+                                                    </fest:attribute>
+                                                </fest:attributes>
+                                                <fest:value>
+                                                    w.name
+                                                </fest:value>
+                                            </a>
+                                        </li>
+                                    </fest:for>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                </fest:for>
+            </tbody>
+        </table>
+    </fest:set>
+</fest:template>

@@ -1,0 +1,67 @@
+/*
+	alp-service.ru index page's style patch
+	by Victor Ivanov <victorivanov.spb@gmail.com>
+
+*/
+
+
+
+
+ul.mainpage-index-list {
+	list-style-type: none;
+}
+
+ul.mainpage-index-list li {
+}
+
+ul.mainpage-sub-index-list {
+	list-style-type: none;
+	-webkit-padding-start: 10px;
+	padding-bottom: 15px;
+}
+
+ul.mainpage-sub-index-list li {
+
+}
+
+/* ---------------------------------------------------------------------------- */
+
+table.brands-table td.arr {
+	color: #CCC;
+	cursor: pointer;
+}
+
+tr.brands-panel-text {
+	vertical-align: top;
+}
+
+td.brands-panel-text-our-client-text {
+	padding-right: 2px;
+	text-align: right;
+	color: #CCC;
+	/*font-style: italic;*/
+
+}
+
+td.brands-panel-text-our-client-name {
+	padding-left: 2px;
+	text-align: left;
+}
+
+td.brands-panel-logo {
+	vertical-align: bottom;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+/*ul.brands-text-block {
+	list-style-type: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+ul.brands-text-block li {
+	display: inline;
+	margin-right: 30px;
+}*/
+

@@ -1,0 +1,33 @@
+{
+    "_id": "uborka-snega-s-kryshy-zagorodnogo-doma",
+    "work": {
+        "url": "uborka-snega-s-kryshy-zagorodnogo-doma",
+        "name": "Уборка снега с крыши загородного дома",
+        "images": {
+            "fullscreen": {
+                "dir": "fullscreen",
+                "list": [
+                    "img001.jpg",
+                    "img002.jpg",
+                    "img003.jpg",
+                    "img004.jpg",
+                    "img005.jpg",
+                    "img006.jpg"
+                ]
+            },
+            "thumbnails": {
+                "dir": "thumbnails",
+                "list": [
+                    "img001.jpg",
+                    "img002.jpg",
+                    "img003.jpg",
+                    "img004.jpg",
+                    "img005.jpg",
+                    "img006.jpg"
+                ]
+            },
+            "icon": "icon.jpg"
+        },
+        "icon": "icon.jpg"
+    }
+}

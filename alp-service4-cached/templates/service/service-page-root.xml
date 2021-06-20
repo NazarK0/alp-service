@@ -1,0 +1,18 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+    <fest:include context_name="json" src="./service-page.xml" />
+    <fest:include context="json.servicelist" src="./block-servicelist.xml" />
+
+    <fest:set name="body_content_main_inner">
+
+        <p>
+            Промышленные альпинисты компании «Альп-Сервис» — это профессионалы, обладающие специфическими знаниями и внушительным опытом высотной работы.
+        </p>
+        <p>
+            Хорошей традицией для нашей компании стало из года в год сохранять неизменной стоимость работ. Это означает, что не смотря ни на какую инфляцию и рост курса валют, для наших постоянных клиентов цена останется неизменно низкой на несколько лет, а ведь это тоже сохранение своих денег.
+        </p>
+        <br />
+
+        <fest:get name="body_content_main_inner_servicelist" />
+    </fest:set>
+
+</fest:template>

@@ -1,0 +1,81 @@
+{
+  "_file_comment" : "Идентификаторы всех заказчиков в разделе 'Опыт работ'.",
+  "list" : {
+    "trk-nevsky" : {
+      "name"	: "ТРК «Невский»",
+      "description" : "Торгово-развлекательный комплекс «Невский»"
+    },
+    "oao-gazprom" : {
+      "name"	: "ОАО «Газпром»",
+      "description" : "Открытое акционерное общество «Газпром»"
+    },
+    "transneft" : {
+      "name"	: "«Транснефть»",
+      "description" : "Компания «Транснефть»"
+    },
+    "oao-rzhd" : {
+      "name"	: "ОАО «РЖД»",
+      "description" : "Открытое акционерное общество «Российские железные дороги»"
+    },
+    "hyundai" : {
+      "name" : "Hyundai",
+      "description" : "Автомобильный завод «Hyundai»"
+    },
+    "toyota" : {
+      "name" : "Toyota",
+      "description" : "Автомобильный завод «Toyota»"
+    },
+    "russkij-standart" : {
+      "name" : "«Русский стандарт»",
+      "description" : "Завод «Русский стандарт»"
+    },
+    "pushechnaya-na-zhelyabova" : {
+      "name" : "«Пышечная на Желябова»",
+      "description" : "«Пышечная на Желябова»"
+    },
+    "aeroplaza" : {
+      "name" : "«Аэроплаза»",
+      "description" : "«Аэроплаза»"
+    },
+    "mariinsky" : {
+      "name" : "Мариинский театр",
+      "description" : "Мариинский театр"
+    },
+    "tszh-nevsky-152" : {
+      "name" : "ТСЖ «Невский 152»",
+      "description" : "ТСЖ «Невский 152»"
+    },
+    "bc-oktava" : {
+      "name" : "БЦ «Октава»",
+      "description" : "Бизнес-центр «Октава»"
+    },
+    "bc-alia-tempora" : {
+      "name" : "БЦ «Alia Tempora»",
+      "description" : "Бизнес-центр «Alia Tempora»"
+    },
+    "trc-mega" : {
+      "name" : "ТРЦ «Мега»",
+      "description" : "Торгово-развлекательный центр «Мега»"
+    },
+    "evropolis" : {
+      "name" : "«Европолис»",
+      "description" : "«Европолис»"
+    },
+    "bc-sinop" : {
+      "name" : "БЦ «Синоп»",
+      "description" : "Бизнес-центр «Синоп»"
+    },
+    "ifz" : {
+      "name" : "Императорский фарфоровый завод",
+      "description" : "Императорский фарфоровый завод"
+    },
+    "leader-tower" : {
+      "name" : "«Лидер Тауэр»",
+      "description" : "«Лидер Тауэр»"
+    },
+    "na" : {
+      "name"	: "заказчик не указан",
+      "description" : "заказчик не указан"
+    }
+  }
+}

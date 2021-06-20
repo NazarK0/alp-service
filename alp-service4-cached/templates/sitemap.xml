@@ -1,0 +1,22 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+
+<urlset>
+	<fest:each iterate="json" index="i" value="v">
+		<url>
+			<loc>
+				<fest:value>v.loc</fest:value>
+			</loc>
+			<lastmod>
+				<fest:value>v.lastmod</fest:value>
+			</lastmod>
+			<changefreq>
+				<fest:value>v.changefreq</fest:value>
+			</changefreq>
+			<priority>
+				<fest:value>v.priority</fest:value>
+			</priority>
+		</url>
+	</fest:each>
+</urlset>
+
+</fest:template>

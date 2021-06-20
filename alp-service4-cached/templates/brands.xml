@@ -1,0 +1,69 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+	<fest:set name="in_body_brands">
+		<div class="brands">
+			<table id="brands-table" class="brands-table" width="100%" height="100%" border="0">
+				<tr>
+					<td class="arr" rowspan="2" onclick="brandsUpdateLeft()">
+							<strong><strong><![CDATA[&nbsp;&nbsp;&larr;&nbsp;&nbsp;]]></strong></strong>
+					</td>
+					<fest:each iterate="json.body.brands.currentPage" index="i" value="v">
+						
+						<td id="brands-table-div{i}" class="center brands-panel-logo" colspan="2" width="33%">
+							<a id="brands-table-div{i}-link" href="{v.url}" title="">
+								<div title="{v.clientName}" id="{v.id}" height="150px;"></div>
+							</a>
+						</td>
+						
+					</fest:each>
+					
+					<td class="arr" rowspan="2" onclick="brandsUpdateRight()">
+						<strong><strong><![CDATA[&nbsp;&nbsp;&rarr;&nbsp;&nbsp;]]></strong></strong>
+					</td>
+				</tr>
+				<tr class="text brands-panel-text">
+					<fest:each iterate="json.body.brands.currentPage" index="i" value="v">
+						<td id="brands-table-client-text{i}" class="brands-panel-text-our-client-text" width="16.6%"><fest:value>v.clientText</fest:value></td>
+						<td id="brands-table-client-name{i}" class="brands-panel-text-our-client-name" width="16.6%">
+							<a id="brands-table-client-name-link{i}" href="{v.url}" title=""><fest:value>v.clientName</fest:value></a>
+						</td>
+					</fest:each>
+
+				</tr>
+		 	</table>
+		</div>
+
+		<ul id="brands-data-container" currentPos="{json.body.brands.currentPos}" style="display:none;">
+			<fest:each iterate="json.body.brands.mass" index="i" value="v">
+				<li >
+					<fest:each iterate="v" index="j" value="w">
+						<a vId="{w.id}" clientText="{w.clientText}" clientName="{w.clientName}" url="{w.url}" href="">{w.clientText}<fest:space />{w.clientName}</a>
+					</fest:each>
+				</li>
+			</fest:each>
+		</ul>
+
+		<!-- <ul id="brands-data-container" currentPos="0" style="display:none;">
+			<li >
+				<a vId="brand-transneft" clientText="Наш клиент:" clientName="Транснефть" href="">Наш клиент: Транснефть</a>
+				<a vId="brand-russtandart" clientText="Наш клиент:" clientName="Русский Стандарт" href="">Наш клиент: Русский Стандарт</a>
+				<a vId="brand-mega" clientText="Наш клиент:" clientName="ТРК Мега" href="">Наш клиент: Мега</a>
+			</li>
+			<li >
+				<a vId="brand-russtandart" clientText="Наш клиент:" clientName="Русский Стандарт" href="">Наш клиент: Русский Стандарт</a>
+				<a vId="brand-mega" clientText="Наш клиент:" clientName="ТРК Мега" href="">Наш клиент: Мега</a>
+				<a vId="brand-transneft" clientText="Наш клиент:" clientName="Транснефть" href="">Наш клиент: Транснефть</a>
+			</li>
+			<li >
+				<a vId="brand-mega" clientText="Наш клиент:" clientName="ТРК Мега" href="">Наш клиент: Мега</a>
+				<a vId="brand-transneft" clientText="Наш клиент:" clientName="Транснефть" href="">Наш клиент: Транснефть</a>
+				<a vId="brand-russtandart" clientText="Наш клиент:" clientName="Русский Стандарт" href="">Наш клиент: Русский Стандарт</a>
+			</li>
+		</ul> -->
+
+	</fest:set>
+
+	<fest:set name="in_body_brands_short">
+		<div class="brands" style="background-color: rgba(122, 122, 122, 0.35); height: 40px; width: 1020px; margin: 0 auto; border-top: 1px solid #777; border-radius: 10px; margin-top: 1px;">
+		</div>
+	</fest:set>
+</fest:template>

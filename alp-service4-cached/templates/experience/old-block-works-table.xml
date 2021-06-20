@@ -1,0 +1,7 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="works">
+    <fest:include context="works" src="./block-works-tabledata.xml" />
+
+    <fest:set name="body_content_main_inner_works_table">
+        <!--<fest:get name="body_content_main_inner_works_table_data" />-->
+    </fest:set>
+</fest:template>

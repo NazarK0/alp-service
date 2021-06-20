@@ -1,0 +1,246 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+ 	<fest:include context_name="json" src="./page.xml" />
+
+ 	<fest:set name="in_head_title">
+ 		<title><fest:value>json.page.title</fest:value></title>
+ 	</fest:set>
+
+ 	<fest:set name="in_head_description">
+ 		<meta name="description">
+			<fest:attributes>
+				<fest:attribute name="content">
+					<fest:value>json.page.description</fest:value>
+				</fest:attribute>
+			</fest:attributes>
+ 		</meta>
+ 	</fest:set>
+
+ 	<fest:set name="in_head_keywords">
+ 		<meta name="keywords">
+			<fest:attributes>
+				<fest:attribute name="content">
+					<fest:value>json.page.keywords</fest:value>
+				</fest:attribute>
+			</fest:attributes>
+ 		</meta>
+ 	</fest:set>
+
+	<fest:set name="in_body_main">
+		<div class="main" style="margin-top: 1px;">
+			<div class="main-text">
+				
+				<a name="{json.h1.tagname}" title="{json.h1.title}">
+					<h1 title="{json.h1.title}">
+						<fest:value>json.h1.title</fest:value>
+					</h1>
+				</a>
+				<div style="padding-bottom: 10px;">
+					<![CDATA[
+					Промышленные альпинисты компании &laquo;Альп Сервис&raquo;&nbsp;&mdash; это профессионалы, обладающие специфическими знаниями и&nbsp;внушительным опытом высотной работы.
+					]]>
+				</div>
+				
+<!-- 				<table class="exp-table exp-objects" width="100%" border="0">
+					<tr><td>
+						<h2 style="display:inline;">Объекты</h2><fest:space /><span style="font-style: italic; font-size: 0.8em;">(на сайте представлена лишь часть всех объектов и выполненных работ)</span>
+						<ul>
+							<li><a href="">ТРК Невский</a></li>
+							<li><a href="">ОАО Газпром</a></li>
+							<li><a href="">Транснефть</a></li>
+							<li><a href="">ОАО РЖД</a></li>
+							<li><a href="">Hyundai</a></li>
+							<li><a href="">Toyota</a></li>
+						</ul>
+					</td></tr>
+				</table>
+
+				<table class="exp-table exp-service" width="100%" border="0">
+					<tr>
+						<td width="40%" style="vertical-align: top;">
+							<h2>Виды услуг</h2>
+							<ul class="exp-service">
+								<li>Кровельные работы
+									<ul class="exp-service-obj">
+										<li><a href="">Монтаж поликарбоната (ТРК Невский)</a></li>
+									</ul>
+								</li>
+								<li>
+									Монтажные работы
+									<ul class="exp-service-obj">
+										<li><a href="">Монтаж поликарбоната (ТРК Невский)</a></li>
+									</ul>
+								</li>
+
+							</ul>
+
+						</td>
+						<td style="vertical-align: top;">
+							<h2>Выполненные работы</h2>
+							<ol class="exp-service">
+								<li>
+									<a href="">Монтаж поликарбоната (ТРК Невский)</a>
+									<div class="exp-service-tags">
+										<span style="font-style: italic;">Категории (виды услуг):</span><fest:space />
+										<ul class="exp-service-tags">
+											<li><a href="">Кровельные работы</a></li>
+											<li><a href="">Монтажные работы</a></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="">Монтаж поликарбоната (ТРК Невский)</a>
+									<div class="exp-service-tags">
+										<span style="font-style: italic;">Категории (виды услуг):</span><fest:space />
+										<ul class="exp-service-tags">
+											<li><a href="">Кровельные работы</a></li>
+											<li><a href="">Монтажные работы</a></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="">Монтаж поликарбоната (ТРК Невский)</a>
+									<div class="exp-service-tags">
+										<span style="font-style: italic;">Категории (виды услуг):</span><fest:space />
+										<ul class="exp-service-tags">
+											<li><a href="">Кровельные работы</a></li>
+											<li><a href="">Монтажные работы</a></li>
+										</ul>
+									</div>
+								</li>
+							</ol>
+						</td>
+					</tr>
+				</table> -->
+
+			<div style="border: 0px solid black;">
+	  			<table class="exp-table exp-objects" width="100%" border="0">
+					<tr>
+						<td>
+							<h2 style="display:inline;">Заказчики</h2>
+							<fest:space />
+							<span style="font-style: italic; font-size: 0.8em;">(на сайте представлена лишь часть всех заказчиков и выполненных работ)</span>
+							<ul>
+								<fest:each iterate="json.exptables.customers" index="i" value="v">
+									<li>
+										<a>
+											<fest:attributes>
+		    									<fest:attribute name="href">
+		    										<fest:value>v.url</fest:value>
+		    									</fest:attribute>
+		    									<fest:attribute name="title">
+		    										<fest:value>v.description</fest:value>
+		    									</fest:attribute>
+		    								</fest:attributes>
+		    								<fest:value>v.name</fest:value>
+		    							</a>
+									</li>
+								</fest:each>
+							</ul>
+						</td>
+					</tr>
+				</table>
+
+				<table class="exp-table exp-service" width="100%" border="0">
+					<tr>
+						<td width="40%" style="vertical-align: top;">
+							<h2>Виды услуг</h2>
+							<ul class="exp-service">
+								<fest:each iterate="json.exptables.service" index="i" value="v">
+									<li>
+										<fest:value>v.name</fest:value>
+										<ul class="exp-service-obj">
+											<fest:each iterate="v.objects" index="j" value="p">
+												<li>
+													—<fest:space />
+													<a>
+														<fest:attributes>
+		    												<fest:attribute name="href">
+		    													<fest:value>p.url</fest:value>
+		    												</fest:attribute>
+		    												<fest:attribute name="title">
+		    													<fest:value>p.name</fest:value>
+		    												</fest:attribute>
+		    											</fest:attributes>
+		    											<fest:value>p.name</fest:value>
+													</a>
+												</li>
+											</fest:each>
+										</ul>
+									</li>
+								</fest:each>
+							</ul>
+						</td>
+						<td style="vertical-align: top;">
+							<h2>Выполненные работы</h2>
+							<ol class="exp-service">
+								<fest:each iterate="json.exptables.objects" index="i" value="v">
+									<li>
+										<a>
+											<fest:attributes>
+			    								<fest:attribute name="href">
+			    									<fest:value>v.url</fest:value>
+			    								</fest:attribute>
+			    								<fest:attribute name="title">
+			    									<fest:value>v.name</fest:value>
+			    								</fest:attribute>
+			    							</fest:attributes>
+											<fest:value>v.name</fest:value>
+										</a>
+										<div class="exp-service-tags">
+											<span style="font-style: italic;">Заказчик:</span><fest:space />
+											<a>
+												<fest:attributes>
+				    								<fest:attribute name="href">
+				    									<fest:value>v.customer.url</fest:value>
+				    								</fest:attribute>
+				    								<fest:attribute name="title">
+				    									<fest:value>v.customer.description</fest:value>
+				    								</fest:attribute>
+				    							</fest:attributes>
+												<fest:value>v.customer.name</fest:value>
+											</a>
+											<br />
+											<span style="font-style: italic;">Категории (виды услуг):</span><fest:space />
+											<ul class="exp-service-tags">
+												<fest:each iterate="v.categories" index="j" value="p">
+													<li>
+														<a>
+															<fest:attributes>
+			    												<fest:attribute name="href">
+			    													<fest:value>p.url</fest:value>
+			    												</fest:attribute>
+			    												<fest:attribute name="title">
+			    													<fest:value>p.name</fest:value>
+			    												</fest:attribute>
+			    											</fest:attributes>
+			    											<fest:value>p.name</fest:value>
+														</a>
+													</li>
+												</fest:each>
+											</ul>
+										</div>
+									</li>
+								</fest:each>
+							</ol>
+						</td>
+					</tr>
+				</table>
+
+			</div>
+
+				<br /><br />
+			</div>
+		</div>
+	</fest:set>
+
+ 	<fest:set name="in_body_script">
+		<fest:script>
+			<script type="text/javascript">
+				<![CDATA[
+					;;;
+			    ]]>
+			</script>
+		</fest:script>
+	</fest:set>
+ </fest:template>
+

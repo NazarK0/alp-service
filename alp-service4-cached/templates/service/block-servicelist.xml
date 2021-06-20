@@ -1,0 +1,70 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="list">
+    <fest:set name="body_content_main_inner_servicelist">
+
+        <div class="service-list">
+            <fest:for iterate="json.servicelist" index="i" value="v">
+                <div class="line" style="width: 100%;">
+                    <div>
+                        <!--class=image icon-...-->
+                        <fest:attributes>
+                            <fest:attribute name="class">
+                                image
+                                <fest:space />
+                                <fest:value>v.icon</fest:value>
+                            </fest:attribute>
+                        </fest:attributes>
+
+                    </div>
+                    <div class="list">
+                        <a>
+                            <fest:attributes>
+                                <fest:attribute name="href">
+                                    <fest:value>v.url</fest:value>
+                                </fest:attribute>
+                                <fest:attribute name="title">
+                                    <fest:value>v.name</fest:value>
+                                </fest:attribute>
+                            </fest:attributes>
+                            <h3 style="padding-left: 20px;">
+                                <fest:attributes>
+                                    <fest:attribute name="title">
+                                        <fest:value>v.name</fest:value>
+                                    </fest:attribute>
+                                </fest:attributes>
+                                <fest:value>v.name</fest:value>
+                            </h3>
+                        </a>
+                        <fest:space />
+                        <![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]]>
+                        <fest:space />
+                        <a>
+                            <fest:attributes>
+                                <fest:attribute name="href">
+                                    <fest:value>v.price_url</fest:value>
+                                </fest:attribute>
+                                <fest:attribute name="title">
+                                    <fest:value>v.price_name</fest:value>
+                                </fest:attribute>
+                            </fest:attributes>
+                            <fest:value>v.price_name</fest:value>
+                        </a>
+                        <ul style="padding-left:20px;">
+                            <fest:for iterate="v.children" index="j" value="w">
+                                <li style="display: inline; margin-right: 15px;">
+                                    <span style="color:#CCC;">
+                                        <![CDATA[&#9632;]]>
+                                        <fest:space />
+                                    </span>
+                                    <![CDATA[&nbsp;]]>
+                                    <fest:value>v.children[j]</fest:value>
+                                </li>
+                            </fest:for>
+                        </ul>
+                    </div>
+
+                </div>
+            </fest:for>
+        </div>
+
+    </fest:set>
+</fest:template>

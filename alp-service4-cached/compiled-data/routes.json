@@ -1,0 +1,14 @@
+{
+  "http404": "html/error404.html",
+  "urls": {
+    "/ceny/": "html/ceny/ceny.html",
+    "/ceny/krovelnye-raboty-cena-i-stoimost-remonta-krovli-price": "html/ceny/krovelnye-raboty-cena-i-stoimost-remonta-krovli-price.html"
+  },
+  "http301": {
+    "/vidy-vysotnykh-rabot-i-ceny-na-vysotnye-raboty": "/ceny",
+    "/experience/trk-nevsky": "/experience",
+    "/experience/oao-gazprom": "/experience",
+    "/experience/transneft": "/experience",
+    "/experience/oao-rzhd": "/experience"
+  }
+}

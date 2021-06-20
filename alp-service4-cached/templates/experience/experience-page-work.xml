@@ -1,0 +1,80 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+    <fest:include context_name="json" src="./experience-page.xml" />
+    <fest:include context="json.page.works" src="./block-works-table-examples.xml" />
+    <fest:include context="json.page.vidyrabot" src="./block-work-vidyrabot.xml" />
+    <fest:include context="json.page.images" src="./block-work-images.xml" />
+
+    <fest:set name="body_content_main_inner">
+        <fest:get name="body_content_main_inner_text" />
+        <fest:get name="body_content_main_inner_vidyrabot" />
+        <fest:get name="body_content_main_inner_images" />
+        <fest:get name="body_content_main_inner_exampleworks" />
+        <fest:get name="body_content_main_inner_images_scripts" />
+    </fest:set>
+
+    <fest:set name="body_content_main_inner_text">
+        <fest:value>
+            json.page.text_block
+        </fest:value>
+    </fest:set>
+
+    <fest:set name="body_content_main_inner_exampleworks">
+        <h2 style="margin-top: 20px;">
+            Примеры других выполненных работ
+        </h2>
+        <fest:get name="body_content_main_inner_works_table_examples" />
+    </fest:set>
+
+    <fest:set name="body_content_main_inner_vidyrabot">
+        <h2 style="margin-top: 20px;">
+            Виды работ (предоставленные услуги)
+        </h2>
+        <fest:get name="body_content_main_inner_vidyrabot_list" />
+    </fest:set>
+
+    <fest:set name="body_content_main_inner_images">
+        <h2 style="margin-top: 20px;">
+            Фотоотчёт
+        </h2>
+        <small><i>Кликните по фотографии, чтобы увеличить её размер.</i></small><br />
+        <fest:get name="body_content_main_inner_images_list" />
+    </fest:set>
+
+    <fest:set name="body_content_main_inner_images_scripts">
+        <fest:script>
+            <script src="/scripts/jquery-1.6.1.min.js" type="text/javascript" charset="utf-8"></script>
+            <script src="/scripts/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+            <script type="text/javascript"><![CDATA[
+
+		$(document).ready(function(){
+			$("area[rel^='prettyPhoto']").prettyPhoto();
+
+			$(".gallery:first a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'light_square',slideshow:3000, autoplay_slideshow: false});
+			$(".gallery:gt(0) a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'fast',slideshow:10000, hideflash: true});
+
+			$("#custom_content a[rel^='prettyPhoto']:first").prettyPhoto({
+				custom_markup: '<div id="map_canvas" style="width:260px; height:265px"></div>',
+				changepicturecallback: function(){ initialize(); }
+			});
+
+			$("#custom_content a[rel^='prettyPhoto']:first").prettyPhoto({
+				custom_markup: '<div id="map_canvas" style="width:260px; height:265px"></div>',
+				changepicturecallback: function(){ initialize(); }
+			});
+
+			$("#custom_content a[rel^='prettyPhoto']:last").prettyPhoto({
+				custom_markup: '<div id="bsap_1259344" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6"></div><div id="bsap_1237859" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6" style="height:260px"></div><div id="bsap_1251710" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6"></div>',
+				changepicturecallback: function(){ _bsap.exec(); }
+			});
+		});
+
+		]]></script>
+        </fest:script>
+    </fest:set>
+
+    <fest:set name="header_content_styles_addition">
+        <link rel="stylesheet" href="/styles/experience.css" />
+        <link rel="stylesheet" href="/styles/prettyPhoto.css" type="text/css" media="all" charset="utf-8" />
+    </fest:set>
+
+</fest:template>

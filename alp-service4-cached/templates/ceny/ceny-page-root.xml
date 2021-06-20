@@ -1,0 +1,25 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+    <fest:include context_name="json" src="./ceny-page.xml" />
+    <fest:include context="json.pricelists" src="./block-pricelists.xml" />
+    <fest:include context="json" src="./block-phone-text.xml" />
+
+    <fest:set name="body_content_main_inner">
+        <fest:get name="body_content_main_inner_text" />
+        <fest:get name="body_content_main_inner_pricelists" />
+    </fest:set>
+
+    <fest:set name="body_content_main_inner_text">
+        <fest:get name="body_content_main_inner_text_phone" />
+    </fest:set>
+
+    <fest:set name="body_content_main_inner_pricelists">
+        <h2 style="margin-top: 20px;">
+            Виды высотных работ
+        </h2>
+        Для того, чтобы получить информацию о стоимости, выберите из списка необходимые виды работ.
+
+        <!-- СПИСОК ПРАЙС-ЛИСТОВ -->
+        <fest:get name="body_content_main_inner_pricelists_list" />
+    </fest:set>
+
+</fest:template>

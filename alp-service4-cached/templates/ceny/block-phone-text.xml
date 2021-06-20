@@ -1,0 +1,18 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+    <fest:set name="body_content_main_inner_text_phone">
+
+        <div style="background: #ddd; padding: 10px; border-radius: 10px; margin-top: 10px;">
+            Конечная стоимость рассчитывается индивидуально в зависимости от сложности, объёма и срока сдачи — она может отличаться от представленной на сайте.
+            Пожалуйста, уточняйте информацию у наших менеджеров по телефону:
+            <fest:space />
+            <nobr>
+                <small>
+                    <strong>+7 812</strong>
+                </small>
+                <fest:space />
+                <strong>326-26-29</strong>.
+            </nobr>
+        </div>
+
+    </fest:set>
+</fest:template>

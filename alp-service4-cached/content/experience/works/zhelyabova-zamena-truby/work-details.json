@@ -1,0 +1,19 @@
+{
+  "_id"      : "zhelyabova-zamena-truby",
+  "work" : {
+    "url"     : "zamena-truby-demontazh-montazh-pokraska-pyshechnaya-na-zhelyabova",
+    "name"    : "Замена трубы: демонтаж/монтаж и покраска («Пышечная на Желябова»)",
+    "images"  : {
+      "fullscreen" : {
+        "dir" : "fullscreen",
+        "list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg"]
+      },
+      "thumbnails" : {
+        "dir" : "thumbnails",
+        "list" : ["img001.jpg", "img002.jpg", "img003.jpg", "img004.jpg", "img005.jpg", "img006.jpg", "img007.jpg", "img008.jpg"]
+      }
+    },
+    "icon" : "icon.jpg",
+    "text_block" : "main.html"
+  }
+}

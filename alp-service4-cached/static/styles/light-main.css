@@ -1,0 +1,7 @@
+body {
+    margin: 0 auto;
+    width: 90%;
+    background: url("/images/background/bg-206.png") repeat center center;
+    font-family: 'PT Sans';
+    color: #444;
+}

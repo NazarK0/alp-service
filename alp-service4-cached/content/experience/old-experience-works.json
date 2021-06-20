@@ -1,0 +1,155 @@
+{
+	"works" : {
+		"vysotnyj-demontazh-steny-v-avarijnom-sostoyanii" : {
+			"customer" : "na",
+			"categories" : ["raboty-povyshennoy-slozhnosti", "demontazh-sten-v-avarijnom-sostoyanii", "demontazhnye-raboty"],
+			"name" : "Высотный демонтаж кирипчной стены в аварийном состоянии",
+			"icon" : "thumbnails/thumb-demontazh-kirpichnoj-steny-img00001.jpg",
+			"newid" : "demontazh-steny"
+		},
+		"ustrojstvo-naplavlyaemoj-krovli-na-sklade" : {
+			"customer" : "na",
+			"categories" : ["krovelnye-raboty", "naplavlyaemaya-krovlya"],
+			"name" : "Устройство наплавляемой кровли",
+			"icon" : "thumbnails/thumb-naplavlyaemaya-krovlya-primery-018.jpg",
+			"newid": "sklad-naplav-krovlya"
+		},
+		"mojka-ostekleniya-aeroplaza" : {
+			"customer" : "aeroplaza",
+			"categories" : ["klining", "vysotnij-klining", "mojka-ostekleniya", "fasadnye-raboty"],
+			"name" : "Мойка остекления (Аэроплаза)",
+			"newid" : "aeroplaza-mojka-osteklenija"
+		},
+		"chistka-kryshi-ot-snega-koncertnyj-zal-mariinsky" : {
+			"customer" : "mariinsky",
+			"categories" : ["krovelnye-raboty", "uborka-snega"],
+			"name" : "Чистка крыши Концертного зала от снега (Мариинский театр)",
+			"newid" : "mariinsky-uborka-snega"
+		},
+		"germetizaciya-mezhpanelnyh-shvov-mendeleevskaya-ulitsa" : {
+			"customer" : "na",
+			"categories" : ["fasadnye-raboty","germetizaciya-shvov"],
+			"name" : "Герметизация межпанельных швов дома на Менделеевской улице",
+			"newid" : "ul-mendeleevskaya-germ"
+		},
+		"germetizaciya-mezhpanelnyh-shvov-otechestvennya-ulitsa" : {
+			"customer" : "na",
+			"categories" : ["fasadnye-raboty","germetizaciya-shvov"],
+			"name" : "Герметизация межпанельных швов на Отечественной улице",
+			"newid" : "ul-otechestven-germ"
+		},
+		"germetizaciya-mezhpanelnyh-shvov-zhilogo-doma" : {
+			"customer" : "na",
+			"categories" : ["fasadnye-raboty","germetizaciya-shvov"],
+			"name" : "Герметизация межпанельных швов жилого дома",
+			"newid" : "zhiloj-dom-germ"
+		},
+		"mojka-fasada-i-ostekleniya-tszh-nevskiy-152" : {
+			"customer" : "tszh-nevsky-152",
+			"categories" : ["fasadnye-raboty", "klining", "vysotnij-klining", "mojka-ostekleniya", "chistka-pomeshenija"],
+			"name" : "Мойка фасада и остекления (ТСЖ «Невский 152»)",
+			"newid" : "tszh-nevsky-152-mojka-fasada"
+		},
+		"mojka-fasada-i-ostekleniya-biznes-centr-oktava" : {
+			"customer" : "bc-oktava",
+			"categories" : ["fasadnye-raboty", "klining", "vysotnij-klining", "mojka-ostekleniya"],
+			"name" : "Мойка фасада и остекления",
+			"newid" : "bc-oktava-mojka-fasada"
+		},
+		"mojka-ostekleniya-chistka-fasada-i-mednykh-elementov-koncertnyj-zal-mariinsky" : {
+			"customer" : "mariinsky",
+			"categories" : ["klining", "vysotnij-klining", "mojka-ostekleniya", "fasadnye-raboty", "chistka-mednykh-elementov"],
+			"name" : "Мойка остекления, чистка фасада и медных элементов Концертного зала (Мариинский театр)",
+			"newid" : "mariinsky-mojka-fasada-i-elementov"
+		},
+		"montazh-vodostochnyh-trub" : {
+			"customer" : "na",
+			"categories" : ["fasadnye-raboty", "montazhnye-raboty"],
+			"name" : "Монтаж водосточных труб",
+			"newid" : "montazh-vodostochnyh-trub"
+		},
+		"moyka-ostekleniya-biznes-centr-alia-tempora" : {
+			"customer" : "bc-alia-tempora",
+			"categories" : ["fasadnye-raboty", "klining", "vysotnij-klining", "mojka-ostekleniya"],
+			"name" : "Мойка остекления (БЦ «Alia Tempora»)",
+			"newid" : "bc-alia-tempora-mojka-osteklenija"
+		},
+		"moyka-ostekleniya-zavoda-russkij-standart" : {
+			"customer" : "russkij-standart",
+			"categories" : ["klining", "vysotnij-klining", "mojka-ostekleniya"],
+			"name" : "Мойка остекления (Завод «Русский стандарт»)",
+			"newid" : "russ-standart-mojka-osteklenija"
+		},
+		"obespylivanie-metallokonstrukcij-trc-mega" : {
+			"customer" : "trc-mega",
+			"categories" : ["obespylivanie", "obespylivanie-metallokonstrukcij", "obespylivanie-torgovyh-pomeshenij", "klining", "vysotnij-klining"],
+			"name" : "Обеспыливание металлоконструкций (ТРЦ Мега)",
+			"newid" : "trc-mega-obesp"
+		},
+		"obespylivanie-na-promyshlennom-objekte" : {
+			"customer" : "na",
+			"categories": ["obespylivanie", "obespylivanie-metallokonstrukcij", "obespylivanie-torgovyh-pomeshenij", "klining", "vysotnij-klining"],
+			"name" : "Обеспыливание металлоконструкций на промышленном объекте",
+			"newid" : "prom-obj-obesp"
+		},
+		"obespylivanie-na-zavode-pischevoj-upakovki" : {
+			"customer" : "na",
+			"categories" : ["obespylivanie", "obespylivanie-metallokonstrukcij", "vysotnij-klining"],
+			"name" : "Обеспыливание на заводе пищевой упаковки",
+			"newid" : "zavod-upakovki-obesp"
+		},
+		"obespylivanie-trk-evropolis" : {
+			"customer" : "evropolis",
+			"categories" : ["obespylivanie", "obespylivanie-torgovyh-pomeshenij"],
+			"name" : "Обеспыливание (ТРК Европолис)",
+			"newid" : "trk-evropolis-obesp"
+		},
+		"pokraska-fasadnyh-truboprovodov" : {
+			"customer" : "na",
+			"categories" : ["fasadnye-raboty", "pokrasochnye-raboty"],
+			"name" : "Покраска фасадных трубопроводов",
+			"newid" : "pokraska-fasadnyh-truboprovodov"
+		},
+		"poslestoitelnaya-ochistka-moyka-ostekleniya-moyka-liftovyh-shaht-biznes-centr-sinop" : {
+			"customer" : "bc-sinop",
+			"categories" : ["klining", "poslestroitelnya-ochistka-pomeshenij", "mojka-liftovyh-shakht", "mojka-ostekleniya", "uborka-s-primeneniem-spectehniki"],
+			"name" : "Послестроительная очистка, мойка остекления и мойка лифтовых шахт (БЦ Синоп)",
+			"newid": "bc-sinop-poslestoit-chistka"
+		},
+		"remont-fasada-zdaniya" : {
+			"customer" : "na",
+			"categories" : ["fasadnye-raboty"],
+			"name" : "Ремонт фасада здания",
+			"newid" : "remont-fasada-zdaniya"
+		},
+		"remont-fasada-zdaniya-imperatorskogo-farforovogo-zavoda" : {
+			"customer" : "ifz",
+			"categories" : ["fasadnye-raboty", "pokrasochnye-raboty"],
+			"name" : "Ремонт фасада здания (Императорский фарфоровый завод)",
+			"newid" : "ifz-remont-fasada"
+		},
+		"remont-fasada-zdaniya-na-furshtadskaya-60" : {
+			"customer" : "na",
+			"categories": ["fasadnye-raboty", "pokrasochnye-raboty"],
+			"name" : "Ремонт фасада здания на Фурштадской, 60",
+			"newid" : "ul-furshtadskaya-60-remont-fasada"
+		},
+		"uborka-snega-s-kryshy-zagorodnogo-doma" : {
+			"customer" : "na",
+			"categories" : ["krovelnye-raboty", "uborka-snega"],
+			"name" : "Уборка снега с крыши загородного дома",
+			"newid" : "uborka-snega-s-kryshy-zagorodnogo-doma"
+		},
+		"valka-derevyev-na-zagorodnom-uchastke" : {
+			"customer" : "na",
+			"categories" : ["raboty-povyshennoy-slozhnosti", "demontazhnye-raboty", "valka-derevjev"],
+			"name" : "Валка деревьев на загородном участке",
+			"newid" : "valka-derevyev-na-zagorodnom-uchastke"
+		}
+	}
+}
+
+
+
+
+

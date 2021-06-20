@@ -1,0 +1,27 @@
+{
+    "_id": "valka-derevyev-na-zagorodnom-uchastke",
+    "work": {
+        "url": "valka-derevyev-na-zagorodnom-uchastke",
+        "name": "Валка деревьев на загородном участке",
+        "images": {
+            "fullscreen": {
+                "dir": "fullscreen",
+                "list": [
+                    "img001.jpg",
+                    "img002.jpg",
+                    "img003.jpg"
+                ]
+            },
+            "thumbnails": {
+                "dir": "thumbnails",
+                "list": [
+                    "img001.jpg",
+                    "img002.jpg",
+                    "img003.jpg"
+                ]
+            },
+            "icon": "icon.jpg"
+        },
+        "icon": "icon.jpg"
+    }
+}

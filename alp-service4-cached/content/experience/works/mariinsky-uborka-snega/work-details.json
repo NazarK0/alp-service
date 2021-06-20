@@ -1,0 +1,40 @@
+{
+    "_id": "mariinsky-uborka-snega",
+    "work": {
+        "url": "chistka-kryshi-ot-snega-koncertnyj-zal-mariinsky",
+        "name": "Чистка крыши Концертного зала от снега (Мариинский театр)",
+        "images": {
+            "fullscreen": {
+                "dir": "fullscreen",
+                "list": [
+                    "img001.jpg",
+                    "img002.jpg",
+                    "img003.jpg",
+                    "img004.jpg",
+                    "img005.jpg",
+                    "img006.jpg",
+                    "img007.jpg",
+                    "img008.jpg",
+                    "img009.jpg"
+                ]
+            },
+            "thumbnails": {
+                "dir": "thumbnails",
+                "list": [
+                    "img001.jpg",
+                    "img002.jpg",
+                    "img003.jpg",
+                    "img004.jpg",
+                    "img005.jpg",
+                    "img006.jpg",
+                    "img007.jpg",
+                    "img008.jpg",
+                    "img009.jpg"
+                ]
+            },
+            "icon": "icon.jpg"
+        },
+        "icon": "icon.jpg",
+        "text_block" : "main.html"
+    }
+}

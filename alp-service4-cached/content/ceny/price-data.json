@@ -1,0 +1,196 @@
+{
+  "_file_comment": "",
+  "unit": {
+    "NA"  : "—",
+    "MP"  : "метр погонный",
+    "MK"  : "метр квадратный",
+    "MPK" : "метр кв./погонный",
+    "SH"  : "штука",
+    "MPS" : "метр погонный/шт.",
+    "TN"  : "тонна"
+  },
+  "list": {
+    "PD-germ-perv": {
+      "name": "Первичная герметизация (вилатерм + герметик)",
+      "pricelists" : ["germ"],
+      "service_id": "germ-perv",
+      "unit": "MP",
+      "price_value": "от 80"
+    },
+    "PD-germ-vt": {
+      "name": "Вторичная герметизация швов с ремонтом",
+      "pricelists" : ["germ"],
+      "service_id": "germ-vt",
+      "unit": "MP",
+      "price_value": "от 200"
+    },
+    "PD-germ-falc": {
+      "name": "Герметизация фальцев металлической кровли",
+      "pricelists" : ["germ"],
+      "service_id": "germ-krovli",
+      "unit": "MP",
+      "price_value": "от 100"
+    },
+    "PD-germ-angar" : {
+      "name": "Герметизация ангаров",
+      "pricelists" : ["germ"],
+      "service_id": "germ-krovli",
+      "unit": "MP",
+      "price_value": "от 160"
+    },
+    "PD-germ-vitrazh": {
+      "name": "Герметизация витражей",
+      "pricelists" : ["germ"],
+      "service_id": "germ-krovli",
+      "unit": "MP",
+      "price_value": "от 80"
+    },
+    "PD-germ-kvartira": {
+      "name": "Герметизация квартир",
+      "pricelists" : ["germ"],
+      "service_id": "germ-krovli",
+      "unit": "MP",
+      "price_value": "от 250"
+    },
+    "PD-fasad-otd-pokaska-odin": {
+      "name": "Покраска в один слой",
+      "pricelists" : ["fasad"],
+      "service_id": "fasad-otd-pokraska",
+      "unit": "MK",
+      "price_value": "от 80"
+    },
+    "PD-fasad-otd-pokraska-dva": {
+      "name": "Покраска в два слоя",
+      "pricelists" : ["fasad"],
+      "service_id": "fasad-otd-pokraska",
+      "unit": "MK",
+      "price_value": "от 150"
+    },
+    "PD-krov-naplav-ustroj": {
+      "name": "Устройство наплавляемой кровли",
+      "pricelists" : ["krov"],
+      "service_id": "krov-naplav-ustroj",
+      "unit": "MK",
+      "price_value": "от 110"
+    },
+    "PD-krov-zamena-krov": {
+      "name": "Частичная замена элементов старой кровли",
+      "pricelists" : ["krov"],
+      "service_id": "krov",
+      "unit": "MK",
+      "price_value": "от 800"
+    },
+    "PD-krov-ustr-protechek": {
+      "name": "Устранение протечек",
+      "pricelists" : ["krov"],
+      "service_id": "krov",
+      "unit": "SH",
+      "price_value": "от 1500"
+    },
+    "PD-krov-zamena-metal-krov": {
+      "name": "Замена металлической кровли (без замены стропил)",
+      "pricelists" : ["krov"],
+      "service_id": "krov",
+      "unit": "NA",
+      "price_value": "от 1500"
+    },
+    "PD-krov-zamena-stropil": {
+      "name": "Замена стропил (ремонт стропильной системы)",
+      "pricelists" : ["krov"],
+      "service_id": "krov",
+      "unit": "NA",
+      "price_value": "от 300"
+    },
+    "PD-clean-obesp-pered-pokras": {
+      "name": "Обеспыливание перед покрасочными работами",
+      "pricelists" : ["clean", "clean-obesp"],
+      "service-id": "clean-obesp",
+      "unit": "MK",
+      "price_value": "от 30"
+    },
+    "PD-clean-obesp-prom-object": {
+      "name": "Обеспыливание на промышленных объектах (пищевой промышленности, автомобильной промышленности и др.)",
+      "pricelists" : ["clean", "clean-obesp"],
+      "service-id": "clean-obesp",
+      "unit": "NA",
+      "price_value": "необходим выезд оценщика"
+    },
+    "PD-clean-sneg-plosk": {
+      "name": "Уборка снега с плоских крыш (и крыш с небольшим уклоном)",
+      "pricelists" : ["clean", "clean-sneg"],
+      "service-id": "clean-sneg",
+      "unit": "MK",
+      "price_value": "от 20 до 50"
+    },
+    "PD-clean-sneg-skat-ogr": {
+      "name": "Уборка снега со скатной крыши с ограждением",
+      "pricelists" : ["clean", "clean-sneg"],
+      "service-id": "clean-sneg",
+      "unit": "MK",
+      "price_value": "25"
+    },
+    "PD-clean-sneg-skat-bez-ogr": {
+      "name": "Уборка снега со скатной крыши без ограждения",
+      "pricelists" : ["clean", "clean-sneg"],
+      "service-id": "clean-sneg",
+      "unit": "MK",
+      "price_value": "от 35"
+    },
+    "PD-clean-sneg-zagorod": {
+      "name": "Уборка снега с крыш загородных домов",
+      "pricelists" : ["clean", "clean-sneg"],
+      "service-id": "clean-sneg",
+      "unit": "NA",
+      "price_value": "по запросу"
+    },
+    "PD-clean-sneg-avarijno": {
+      "name": "Срочная уборка снега с крыши на 1-2 метра от края (аварийная очистка)",
+      "pricelists" : ["clean", "clean-sneg"],
+      "service-id": "clean-sneg",
+      "unit": "NA",
+      "price_value": "по запросу"
+    },
+    "PD-clean-sneg-abonent": {
+      "name": "Абонентское обслуживание кровли в течение всего сезона",
+      "pricelists" : ["clean", "clean-sneg"],
+      "service-id": "clean-sneg",
+      "unit": "MK",
+      "price_value": "от 60"
+    },
+    "PD-dop-valka-dereva": {
+      "name": "Валка дерева",
+      "pricelists" : ["dop"],
+      "service-id": "dop",
+      "unit": "SH",
+      "price_value": "от 3000"
+    },
+    "PD-dop-udalenie-dereva-po-chastyam": {
+      "name": "Удаление дерева по частям",
+      "pricelists" : ["dop"],
+      "service-id": "dop",
+      "unit": "SH",
+      "price_value": "от 8000"
+    },
+    "PD-dop-udalenie-dereva-s-zavesh": {
+      "name": "Удаление по частям с их завешиванием и спуском",
+      "pricelists" : ["dop"],
+      "service-id": "dop",
+      "unit": "SH",
+      "price_value": "от 10000"
+    },
+    "PD-dop-podarok-v-okno": {
+      "name": "Подарок в окно",
+      "pricelists" : ["dop"],
+      "service-id": "dop",
+      "unit": "NA",
+      "price_value": "от 5000"
+    },
+    "PD-dop-ded-moroz-v-okno": {
+      "name": "«Дед мороз в окно»",
+      "pricelists" : ["dop"],
+      "service-id": "dop",
+      "unit": "NA",
+      "price_value": "от 5000"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="cena">
+    <fest:include context_name="json" src="./../ceny/block-phone-text.xml" />
+
+    <fest:set name="body_content_main_inner_cena">
+        <h2 style="display:inline;">
+            <fest:value>cena.name</fest:value>
+        </h2>
+
+        <fest:space />
+        <![CDATA[&nbsp;&nbsp;&rarr;&nbsp;&nbsp;]]>
+        <fest:space />
+
+        <a>
+            <fest:attributes>
+                <fest:attribute name="href">
+                    <fest:value>cena.url</fest:value>
+                </fest:attribute>
+                <fest:attribute name="title">
+                    <fest:value>cena.name</fest:value>
+                </fest:attribute>
+            </fest:attributes>
+            <fest:value>cena.name</fest:value>
+        </a>
+        <br />
+
+        <fest:get name="body_content_main_inner_text_phone" />
+    </fest:set>
+</fest:template>

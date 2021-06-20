@@ -1,0 +1,39 @@
+{
+    "_id": "bc-oktava-mojka",
+    "work": {
+        "url": "mojka-fasada-i-ostekleniya-biznes-centr-oktava",
+        "name": "Мойка фасада и остекления",
+        "images": {
+            "fullscreen": {
+                "dir": "fullscreen",
+                "list": [
+                    "img001.jpg",
+                    "img002.jpg",
+                    "img003.jpg",
+                    "img004.jpg",
+                    "img005.jpg",
+                    "img006.jpg",
+                    "img007.jpg",
+                    "img008.jpg",
+                    "img009.jpg"
+                ]
+            },
+            "thumbnails": {
+                "dir": "thumbnails",
+                "list": [
+                    "img001.jpg",
+                    "img002.jpg",
+                    "img003.jpg",
+                    "img004.jpg",
+                    "img005.jpg",
+                    "img006.jpg",
+                    "img007.jpg",
+                    "img008.jpg",
+                    "img009.jpg"
+                ]
+            },
+            "icon": "icon.jpg"
+        },
+        "icon": "icon.jpg"
+    }
+}

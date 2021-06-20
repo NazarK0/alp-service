@@ -1,0 +1,13 @@
+{
+  "blocks" : ["ceny", "experience", "service", "contacts", "partners"],
+  "urls" : [
+    "",
+    "sitemap.xml",
+    "robots.txt",
+    "arch.tar"
+  ],
+  "http404" : "html/error404.html",
+  "http301": {
+    "/vidy-vysotnykh-rabot-i-ceny-na-vysotnye-raboty": "/ceny"
+  }
+}

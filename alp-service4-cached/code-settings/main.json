@@ -1,0 +1,28 @@
+{
+    "_file_comment": "Профили настройки web-сервера с сайтом 'alp-service.ru'",
+    "settings": {
+        "current-profile": "prod"
+    },
+    "profiles": {
+        "prod": {
+            "_comment": "PRODUCTION. 'Боевая' конфигурация.",
+            "server": {
+                "port": 8882
+            },
+            "modes": {
+                "verification": true,
+                "counters": true
+            }
+        },
+        "dev": {
+            "_comment": "DEVELOPERS. Конфигурация для разработчика.",
+            "server": {
+                "port": 8080
+            },
+            "modes": {
+                "verification": false,
+                "counters": false
+            }
+        }
+    }
+}

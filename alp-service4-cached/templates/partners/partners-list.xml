@@ -1,0 +1,33 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+    <fest:include context_name="json" src="./partners-page.xml" />
+
+    <fest:set name="body_content_main_inner">
+        <ul style="list-style-type: none; padding-left:0px; margin-top:0px;">
+            <li style="display: inline; padding-right: 20px; padding-bottom: 10px;">
+
+                <table>
+                    <tr>
+                        <td style="vertical-align: top;">
+                            <a href="/partners/peterburgskaya-nedvizhimost" title="«Петербургская недвижимость» — партнёр компании «Альп Сервис»">
+                                <img src="/images/brands/pn-0.png" height="50px" title="«Петербургская недвижимость» — партнёр компании «Альп Сервис»" alt="«Петербургская недвижимость»" />
+                            </a>
+                        </td>
+                        <td style="padding-left:15px;">
+                            <![CDATA[
+                               На сегодняшний день «Петербургская Недвижимость» является лидером по объему продаж как в строящихся, так и готовых объектах.
+                               Компания выступает в роли брокера и предлагает своим клиентам квартиры в более, чем 190 домах от 40 застройщиков.
+                               <br />
+                               <a href="/partners/peterburgskaya-nedvizhimost" title="«Петербургская недвижимость» — партнёр компании «Альп Сервис»">
+                                   Подробнее о компании
+                               </a>
+                            ]]>
+                        </td>
+                    </tr>
+                </table>
+
+                <!--<a href="/partners/peterburgskaya-nedvizhimost" title="«Петербургская недвижимость» — партнёр компании «Альп Сервис»">«Петербургская недвижимость»</a></li>-->
+            </li>
+        </ul>
+    </fest:set>
+
+</fest:template>

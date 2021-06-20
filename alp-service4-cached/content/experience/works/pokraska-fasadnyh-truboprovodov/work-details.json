@@ -1,0 +1,29 @@
+{
+    "_id": "pokraska-fasadnyh-truboprovodov",
+    "work": {
+        "url": "pokraska-fasadnyh-truboprovodov",
+        "name": "Покраска фасадных трубопроводов",
+        "images": {
+            "fullscreen": {
+                "dir": "fullscreen",
+                "list": [
+                    "img001.jpg",
+                    "img002.jpg",
+                    "img003.jpg",
+                    "img004.jpg"
+                ]
+            },
+            "thumbnails": {
+                "dir": "thumbnails",
+                "list": [
+                    "img001.jpg",
+                    "img002.jpg",
+                    "img003.jpg",
+                    "img004.jpg"
+                ]
+            },
+            "icon": "icon.jpg"
+        },
+        "icon": "icon.jpg"
+    }
+}

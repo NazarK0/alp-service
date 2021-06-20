@@ -1,0 +1,30 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="pricelists">
+    <fest:set name="body_content_main_inner_pricelists_list">
+
+        <ul class="main-text-vertical-list">
+            <fest:for iterate="pricelists" index="i" value="v">
+                <li>
+                    <!-- href="vidy-vysotnykh-rabot-i-ceny-na-vysotnye-raboty.html#germetizaciya" title="Герметизация | Выполнение работ по герметизации в Санкт-Петербурге"> -->
+                    <a>
+                        <fest:attributes>
+                            <fest:attribute name="title">
+                                <fest:value>
+                                    v.title
+                                </fest:value>
+                            </fest:attribute>
+                            <fest:attribute name="href">
+                                <fest:value>
+                                    v.url
+                                </fest:value>
+                            </fest:attribute>
+                        </fest:attributes>
+                        <fest:value>
+                            v.name
+                        </fest:value>
+                    </a>
+                </li>
+            </fest:for>
+        </ul>
+
+    </fest:set>
+</fest:template>

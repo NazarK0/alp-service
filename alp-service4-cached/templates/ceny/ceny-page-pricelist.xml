@@ -1,0 +1,21 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+    <fest:include context_name="json" src="./ceny-page.xml" />
+    <fest:include context="json.pricelistdata" src="./block-pricelist-data.xml" />
+    <fest:include context="json" src="./block-phone-text.xml" />
+
+    <fest:set name="body_content_main_inner">
+        <fest:get name="body_content_main_inner_text" />
+        <fest:get name="body_content_main_inner_pricelist" />
+    </fest:set>
+
+    <fest:set name="body_content_main_inner_text">
+        <fest:get name="body_content_main_inner_text_phone" />
+    </fest:set>
+
+    <fest:set name="body_content_main_inner_pricelist">
+        <br />
+        <fest:get name="body_content_main_inner_pricelist_data" />
+        <br />
+    </fest:set>
+
+</fest:template>

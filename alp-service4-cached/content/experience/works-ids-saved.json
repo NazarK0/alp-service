@@ -1,0 +1,23 @@
+{
+  "_file_comment" : "Идентификаторы всех предлагаемых на сайте работ в разделе 'Опыт работ'.",
+  "_version" : "??",
+  "_fixed_by" : "pageGenerator/experience/compile-works-urls.js",
+  "list" : {
+    "trk-nevsky-polikarb" : {
+      "customer" : "trk-nevsky",
+      "categories" : ["krov", "mont"]
+    },
+    "oao-gazprom-remont" : {
+      "customer" : "oao-gazprom",
+      "categories" : ["krov", "fasad"]
+    },
+    "zhelyabova-zamena-truby" : {
+      "customer" : "pushechnaya-na-zhelyabova",
+      "categories" : ["mont", "demont", "fasad", "fasad-otd", "fasad-otd-pokraska"]
+    },
+    "transneft-vyveska" : {
+      "customer" : "transneft",
+      "categories" : ["mont"]
+    }
+  }
+}

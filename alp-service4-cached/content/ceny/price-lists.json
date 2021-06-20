@@ -1,0 +1,78 @@
+{
+  "_file_comment" : "Идентификаторам некоторых предлагаемых на сайте услуг сопоставляются соответствующие URL страниц с ценами.",
+  "list" : {
+    "root" : {
+      "price_name"      : "Цены на все виды высотных работ",
+      "price_name_ceny" : "Цены на все виды высотных работ",
+      "price_title"     : "Виды высотных работ и цены на высотные работы",
+      "price_url"       : "",
+      "old_price_url"       : "vidy-vysotnykh-rabot-i-ceny-na-vysotnye-raboty"
+    },
+    "krov" : {
+      "price_name"      : "Стоимость кровельных работ",
+      "price_name_ceny" : "Цены на кровельные работы",
+      "price_title"     : "Стоимость кровельных работ. Цены на кровельные работы. Ремонт кровли цена",
+      "price_url"       : "krovelnye-raboty-cena-i-stoimost-remonta-krovli-price"
+    },
+    "fasad" : {
+      "price_name"      : "Стоимость фасадных работ",
+      "price_name_ceny" : "Цены на фасадные работы",
+      "price_title"     : "Стоимость фасадных работ. Цены на фасадные работы. Ремонт фасада цена",
+      "price_url"       : "fasadnye-raboty-cena-i-stoimost-remonta-fasada-price"
+    },
+    "germ" : {
+      "price_name"      : "Стоимость работ по герметизации",
+      "price_name_ceny" : "Цены на герметизацию межпанельных швов",
+      "price_title"     : "Стоимость герметизации межпанельных стыков и швов. Герметизация швов цена",
+      "price_url"       : "germetizaciya-cena-i-stoimost-rabot-po-germetizacii-shvov-price"
+    },
+    "mont" : {
+      "price_name"      : "Стоимость монтажных работ",
+      "price_name_ceny" : "Цены на монтажные работы",
+      "price_title"     : "Стоимость монтажных работ. Цены на монтажные работы. Монтаж цена",
+      "price_url"       : "montazhnye-raboty-cena-i-stoimost-montaznyh-rabot-price"
+    },
+    "demont" : {
+      "price_name"      : "Стоимость демонтажных работ",
+      "price_name_ceny" : "Цены на демонтажные работы",
+      "price_title"     : "Стоимость демонтажных работ. Цены на демонтажные работы. Демонтаж цена",
+      "price_url"       : "demontazhnye-raboty-cena-i-stoimost-demontazhyh-rabot-price"
+    },
+    "dop" : {
+      "price_name"      : "Стоимость дополнительных работ",
+      "price_name_ceny" : "Цены на дополнительные работы",
+      "price_title"     : "Стоимость дополнительных работ. Цены на дополнительные работы. Дополнительные работы цена",
+      "price_url"       : "dopolnitelnye-raboty-cena-i-stoimost-dopolnitelnyh-rabot-price"
+    },
+    "clean" : {
+      "price_name"      : "Цены на высотный клининг",
+      "price_name_ceny" : "Цены на высотный клининг",
+      "price_title"     : "Цены на высотный клининг. Стоимость работ по высотному клинингу. Высотный клининг цена",
+      "price_url"       : "vysotnyj-klining-cena-i-stoimost-rabot-po-vysotnomy-kliningu-price"
+    },
+    "clean-sneg" : {
+      "price_name"      : "Стоимость работ по уборке снега и наледи",
+      "price_name_ceny" : "Цены на уборку снега и наледи с крыш",
+      "price_title"     : "Стоимость работ по уборка снега и наледи с крыш. Стоимость очистки крыш от снега и наледи. Цены на уборку снега с крыш. Уборка снега цена",
+      "price_url"       : "uborka-snega-s-krysh-cena-i-stoimost-ochistki-krysh-ot-snega-i-naledi-price"
+    },
+    "clean-mojka" : {
+      "price_name"      : "Стоимость мойки окон и фасада",
+      "price_name_ceny" : "Цены на мойку окон и фасада",
+      "price_title"     : "Стоимость мойки окон. Цены на помывку фасада. Мытьё фасадного остекления цена",
+      "price_url"       : "mojka-okon-cena-i-stoimost-mojki-fasada-i-fasadnogo-ostekleniya-price"
+    },
+    "clean-obesp" : {
+      "price_name"      : "Стоимость работ по обеспыливанию",
+      "price_name_ceny" : "Цены на обеспыливание конструкций",
+      "price_title"     : "Стоимость работ по обеспыливанию. Цены на обеспыливание металлоконструкций. Обеспыливание цена",
+      "price_url"       : "obespylivanie-cena-i-obespylivanie-metallokonstrukcij-stoimost-rabot-price"
+    },
+    "clean-posle" : {
+      "price_name"      : "Стоимость послестроительной очистки",
+      "price_name_ceny" : "Цены на послестроительную очистку",
+      "price_title"     : "Стоимость послестроительной очистки. Цены на послестроительную очистку. Очистка после стройки цена",
+      "price_url"       : "poslestroitelnaya-ochistka-stoimost-ceny-na-ochistku-posle-remonta-price"
+    }
+  }
+}

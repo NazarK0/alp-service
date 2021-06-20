@@ -1,0 +1,53 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+    <fest:include context_name="json" src="./experience-page-category.xml" />
+    <fest:include context="json.page.newworks" src="./block-works-table-new.xml" />
+    <fest:include context="json.page.works" src="./block-works-table-examples.xml" />
+
+    <fest:set name="body_content_main_inner_customers">
+        <h2>
+            Наши заказчики
+        </h2>
+        <ul id="customers" style="padding-bottom: 15px;">
+            <fest:for iterate="json.page.customers" index="i" value="v">
+                <li>
+                    <a>
+                        <fest:attributes>
+                            <fest:attribute name="title">
+                                <fest:value>
+                                    v.description
+                                </fest:value>
+                            </fest:attribute>
+                        </fest:attributes>
+                        <fest:value>
+                            v.name
+                        </fest:value>
+                    </a>
+                    <fest:space />
+                </li>
+                <fest:space />
+            </fest:for>
+        </ul>
+    </fest:set>
+
+    <fest:set name="body_content_main_inner">
+        <fest:get name="body_content_main_inner_customers" />
+        <fest:get name="body_content_main_inner_categories" />
+        <fest:get name="body_content_main_inner_newworks" />
+        <fest:get name="body_content_main_inner_works" />
+    </fest:set>
+
+    <fest:set name="body_content_main_inner_newworks">
+        <h2 style="margin-top: 20px;">
+            Новые работы
+        </h2>
+        <fest:get name="body_content_main_inner_works_table_new" />
+    </fest:set>
+
+    <fest:set name="body_content_main_inner_works">
+        <h2 style="margin-top: 20px;">
+            Примеры выполненных работ
+        </h2>
+        <fest:get name="body_content_main_inner_works_table_examples" />
+    </fest:set>
+
+</fest:template>

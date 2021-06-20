@@ -1,0 +1,76 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+ 	<fest:include context_name="json" src="./page.xml" />
+ 	<fest:include context_name="json" src="./navm.xml" />
+	<fest:include context_name="json" src="./brands.xml" />
+
+ 	<fest:set name="in_head_title">
+ 		<title><fest:value>json.page.title</fest:value></title>
+ 	</fest:set>
+
+ 	<fest:set name="in_head_description">
+ 		<meta name="description">
+			<fest:attributes>
+				<fest:attribute name="content">
+					<fest:value>json.page.description</fest:value>
+				</fest:attribute>
+			</fest:attributes>
+ 		</meta>
+ 	</fest:set>
+
+ 	<fest:set name="in_head_keywords">
+ 		<meta name="keywords">
+			<fest:attributes>
+				<fest:attribute name="content">
+					<fest:value>json.page.keywords</fest:value>
+				</fest:attribute>
+			</fest:attributes>
+ 		</meta>
+ 	</fest:set>
+
+	<fest:set name="in_body_main">
+	
+			
+
+		<div class="main" style="margin-top: 1px;">
+			<div class="main-text">
+			
+				<div class="body-nav-tab">
+					<ul>
+						<li><a href="/">Главная</a><fest:space />/</li>
+						<li><a class="simple" href="">Наши партнёры</a></li>
+					</ul>
+				</div>
+
+				<a name="{json.h1.tagname}" title="{json.h1.title}">
+					<h1 title="{json.h1.title}">
+						<fest:value>json.h1.title</fest:value>
+					</h1>
+				</a>
+
+				<ul style="list-style-type: none;" style="padding-left:0px; margin-top:0px;">
+					<li style="display: inline; padding-right: 20px; padding-bottom: 10px;">
+					
+						<table>
+							<tr>
+								<td style="vertical-align: top;">
+									<a href="/partners/peterburgskaya-nedvizhimost" title="«Петербургская недвижимость» — партнёр компании «Альп Сервис»">
+										<img src="/images/partners/peterburgskaya-nedvizhimost-logo-300px.png" height="50px" title="«Петербургская недвижимость» — партнёр компании «Альп Сервис»" alt="«Петербургская недвижимость»" />
+									</a>
+								</td>
+								<td style="padding-left:15px;">
+									На сегодняшний день «Петербургская Недвижимость» является лидером по объему продаж как в строящихся, так и готовых объектах. Компания выступает в роли брокера и предлагает своим клиентам квартиры в более, чем 190 домах от 40 застройщиков.
+									<br />
+									<a href="/partners/peterburgskaya-nedvizhimost" title="«Петербургская недвижимость» — партнёр компании «Альп Сервис»">Подробнее о компании</a>
+								</td>
+							</tr>
+						</table>
+					
+					<!--<a href="/partners/peterburgskaya-nedvizhimost" title="«Петербургская недвижимость» — партнёр компании «Альп Сервис»">«Петербургская недвижимость»</a></li>-->
+				</li>
+				</ul>
+
+				<br />
+			</div>
+		</div>
+	</fest:set>
+</fest:template>

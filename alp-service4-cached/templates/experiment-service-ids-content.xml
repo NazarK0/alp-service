@@ -1,0 +1,90 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+    <fest:include context_name="json" src="./light-page.xml" />
+
+    <fest:set name="body_content_main">
+        <div class="main" style="margin-top: 1px;">
+            <div class="main-text">
+                <h1>
+                    <fest:value>json.page.h1</fest:value>
+                </h1>
+
+                <br />
+                <style>
+                    table.spec-t {
+                        width: 100%;
+                        border: 1px solid lightgray;
+                    }
+                    table.spec-t thead tr {
+                        text-align: center;
+                        font-weight: bold;
+                        background: #DDD;
+                    }
+                    table.spec-t td {
+                        border: 1px solid lightgray;
+                    }
+                </style>
+                <table class="spec-t" cellspacing="0" cellpadding="3">
+                    <thead>
+                        <tr>
+                            <td>№</td>
+                            <td>Num</td>
+                            <td>State</td>
+                            <td>Name</td>
+                            <td>Short name</td>
+                            <td>ID</td>
+                            <td>URL</td>
+                            <td>Icon</td>
+                            <td>Big Img</td>
+                            <td>Main Service List</td>
+                            <td>Display</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <fest:for iterate="json.mass" index="i" value="v">
+                            <tr>
+                                <td style="text-align: center; min-width: 40px;">
+                                    <fest:value>i+1</fest:value>
+                                </td>
+                                <td>
+                                    <fest:value>v.num</fest:value>
+                                </td>
+                                <td>
+                                    <fest:value>v.state</fest:value>
+                                </td>
+                                <td>
+                                    <span style="color:lightgray;">
+                                        <fest:value>v.tab</fest:value>
+                                    </span>
+                                    <fest:value>v.name</fest:value>
+                                </td>
+                                <td>
+                                    <fest:value>v.short_name</fest:value>
+                                </td>
+                                <td>
+                                    <fest:value>v.id</fest:value>
+                                </td>
+                                <td>
+                                    <fest:value>v.url</fest:value>
+                                </td>
+                                <td style="text-align: center;">
+                                    <fest:value>v.icon</fest:value>
+                                </td>
+                                <td style="text-align: center;">
+                                    <fest:value>v.image</fest:value>
+                                </td>
+                                <td>
+
+                                </td>
+                                <td>
+                                    <fest:value>v.display</fest:value>
+                                </td>
+                            </tr>
+                        </fest:for>
+                    </tbody>
+                </table>
+
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            </div>
+        </div>
+    </fest:set>
+</fest:template>

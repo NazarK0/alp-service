@@ -1,0 +1,41 @@
+{
+    "_id": "ifz-remont-fasada",
+    "work": {
+        "url": "remont-fasada-zdaniya-imperatorskogo-farforovogo-zavoda",
+        "name": "Ремонт фасада здания (Императорский фарфоровый завод)",
+        "images": {
+            "fullscreen": {
+                "dir": "fullscreen",
+                "list": [
+                    "img001.jpg",
+                    "img002.jpg",
+                    "img003.jpg",
+                    "img004.jpg",
+                    "img005.jpg",
+                    "img006.jpg",
+                    "img007.jpg",
+                    "img008.jpg",
+                    "img009.jpg",
+                    "img010.jpg"
+                ]
+            },
+            "thumbnails": {
+                "dir": "thumbnails",
+                "list": [
+                    "img001.jpg",
+                    "img002.jpg",
+                    "img003.jpg",
+                    "img004.jpg",
+                    "img005.jpg",
+                    "img006.jpg",
+                    "img007.jpg",
+                    "img008.jpg",
+                    "img009.jpg",
+                    "img010.jpg"
+                ]
+            },
+            "icon": "icon.jpg"
+        },
+        "icon": "icon.jpg"
+    }
+}

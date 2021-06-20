@@ -1,0 +1,52 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="blocks">
+
+    <fest:set name="body_content_main_inner_categories_blocks">
+        <div id="categories">
+            <fest:for iterate="blocks" index="j" value="w">
+                <div class="block">
+
+                    <div style="padding-right: 20px; width: 150px; margin-bottom: 5px;">
+
+                        <fest:value>
+                            w.category
+                        </fest:value>
+                        :
+
+                    </div>
+
+                    <ul style="padding-bottom: 5px;">
+                        <fest:for iterate="w.children" index="i" value="v">
+                            <li>
+                                <nobr>
+                                <a>
+                                    <fest:attributes>
+                                        <fest:attribute name="href">
+                                            <fest:value>
+                                                v.url
+                                            </fest:value>
+                                        </fest:attribute>
+                                        <fest:attribute name="title">
+                                            <fest:value>
+                                                v.title
+                                            </fest:value>
+                                        </fest:attribute>
+                                        <fest:attribute name="class">
+                                            <fest:value>
+                                                v.class
+                                            </fest:value>
+                                        </fest:attribute>
+                                    </fest:attributes>
+                                    <fest:value>
+                                        v.name
+                                    </fest:value>
+                                </a>
+                                </nobr>
+                                <fest:space />
+                            </li>
+                        </fest:for>
+                    </ul>
+                </div>
+            </fest:for>
+        </div>
+    </fest:set>
+</fest:template>

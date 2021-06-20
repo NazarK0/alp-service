@@ -1,0 +1,35 @@
+{
+    "_id": "zhiloj-dom-germ",
+    "work": {
+        "url": "germetizaciya-mezhpanelnyh-shvov-zhilogo-doma",
+        "name": "Герметизация межпанельных швов жилого дома",
+        "images": {
+            "fullscreen": {
+                "dir": "fullscreen",
+                "list": [
+                    "img001.jpg",
+                    "img002.jpg",
+                    "img003.jpg",
+                    "img004.jpg",
+                    "img005.jpg",
+                    "img006.jpg",
+                    "img007.jpg"
+                ]
+            },
+            "thumbnails": {
+                "dir": "thumbnails",
+                "list": [
+                    "img001.jpg",
+                    "img002.jpg",
+                    "img003.jpg",
+                    "img004.jpg",
+                    "img005.jpg",
+                    "img006.jpg",
+                    "img007.jpg"
+                ]
+            },
+            "icon": "icon.jpg"
+        },
+        "icon": "icon.jpg"
+    }
+}

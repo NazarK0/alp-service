@@ -1,0 +1,83 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+    <fest:include context_name="json" src="./base.xml" />
+    <fest:include context_name="json" src="./counters.xml" />
+
+    <fest:set name="verifications" test="json.modes.verification">
+        <fest:if test="json.modes.verification">
+            <meta name='yandex-verification' content='55b40f367cd80bde' />
+        </fest:if>
+
+    </fest:set>
+
+    <fest:set name="header_content">
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <fest:get name="header_content_styles" />
+        <title>
+            <fest:value>json.page.title</fest:value>
+        </title>
+        <meta name="description">
+            <fest:attributes>
+                <fest:attribute name="content">
+                    <fest:value>json.page.description</fest:value>
+                </fest:attribute>
+            </fest:attributes>
+        </meta>
+        <meta name="keywords">
+            <fest:attributes>
+                <fest:attribute name="content">
+                    <fest:value>json.page.keywords</fest:value>
+                </fest:attribute>
+            </fest:attributes>
+        </meta>
+    </fest:set>
+
+    <fest:set name="header_content_styles">
+        <link rel="stylesheet" href="/styles/main.css" />
+        <link rel="stylesheet" href="/styles/light-main.css" />
+        <link href="/styles/fonts-googleapis-com-css.css" rel="stylesheet" type="text/css" />
+        <fest:get name="header_content_styles_addition" />
+    </fest:set>
+
+
+
+
+    <fest:set name="body_content">
+        <fest:get name="body_content_header" />
+        <fest:get name="body_content_main" />
+        <fest:get name="body_content_footer" />
+
+        <fest:get name="body_content_script" />
+        <fest:get name="body_content_bottom" />
+        <fest:get name="body_content_counters" />
+    </fest:set>
+
+    <fest:set name="body_content_header">
+        BODY_CONTENT_HEADER
+    </fest:set>
+
+    <fest:set name="body_content_footer">
+        <footer>
+            <div class="footer">
+                <div style="margin: 10px; font-size:0.8em; color: gray;">
+
+                    FOOTER
+
+                </div>
+            </div>
+        </footer>
+    </fest:set>
+
+    <fest:set name="body_content_bottom">
+        <![CDATA[
+			<!-- <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">-->
+			<link href="/styles/fonts-googleapis-com-css.css" rel="stylesheet" type="text/css">
+		]]>
+    </fest:set>
+
+    <fest:set name="body_content_counters">
+        <fest:if test="json.modes.counters">
+            <fest:get name="counters" />
+        </fest:if>
+    </fest:set>
+
+</fest:template>

@@ -1,0 +1,27 @@
+{
+    "_id": "russkij-standart-mojka",
+    "work": {
+        "url": "moyka-ostekleniya-zavoda-russkij-standart",
+        "name": "Мойка остекления (Завод «Русский стандарт»)",
+        "images": {
+            "fullscreen": {
+                "dir": "fullscreen",
+                "list": [
+                    "img001.jpg",
+                    "img002.jpg",
+                    "img003.jpg"
+                ]
+            },
+            "thumbnails": {
+                "dir": "thumbnails",
+                "list": [
+                    "img001.jpg",
+                    "img002.jpg",
+                    "img003.jpg"
+                ]
+            },
+            "icon": "icon.jpg"
+        },
+        "icon": "icon.jpg"
+    }
+}

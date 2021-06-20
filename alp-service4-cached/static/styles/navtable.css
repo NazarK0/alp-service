@@ -1,0 +1,90 @@
+
+/* div.navm {
+	margin-top: 20px;
+
+	width: 100%;
+} */
+
+.main-navigation-menu {
+	padding: 5px;
+	background: rgba(220, 220, 220, 0.2);
+	border-radius: 9px;
+	border: 0px;
+	margin: 20px 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.main-navigation-menu .navigation-list {
+	display: flex;
+	flex-wrap: wrap;
+	width: 1100px;
+
+}
+
+
+.main-navigation-menu .navigation-item {
+	border: 0px;
+}
+
+.main-navigation-menu .tab {
+	margin: 5px;
+	width: 350px;
+	border: 0px solid gray;
+	height: 230x;
+}
+
+.main-navigation-menu .navigation-item:hover .tab {
+	margin: 5px;
+	border: 0px solid #444;
+	/*box-shadow: 1px 1px 30px #03769c;*/
+	/*box-shadow: 1px 1px 30px #444;*/
+	height: 150px;
+
+
+}
+
+.main-navigation-menu #tab-germetizaciya 			{ background: url('/images/navtable/tab-germetizaciya.jpg') no-repeat; background-position: 0px -40px;				}
+.main-navigation-menu #tab-krovelnye-raboty			{ background: url('/images/navtable/tab-krovelnye-raboty.jpg') no-repeat; background-position: 0px -30px;			}
+.main-navigation-menu #tab-uborka-snega 			{ background: url('/images/navtable/tab-uborka-snega.jpg') no-repeat;												}
+.main-navigation-menu #tab-fasadnye-raboty 			{ background: url('/images/navtable/tab-fasadnye-raboty.jpg') no-repeat; background-position: 0px -25px;			}
+.main-navigation-menu #tab-obespylivanie 			{ background: url('/images/navtable/tab-obespylivanie.jpg') no-repeat;												}
+.main-navigation-menu #tab-mojka-okon-i-fasadov		{ background: url('/images/navtable/tab-mojka-okon-i-fasadov.jpg') no-repeat; background-position: 0px -0px; }
+.main-navigation-menu #tab-montazhnye-raboty		{ background: url('/images/navtable/tab-montazhnye-raboty.jpg') no-repeat; background-position: 0px 0px; 			}
+.main-navigation-menu #tab-demontazhnye-raboty 		{ background: url('/images/navtable/tab-demontazhnye-raboty.jpg') no-repeat; background-position: 0px 0px; 			}
+.main-navigation-menu #tab-dopolnitelnye-raboty		{ background: url('/images/navtable/tab-dopolnitelnye-raboty.jpg') no-repeat; background-position: 0px 0px; 		}
+
+.main-navigation-menu .tab-frame {
+	height: 150px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+	text-align: center;
+	font-size: 1.0em;
+	color: #eee;
+}
+
+.main-navigation-menu .navigation-item:hover .tab-frame {
+	height: 150px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.0);
+	text-align: center;
+	font-size: 1.0em;
+	color: #eee;
+}
+
+.main-navigation-menu .tab-frame .tab-frame-title {
+	vertical-align: middle;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 3px;
+	color: #eee;
+}
+
+.main-navigation-menu .navigation-item:hover .tab-frame .tab-frame-title {
+	vertical-align: middle;
+	background-color: rgba(0, 0, 0, 0.9);
+	padding: 3px;
+	color: #00ade6;
+}
+
+

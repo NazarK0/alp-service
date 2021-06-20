@@ -1,0 +1,235 @@
+{
+    "_file_comment": "Идентификаторы всех предлагаемых на сайте работ в разделе 'Опыт работ'.",
+    "_version": "??",
+    "_fixed_by": "pageGenerator/experience/compile-works-urls.js",
+    "default_recommended" : ["trk-nevsky-polikarb", "bc-alia-tempora-mojka", "transneft-vyveska", "zhelyabova-zamena-truby"],
+    "list": {
+        "trk-nevsky-polikarb": {
+            "customer": "trk-nevsky",
+            "categories": [
+                "krov",
+                "mont",
+                "demont",
+                "krov-polikarb"
+            ]
+        },
+        "oao-gazprom-remont": {
+            "customer": "oao-gazprom",
+            "categories": [
+                "krov",
+                "krov-zh",
+                "fasad",
+                "fasad-remont",
+                "fasad-remont-kapital",
+                "fasad-otd",
+                "fasad-otd-pokraska"
+            ]
+        },
+        "zhelyabova-zamena-truby": {
+            "customer": "pushechnaya-na-zhelyabova",
+            "categories": [
+                "mont",
+                "demont",
+                "fasad",
+                "fasad-otd",
+                "fasad-otd-pokraska"
+            ]
+        },
+        "transneft-vyveska": {
+            "customer": "transneft",
+            "categories": [
+                "mont"
+            ]
+        },
+        "aeroplaza-mojka": {
+            "customer": "aeroplaza",
+            "categories": [
+                "clean",
+                "clean-mojka",
+                "fasad"
+            ]
+        },
+        "mariinsky-uborka-snega": {
+            "customer": "mariinsky",
+            "categories": [
+                "krov",
+                "clean-sneg"
+            ]
+        },
+        "mendeleevskaya-germ": {
+            "customer": "na",
+            "categories": [
+                "fasad",
+                "germ",
+                "germ-shov"
+            ]
+        },
+        "otechestv-germ": {
+            "customer": "na",
+            "categories": [
+                "fasad",
+                "germ",
+                "germ-shov"
+            ]
+        },
+        "zhiloj-dom-germ": {
+            "customer": "na",
+            "categories": [
+                "fasad",
+                "germ",
+                "germ-shov"
+            ]
+        },
+        "nevsky-152-mojka": {
+            "customer": "tszh-nevsky-152",
+            "categories": [
+                "fasad",
+                "clean",
+                "clean-mojka"
+            ]
+        },
+        "bc-oktava-mojka": {
+            "customer": "bc-oktava",
+            "categories": [
+                "fasad",
+                "clean",
+                "clean-mojka"
+            ]
+        },
+        "mariinsky-mojka": {
+            "customer": "mariinsky",
+            "categories": [
+                "clean",
+                "clean-mojka",
+                "fasad"
+            ]
+        },
+        "montazh-vodostochnyh-trub": {
+            "customer": "na",
+            "categories": [
+                "fasad",
+                "mont",
+                "mont-vodostok"
+            ]
+        },
+        "bc-alia-tempora-mojka": {
+            "customer": "bc-alia-tempora",
+            "categories": [
+                "fasad",
+                "clean",
+                "clean-mojka",
+                "clean-mojka-osteklfasad"
+            ]
+        },
+        "russkij-standart-mojka": {
+            "customer": "russkij-standart",
+            "categories": [
+                "fasad",
+                "clean",
+                "clean-mojka",
+                "clean-mojka-osteklfasad"
+            ]
+        },
+        "trc-mega-obesp": {
+            "customer": "trc-mega",
+            "categories": [
+                "clean",
+                "clean-obesp",
+                "clean-obesp-torg"
+            ]
+        },
+        "prom-obesp": {
+            "customer": "na",
+            "categories": [
+                "clean-obesp",
+                "clean-obesp-prom"
+            ]
+        },
+        "zavod-plenki-obesp": {
+            "customer": "na",
+            "categories": [
+                "clean-obesp",
+                "clean-obesp-prom",
+                "clean-obesp-prom-eda"
+            ]
+        },
+        "trk-evropolis-obesp": {
+            "customer": "evropolis",
+            "categories": [
+                "clean-obesp",
+                "clean-obesp-torg"
+            ]
+        },
+        "pokraska-fasadnyh-truboprovodov": {
+            "customer": "na",
+            "categories": [
+                "fasad",
+                "fasad-otd-pokraska"
+            ]
+        },
+        "bc-sinop-chistka": {
+            "customer": "bc-sinop",
+            "categories": [
+                "clean",
+                "clean-posle",
+                "clean-posle-chistka",
+                "clean-posle-lift"
+            ]
+        },
+        "remont-fasada-zdaniya": {
+            "customer": "na",
+            "categories": [
+                "fasad",
+                "fasad-remont",
+                "fasad-remont-kapital"
+            ]
+        },
+        "ifz-remont-fasada": {
+            "customer": "ifz",
+            "categories": [
+                "fasad",
+                "fasad-otd-pokraska"
+            ]
+        },
+        "furshtadskaya-60-remont-fasada": {
+            "customer": "na",
+            "categories": [
+                "fasad",
+                "fasad-remont",
+                "fasad-remont-kapital",
+                "fasad-otd",
+                "fasad-otd-pokraska"
+            ]
+        },
+        "uborka-snega-s-kryshy-zagorodnogo-doma": {
+            "customer": "na",
+            "categories": [
+                "krov",
+                "clean",
+                "clean-sneg"
+            ]
+        },
+        "valka-derevyev-na-zagorodnom-uchastke": {
+            "customer": "na",
+            "categories": [
+                "demont",
+                "dop",
+                "dop-valka"
+            ]
+        },
+        "vysotnyj-demontazh-steny-v-avarijnom-sostoyanii": {
+            "customer": "na",
+            "categories": [
+                "demont",
+                "demont-kirp"
+            ]
+        },
+        "sklad-naplav-krov": {
+            "customer": "na",
+            "categories": [
+                "krov",
+                "krov-naplav"
+            ]
+        }
+    }
+}

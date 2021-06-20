@@ -1,0 +1,28 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="vidyrabot">
+    <fest:set name="body_content_main_inner_vidyrabot_list">
+        <ul style="margin: 0px; padding: 0px;">
+            <fest:for iterate="vidyrabot" index="i" value="v">
+                <li style="display: inline; margin: 0px; padding-right: 15px;">
+                    <a>
+                        <fest:attributes>
+                            <fest:attribute name="href">
+                                <fest:value>
+                                    v.url
+                                </fest:value>
+                            </fest:attribute>
+                            <fest:attribute name="title">
+                                <fest:value>
+                                    v.name
+                                </fest:value>
+                            </fest:attribute>
+                        </fest:attributes>
+                        <fest:value>
+                            v.name
+                        </fest:value>
+                    </a>
+
+                </li>
+            </fest:for>
+        </ul>
+    </fest:set>
+</fest:template>

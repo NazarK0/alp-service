@@ -1,0 +1,18 @@
+{
+    "_file_comment": "",
+    "_fixed_by": "",
+    "list": {
+        "": "root",
+        "krovelnye-raboty-cena-i-stoimost-remonta-krovli-price": "krov",
+        "fasadnye-raboty-cena-i-stoimost-remonta-fasada-price": "fasad",
+        "germetizaciya-cena-i-stoimost-rabot-po-germetizacii-shvov-price": "germ",
+        "montazhnye-raboty-cena-i-stoimost-montaznyh-rabot-price": "mont",
+        "demontazhnye-raboty-cena-i-stoimost-demontazhyh-rabot-price": "demont",
+        "dopolnitelnye-raboty-cena-i-stoimost-dopolnitelnyh-rabot-price": "dop",
+        "vysotnyj-klining-cena-i-stoimost-rabot-po-vysotnomy-kliningu-price": "clean",
+        "uborka-snega-s-krysh-cena-i-stoimost-ochistki-krysh-ot-snega-i-naledi-price": "clean-sneg",
+        "mojka-okon-cena-i-stoimost-mojki-fasada-i-fasadnogo-ostekleniya-price": "clean-mojka",
+        "obespylivanie-cena-i-obespylivanie-metallokonstrukcij-stoimost-rabot-price": "clean-obesp",
+        "poslestroitelnaya-ochistka-stoimost-ceny-na-ochistku-posle-remonta-price": "clean-posle"
+    }
+}

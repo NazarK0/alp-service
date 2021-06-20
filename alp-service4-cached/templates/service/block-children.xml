@@ -1,0 +1,26 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="elements">
+    <fest:set name="body_content_main_inner_children">
+        <ul id="customers" style="padding-bottom: 15px;">
+            <fest:for iterate="elements" index="i" value="v">
+                <li>
+                    <nobr>
+                    <a>
+                        <fest:attributes>
+                            <fest:attribute name="title">
+                                <fest:value>
+                                    v.description
+                                </fest:value>
+                            </fest:attribute>
+                        </fest:attributes>
+                        <fest:value>
+                            v.name
+                        </fest:value>
+                    </a>
+                    </nobr>
+                    <fest:space />
+                </li>
+                <fest:space />
+            </fest:for>
+        </ul>
+    </fest:set>
+</fest:template>

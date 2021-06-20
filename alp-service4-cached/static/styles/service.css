@@ -1,0 +1,139 @@
+div.serv {
+	background: #ddd;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+ul.serv {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 10px;
+	margin-bottom: 24px;
+}
+
+ul.serv h2 {
+	padding-left: 10px;
+}
+
+div.serv h2 {
+	display:inline;
+}
+
+ul.serv li {
+	padding: 0px;
+	margin: 0px;
+}
+
+ul.serv li a {
+	text-decoration: none;
+}
+
+ul.serv li a:hover {
+	text-decoration: underline;	
+}
+
+div.serv h2 a {
+	text-decoration: none;
+}
+
+div.serv h2 a:hover {
+	text-decoration: underline;
+}
+
+ul.serv li ul {
+	list-style-type: none;
+	margin-bottom: 10px;
+	padding-left: 15px;
+}
+
+div.main-text ul.main-text-vertical-list {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 15px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+
+
+a.simple {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+table.pricetable {
+	width: 100%;
+	border-spacing: 0px;
+	border-collapse: separate;
+}
+
+table.pricetable tbody tr td.pt_title {
+	text-align: left;
+	padding-left: 10px;
+	font-weight: bold;
+	background: #DDD;
+}
+
+table.pricetable tbody tr td.pt_name {
+	text-align: left;
+	padding-left: 10px;
+}
+
+table.pricetable tbody tr td.pt_def {
+	width: 25%;
+}
+
+table.pricetable tbody tr td.pt_val {
+	width: 15%;
+	text-align: right;
+	padding-right: 10px;
+	font-weight: bold;
+}
+
+table.tables {
+	border: 1px solid #DDD;
+	width: 100%;
+}
+
+
+table.tables thead {
+	font-size: 0.9em;
+	font-weight: normal;
+	font-style: italic;
+	background: #DDD;
+}
+
+table.tables tr {
+	height: 18;
+}
+
+table.tables td {
+	border: 1px solid #DDD;	
+	text-align: center;
+	vertical-align: middle;
+}
+
+table.tables td.left {
+	text-align: left;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+table.tables td.bold {
+	font-weight: bold;
+}
+
+table.tables td.first_column {
+	width: 63%;
+}
+
+table.tables td.third_column {
+	width: 20%
+}
+
+h2.pricetable {
+	font-size: 25px;
+}
