@@ -1,45 +1,45 @@
 <fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
 	<fest:set name="body_content_main_navtable">
-		<div class="navm">
-			<table class="navm" width="100%" border="" cellspacing="0" cellpadding="0">
-				<tbody>
-					<fest:for iterate="json.navtable" index="i" value="v">
-						<tr>
+		<nav class="navigation-menu main-navigation-menu">
+			<ul class="navigation-list">
+				<fest:for iterate="json.navtable" index="i" value="v">
 
-							<fest:each iterate="v" index="j" value="w">
-								<td>
-									<a style="text-decoration: none;">
-										<fest:attributes>
-											<fest:attribute name="href">
-												<fest:value>w.url</fest:value>
-											</fest:attribute>
-											<fest:attribute name="title">
-												<fest:value>w.title</fest:value>
-											</fest:attribute>
-										</fest:attributes>
 
-										<div class="tab">
-											<fest:attributes>
-												<fest:attribute name="id">
-													<fest:value>j</fest:value>	<!--	 id="tab-krovelnye-raboty" -->
-												</fest:attribute>
-											</fest:attributes>
+					<fest:each iterate="v" index="j" value="w">
+						<li>
+							<a style="text-decoration: none;">
+								<fest:attributes>
+									<fest:attribute name="href">
+										<fest:value>w.url</fest:value>
+									</fest:attribute>
+									<fest:attribute name="title">
+										<fest:value>w.title</fest:value>
+									</fest:attribute>
+								</fest:attributes>
 
-											<div class="tab-frame">
-												<div class="tab-frame-title">
-													<fest:value>w.name</fest:value>
-												</div>
-											</div>
+								<div class="tab">
+									<fest:attributes>
+										<fest:attribute name="id">
+											<fest:value>j</fest:value>											<!-- id="tab-krovelnye-raboty" -->
+										</fest:attribute>
+									</fest:attributes>
+
+									<div class="tab-frame">
+										<div class="tab-frame-title">
+											<fest:value>w.name</fest:value>
 										</div>
-									</a>
-								</td>
-							</fest:each>
+									</div>
+								</div>
+							</a>
+						</li>
+					</fest:each>
 
-						</tr>
-					</fest:for>
+
+				</fest:for>
+			</ul>
 
 
-<!--
+			<!--
 							<td>
 								<a style="text-decoration: none;">
 									<fest:attributes>
@@ -56,7 +56,7 @@
 											<fest:attribute name="id">
 												<fest:value>v.id</fest:value>
 
-											//	 id="tab-krovelnye-raboty"
+											// id="tab-krovelnye-raboty"
 
 
 											</fest:attribute>
@@ -73,7 +73,7 @@
 
 						</fest:each>
 -->
-<!--
+			<!--
 						<td><a href="/service/krovelnye-raboty" title="Кровельные работы в Санкт-Петербурге" style="text-decoration: none;">
 							<div id="tab-krovelnye-raboty" class="tab">
 								<div class="tab-frame">
@@ -161,8 +161,7 @@
 						</a></td>
 					</tr>
 -->
-				</tbody>
-			</table>
-		</div>
+		</nav>
+
 	</fest:set>
 </fest:template>

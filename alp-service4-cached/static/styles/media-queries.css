@@ -1,5 +1,9 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 425px) {
+  header,
+  .site-menu {
+    display: none;
+  }
   table {
     font-size: 0.7rem;
   }
@@ -7,28 +11,20 @@
   .main-navigation-menu {
     margin: 20px 5px;
   }
-}
 
-@media only screen and (max-width: 768px) {
+  .service-list .service-container {
+    width: 90%;
+  }
+
   .service-list .service-list-details li {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
-  .topnav {
-    display: block;
+  .service-list .service-list-details {
+    align-self: flex-start;
   }
-  header, .site-menu {
-    display: none;
-  }
-}
 
-@media only screen and (max-width: 992px) {
-  .service-list > li {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
+  .banner-card {
+    min-width: 240px;
   }
 
   .service-list .service-container {
@@ -38,8 +34,86 @@
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 425px) {
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* .service-list .service-list-details li {
+    font-size: 0.7rem;
+  } */
+  .topnav {
+    display: none;
+  }
+  header {
+    margin: 5px 43px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .site-menu {
+    /* width: 100%; */
+
+    margin: 0 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .topnav {
+    display: none;
+  }
+
+  .banner-card {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  box-sizing: border-box;
+  padding: 7px 37px;
+  margin: 5px;
+  min-width: 517;
+}
+
+  .service-list {
+    margin: 0 30px;
+  }
+
+  .service-list > li {
+    height: 110px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .service-list .service-item-title {
+    text-align: start;
+  }
+
+  .service-list .service-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .service-list .service-list-details {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: normal;
+    font-size: .8rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .service-list .service-list-details {
+    font-weight: bold;
+  }
+}
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 }

@@ -6,10 +6,11 @@
         <fest:if test="json.modes.verification">
             <meta name='yandex-verification' content='55b40f367cd80bde' />
         </fest:if>
-
+        
     </fest:set>
 
     <fest:set name="header_content">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="/favicon.ico" />
         <fest:get name="header_content_styles" />
         <title>
@@ -104,7 +105,7 @@
                         </span>
                     </a>
                     <br />
-                    <span style="color: white;">info@alp-service.ru</span>
+                    <a style="color: white;" href="mailto:info@alp-service.ru">info@alp-service.ru</a>
                 </nobr>
             </div>
             <nav class="site-menu">

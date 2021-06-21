@@ -3,8 +3,8 @@ body {
   font-family: 'PT Sans';
   color: #444;
   font-size: 15px;
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .phone-link {
@@ -15,15 +15,7 @@ body {
 }
 
 header {
-  margin: 5px 43px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.container {
-  width: 1100px;
-  margin: 0 auto;
+  display: none;
 }
 
 li.focused a {
@@ -124,13 +116,7 @@ div.logo img {
 }
 
 .site-menu {
-  /* width: 100%; */
-
-  margin: 0 20px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: none;
 }
 
 .site-menu ul {
@@ -383,65 +369,59 @@ div.body-main-banner2 div.t div.trow {
   display: table-row;
 } */
 .banner-section .banner-row {
-	margin-bottom: 7px;
+  margin-bottom: 7px;
 }
 .banner-section .cards {
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .banner-section .phone {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin-bottom: 10px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .banner-section .socials {
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	margin-bottom: 70px;
-	
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 70px;
 }
-.banner-section .socials li{
-	margin: 5px;
-	
+.banner-section .socials li {
+  margin: 5px;
 }
-.banner-section .socials a{
-	color: #00ade6;
-	text-decoration: none;
-	font-size: 1.4rem;
-	text-shadow: 1px 1px 1px #111;
-	
+.banner-section .socials a {
+  color: #00ade6;
+  text-decoration: none;
+  font-size: 1.4rem;
+  text-shadow: 1px 1px 1px #111;
 }
 
-.banner-row.contacts{
-	margin-left: 15px;
+.banner-row.contacts {
+  margin-left: 15px;
 }
-.banner-row .contact{
-	font-size: 1rem;
+.banner-row .contact {
+  font-size: 1rem;
 }
 
 .banner-card {
-	background-color: rgba(0, 0, 0, 0.2);
-	border-radius: 7px;
-	box-sizing: border-box;
-	padding: 7px 37px;
-	margin: 5px;
-	min-width: 517px;
-
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  box-sizing: border-box;
+  padding: 7px 37px;
+  margin: 5px;
+  min-width: 200px;;
 }
 
 .banner-card .block-title {
-	color: #00ade6;
+  color: #00ade6;
 }
 
 .banner-card .block-msg {
-	color: lightgray;
+  color: lightgray;
 }
 
 /* div.tt {
@@ -605,40 +585,38 @@ div.service-list div.specline {
   background: #f2f2f2;
 }*/
 
-.service-list-details {
+/* .service-list-details {
 	display: flex;
 	flex-wrap: wrap;
 	font-weight: bold;
 	justify-content: space-evenly;
 
-}
+} */
 
-.service-list-details li {
-	margin: 1px 5px;
-}
 
 .service-list-details .bullet {
-	color: #ccc;
+  color: #ccc;
 }
 
-.service-list {
-	margin: 0 30px;
+.service-list > li {
+  display: flex;
+  background: url('/images/background/az_subtle_light.png');
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  padding: 10px;
 }
 
-.service-list>li {
-	height: 110px;
-	display: flex;
-	background: url('/images/background/az_subtle_light.png');
-	border-radius: 5px;
-	margin-bottom: 10px;
-}
-
-.service-list>li:hover {
-  background: url('/images/background/az_subtle.png'); 
+.service-list > li:hover {
+  background: url('/images/background/az_subtle.png');
 }
 
 .service-list .service-item-title {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .service-list .image {
@@ -647,7 +625,8 @@ div.service-list div.specline {
   height: 110px;
   min-width: 120px;
   min-height: 110px;
-	margin-right: 20px;
+  margin-right: 20px;
+  align-self: center;
 
   background: url('/images/service-icons/icon-vse-raboty-1-100x100.jpg') 100%
     100% no-repeat;
@@ -727,15 +706,15 @@ div.service-list div.line div.list a h3 {
 }
 
 .banner-section-2 .banner-card {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
   min-width: 200px;
 }
 .banner-section-2 .banner-row.phone {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
 }
 /*
 style=" border-radius: 9px 9px 9px 9px; display:table-cell;"
@@ -793,7 +772,6 @@ li {
   padding: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
 }
 
-
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
@@ -803,7 +781,7 @@ li {
 
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav {
-  display: none;
+  display: block;
 }
 
 .topnav .phone-link {
@@ -830,7 +808,7 @@ li {
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: #00ade6;;
+  background: #00ade6;
   display: block;
   position: absolute;
   right: 0;
