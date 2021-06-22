@@ -35,6 +35,9 @@
 }
 
 @media only screen and (min-width: 425px) {
+  .service-list .service-list-details {
+    margin-left: 5%;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -70,21 +73,23 @@
   }
 
   .banner-card {
-  background-color: rgba(0, 0, 0, 0.2);
-  border-radius: 7px;
-  box-sizing: border-box;
-  padding: 7px 37px;
-  margin: 5px;
-  min-width: 517;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    box-sizing: border-box;
+    padding: 7px 37px;
+    margin: 5px;
+    min-width: 517;
+  }
 }
 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
   .service-list {
     margin: 0 30px;
   }
 
   .service-list > li {
     height: 110px;
-    font-weight: normal;
     margin-bottom: 10px;
     flex-direction: row;
     justify-content: flex-start;
@@ -102,15 +107,10 @@
   .service-list .service-list-details {
     display: flex;
     flex-wrap: wrap;
-    font-weight: normal;
-    font-size: .8rem;
+    /* font-size: 0.8rem; */
   }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .service-list .service-list-details {
-    font-weight: bold;
+  .service-list .service-list-details li {
+    margin-right: 25px;
   }
 }
 

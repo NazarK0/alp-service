@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "dev": "node ./code/server-cached-dev",
-    "prod": "node ./code/server-cached-dev"
+    "prod": "node ./code/server-cached-prod"
   },
   "repository": {
     "type": "git",
