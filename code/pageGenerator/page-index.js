@@ -5,13 +5,13 @@
  */
 
 var fest = require('fest');
-var fs = require("fs");
+const pathNode = require('path');
 var basicStruct = require("./getter-basic.js");
 var navtableStruct = require("./getter-navtable.js");
 var servicelistStruct = require("./getter-servicelist.js");
 
 function getPage() {
-    var file = "../templates/index.xml";
+    var file = pathNode.join(__dirname, "../../templates/index.xml");
     var data = basicStruct.getBasicStruct();
     var nt = navtableStruct.getNavtableStruct();
     if (nt !== false) {

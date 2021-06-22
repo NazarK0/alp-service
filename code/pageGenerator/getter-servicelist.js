@@ -12,6 +12,7 @@
  */
 
 var fs = require("fs");
+const pathNode = require('path');
 
 // ----------------------------------------------------------------------------
 // Выдаётся массив структур result (см. readme.txt от 13.04.2016).
@@ -20,10 +21,10 @@ function getServiceListStruct() {
     var sourceList = ["root"];
     try {
         var jsonService = JSON.parse(
-            fs.readFileSync("../content/service-ids.json")
+            fs.readFileSync(pathNode.join(__dirname, "../../content/service-ids.json"))
         );
         var jsonPrice = JSON.parse(
-            fs.readFileSync("../content/ceny/price-lists.json")
+            fs.readFileSync(pathNode.join(__dirname, "../content/ceny/price-lists.json"))
         );
     } catch (err) {
         console.log("getter-servicelist.js: getServiceListStruct(): ERROR! Cannot open files.");

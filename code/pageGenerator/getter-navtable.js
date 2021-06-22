@@ -8,12 +8,13 @@
  */
 
 fs = require("fs")
+const pathNode = require('path');
 
 function getNavtableStruct() {
     var result = [];
     // Добавление таблицы с навигацией на главной странице сайта.
     try {
-        var jsonData = fs.readFileSync("../content/navtable.json");
+        var jsonData = fs.readFileSync(pathNode.join(__dirname, "../../content/navtable.json"));
         var json = JSON.parse(jsonData);
         result = json.navtable;
     } catch (err) {

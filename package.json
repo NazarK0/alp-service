@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "dev": "node ./code/server-cached-dev",
+    "compile": "node ./code/compileUrls",
     "prod": "node ./code/server-cached-prod"
   },
   "repository": {

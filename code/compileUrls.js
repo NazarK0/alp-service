@@ -71,7 +71,7 @@ function createSitemap() {
             json[json.length] = line;
         }
 
-        var xml = fest.render("../templates/sitemap.xml", json);
+        var xml = fest.render(pathNode.join(__dirname, "../templates/sitemap.xml"), json);
         fs.writeFileSync(pathNode.join(__dirname, "../compiled-data/sitemap.xml"), xml);
     }
 }
@@ -79,11 +79,11 @@ function createSitemap() {
 function fillData() {
     console.log("fillData()");
     var j = getFile(pathNode.join(__dirname, "../compiled-data/routes-compiled.json"));
-    console.log(j, 'JDJDJJJJ')
+    
     if (j) {
         for (var url in j.urls) {
             var answer = router.route(url);
-            console.log(answer, 'ANSW')
+
             switch (answer.code) {
                 case 200:
 
@@ -180,7 +180,7 @@ function getBlocks() {
 }
 function openBlockUrls(routes, block) {
     printTag("BEGIN", "openBlockUrls");
-    var j = getFile(pathNode.join(__dirname, "../compiled-data/blocks/" + block + "/urls.json"));
+    var j = getFile(pathNode.join(__dirname, "../compiled-data/blocks/", block, "/urls.json"));
     if (j) {
         for (var i in j.urls) {
             console.log("===/" + block + "/" + j.urls[i]);
