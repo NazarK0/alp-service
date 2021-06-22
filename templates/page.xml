@@ -37,6 +37,10 @@
         <link rel="stylesheet" href="/styles/navtable.css" />
         <link rel="stylesheet" href="/styles/media-queries.css" />
         <link href="/styles/fonts-googleapis-com-css.css" rel="stylesheet" type="text/css" />
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
         <fest:get name="header_content_styles_addition" />
     </fest:set>
 
