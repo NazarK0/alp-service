@@ -4,7 +4,7 @@
   .site-menu {
     display: none;
   }
-  table {
+  table.pricetable {
     font-size: 0.7rem;
   }
 
