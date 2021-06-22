@@ -34,17 +34,28 @@
                 </div>
                 <ul class="socials">
                     <li>
-                        <a target="_blank" href="https://telegram.me/@alp-service" class="contact">
+                        <a
+              target="_blank"
+              href="https://telegram.me/@alp-service"
+              class="contact"
+            >
               Telegram
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" href="https://api.whatsapp.com/send/?phone=+78123262629" class="contact">
+                        <a
+              target="_blank"
+              href="https://api.whatsapp.com/send/?phone=+78123262629"
+              class="contact"
+            >
               WhatsApp
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" href="http://vk.com/alpinisty_promyshlennye">
+                        <a
+              target="_blank"
+              href="http://vk.com/alpinisty_promyshlennye"
+            >
               ВКонтакте
                         </a>
                     </li>
@@ -59,13 +70,17 @@
                 <div class="banner-card">
                     <div class="banner-card-inner">
                         <h3 class="block-title">
-              Постоянному клиенту — неизменно низкая стоимость работ!
+                        <fest:text
+              >Постоянному клиенту — неизменно низкая стоимость работ!</fest:text>
+              
                         </h3>
                         <p class="block-msg">
-              Для всех постоянных клиентов компании &laquo;Альп-Сервис&raquo;, не
-              смотря на инфляцию и колебания курса валют,
+                        <fest:text>Для всех постоянных клиентов компании, не
+              смотря на инфляцию и колебания курса валют,</fest:text>
+              
                             <br />
-              цена предоставляемых услуг остаётся неизменно низкой.
+                            <fest:text
+              >цена предоставляемых услуг остаётся неизменно низкой.</fest:text>
                         </p>
                     </div>
                 </div>
@@ -93,7 +108,8 @@
               Постоянному клиенту — неизменно низкая стоимость работ!
                         </h3>
                         <p class="block-msg">
-              Не смотря ни на какую инфляцию и рост курса валют,                            <br />
+              Не смотря ни на какую инфляцию и рост курса валют,                            <br
+              />
 для наших постоянных клиентов цена на несколько лет останется неизменно низкой.
                         </p>
                     </div>

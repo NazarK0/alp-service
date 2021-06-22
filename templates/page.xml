@@ -4,13 +4,18 @@
 
     <fest:set name="verifications" test="json.modes.verification">
         <fest:if test="json.modes.verification">
-            <meta name='yandex-verification' content='55b40f367cd80bde' />
+            <meta name='yandex-verification' content='55b40f367cd80bde'/>
         </fest:if>
-        
     </fest:set>
 
     <fest:set name="header_content">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport">
+            <fest:attributes>
+                <fest:attribute name="content">
+                    <fest:value>"width=device-width, initial-scale=1"</fest:value>
+                </fest:attribute>
+            </fest:attributes>
+        </meta>
         <link rel="shortcut icon" href="/favicon.ico" />
         <fest:get name="header_content_styles" />
         <title>
@@ -39,8 +44,7 @@
         <link href="/styles/fonts-googleapis-com-css.css" rel="stylesheet" type="text/css" />
         <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
         <fest:get name="header_content_styles_addition" />
     </fest:set>
 
@@ -152,15 +156,15 @@
         </footer>
         <fest:script>
             <![CDATA[
-        function burgerToggle() {
-  var x = document.getElementById("mobile-menu");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-    ]]>
+                function burgerToggle() {
+                    var x = document.getElementById("mobile-menu");
+                    if (x.style.display === "block") {
+                        x.style.display = "none";
+                    } else {
+                        x.style.display = "block";
+                    }
+                    }
+            ]]>
         </fest:script>
     </fest:set>
 

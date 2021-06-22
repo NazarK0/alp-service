@@ -1,7 +1,7 @@
 <fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
- 	<fest:include context_name="json" src="./page.xml" />
-	<fest:include context_name="json" src="./navm.xml" />
-	<fest:include context_name="json" src="./brands.xml" />
+ 	<fest:include context_name="json" src="page.xml" />
+	<fest:include context_name="json" src="navm.xml" />
+	<fest:include context_name="json" src="brands.xml" />
 
  	<fest:set name="in_head_title">
  		<title><fest:value>json.page.title</fest:value></title>
