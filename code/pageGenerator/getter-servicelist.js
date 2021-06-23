@@ -24,9 +24,10 @@ function getServiceListStruct() {
             fs.readFileSync(pathNode.join(__dirname, "../../content/service-ids.json"))
         );
         var jsonPrice = JSON.parse(
-            fs.readFileSync(pathNode.join(__dirname, "../content/ceny/price-lists.json"))
+            fs.readFileSync(pathNode.join(__dirname, "../../content/ceny/price-lists.json"))
         );
     } catch (err) {
+        console.error(err, 'ERRR')
         console.log("getter-servicelist.js: getServiceListStruct(): ERROR! Cannot open files.");
         return [];
     }

@@ -4,10 +4,12 @@
 */
 
 fs = require("fs");
+const pathNode = require('path');
 basic = require("./getter-basic.js");
+const update_PriceData = require('../../contentGenerator/ceny/price-updater'); 
 // ----------------------------------------------------------------------------
 function getPricelists() {
-    var fileName = "../content/ceny/price-lists.json";
+    var fileName = pathNode.join(__dirname, "../../../content/ceny/price-lists.json");
     var json = basic.getJsonData(fileName);
 
     var result = [];
@@ -34,7 +36,7 @@ function getPricelists() {
     }
 */
 function getPricelistById(id) {
-    var fileName = "../content/ceny/price-lists.json";
+    var fileName = pathNode.join(__dirname,"../../../content/ceny/price-lists.json");
     var json = basic.getJsonData(fileName);
 
     var result = undefined;
@@ -59,7 +61,8 @@ function getPricelistById(id) {
 }
 // ----------------------------------------------------------------------------
 function getPricelistData(id) {
-    var fileName = "../content/ceny/price-data-compiled.json";
+    update_PriceData();
+    var fileName = pathNode.join(__dirname, "../../../content/ceny/price-data-compiled.json");
     var json = basic.getJsonData(fileName);
 
     var result = [];

@@ -132,7 +132,7 @@ function getJsonData(file) {
             fs.readFileSync(pathNode.resolve(file))
         );
     } catch (err) {
-        console.log(JS_FILE + " getJsonFile(): ERROR! Cannot open file: '" + file + "'");
+        console.log(JS_FILE + " getJsonFile(): ERROR! Cannot open file: '" + pathNode.resolve(file) + "'");
         result = false;
     }
     return result; // Если возвращется тип boolean, то функция завершилась с ошибкой.

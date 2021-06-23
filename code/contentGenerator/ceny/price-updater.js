@@ -406,6 +406,7 @@ function getPriceDataList() {
 }
 // ----------------------------------------------------------------------------
 function update_PriceData() {
+    console.log('UPDATE PRICE DATA')
     var j = getJsonData(pathNode.join(__dirname, "../../../content/ceny/price-data.json"));
     if (j !== false) {
         console.log ("[" + j["_file_comment"] + "]");
@@ -446,4 +447,5 @@ function getJsonData(file) {
 }
 // ----------------------------------------------------------------------------
 
-update_PriceData();
+// update_PriceData();
+module.exports = update_PriceData;

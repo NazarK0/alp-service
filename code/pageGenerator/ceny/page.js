@@ -14,6 +14,7 @@
 
 var fest = require('fest');
 var fs = require("fs");
+const pathNode = require('path');
 var pageChecker = require("./getter-page-type.js");
 var compilerPriceUrls = require("./compile-price-urls.js");
 var basicStruct = require("../getter-basic.js");
@@ -35,7 +36,7 @@ function getPage(element) {
 
     switch (answer.type) {
         case "root":
-            file = "../templates/ceny/ceny-page-root.xml";
+            file = pathNode.join(__dirname, "../../../templates/ceny/ceny-page-root.xml");
             data = basicStruct.getBasicStruct();
             data["breadcrumbs"] = getPageBreadcrumbs(answer.type, answer.id);
 
@@ -49,7 +50,7 @@ function getPage(element) {
             break;
 
         case "pricelist":
-            file = "../templates/ceny/ceny-page-pricelist.xml";
+            file = pathNode.join(__dirname, "../../../templates/ceny/ceny-page-pricelist.xml");
             data = basicStruct.getBasicStruct();
             data["breadcrumbs"] = getPageBreadcrumbs(answer.type, answer.id);
 

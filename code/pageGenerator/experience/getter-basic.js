@@ -1,6 +1,7 @@
 
 
 var fs = require("fs");
+const pathNode = require("path");
 // ----------------------------------------------------------------------------
 function getJsonData(file) {
     var result = false;

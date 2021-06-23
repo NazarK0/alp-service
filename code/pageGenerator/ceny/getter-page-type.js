@@ -33,7 +33,7 @@ function checkPageType(element) {
 }
 // ----------------------------------------------------------------------------
 function getIdByUrl(element) {
-    var file = "../content/ceny/price-urls-compiled.json";
+    var file = pathNode.join(__dirname, "../../../content/ceny/price-urls-compiled.json");
     return getId(element, file);
 }
 
