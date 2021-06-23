@@ -20,6 +20,7 @@
  */
 
 var fs = require("fs");
+const pathNode = require('path');
 var basic = require("./getter-basic.js");
 // ----------------------------------------------------------------------------
 function getBlockForRootPage(markedId) {
@@ -259,7 +260,7 @@ function getCategoryChildren(id) {
 // ----------------------------------------------------------------------------
 function getJsonData_serviceIds() {
     // Возвращается структура данных со всеми идентификаторами предоставляемых услуг.
-    var file = "../content/service-ids-compiled.json";
+    var file = pathNode.join(__dirname, "../../../content/service-ids-compiled.json");
     return basic.getJsonData(file);
 }
 // ----------------------------------------------------------------------------
