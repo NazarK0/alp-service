@@ -417,7 +417,7 @@ function update_PriceData() {
             oList[i] = nList[i];
         }
 
-        fs.writeFileSync(pathNode.join(__dirname, "../../../content/ceny/price-data-compiled.json", JSON.stringify(j, null, 4)));
+        fs.writeFileSync(pathNode.join(__dirname, "../../../content/ceny/price-data-compiled.json"), JSON.stringify(j, null, 4));
     } else {
         console.log("err");
     }

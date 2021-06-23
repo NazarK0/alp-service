@@ -10,6 +10,7 @@
  */
 
 fs = require("fs");
+const pathNode = require('path');
 basic = require("./getter-basic.js");
 // ----------------------------------------------------------------------------
 function getCustomersStruct() {
@@ -17,7 +18,7 @@ function getCustomersStruct() {
     // Добавление списка с названиями всех заказчиков.
     try {
         var json = JSON.parse(
-            fs.readFileSync("../content/experience/customers-ids.json")
+            fs.readFileSync(pathNode.join(__dirname, "../../../content/experience/customers-ids.json"))
         );
         for (var i in json.list) {
             if (i == "na") {
@@ -37,7 +38,7 @@ function getCustomersStruct() {
 // ----------------------------------------------------------------------------
 function getJsonData_customersIds() {
     // Возвращается структура данных с идентификаторами всех заказчиков выполненных работ.
-    var file = "../content/experience/customers-ids.json";
+    var file = pathNode.join(__dirname, "../../../content/experience/customers-ids.json");
     return basic.getJsonData(file);
 }
 // ----------------------------------------------------------------------------

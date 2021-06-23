@@ -25,6 +25,7 @@ var fs = require("fs");
 var basic = require("./getter-basic.js");
 var categories = require("./getter-categories.js");
 var customers = require("./getter-customers.js");
+const pathNode = require("path");
 // ----------------------------------------------------------------------------
 function getWorksByIdsMass(workIdsMass) {
     //
@@ -129,7 +130,7 @@ function getTextBlock(id) {
     var details = getJsonData_workDetailsById(id);
     if (details !== false && details.work["text_block"] != undefined) {
         try {
-            result = fs.readFileSync("../content/experience/works/" + id + "/" + details.work["text_block"]);
+            result = fs.readFileSync(pathNode.join(__dirname, "../../../content/experience/works/" + id + "/" + details.work["text_block"]));
         } catch(err) {
             result = "";
         }
@@ -227,19 +228,19 @@ function getCategoriesMassByWorkId(id) {
 // ----------------------------------------------------------------------------
 function getJsonData_worksIdsNew() {
     // Возвращается структура данных с идентификаторами всех выполненных работ, помеченных как новые.
-    var file = "../content/experience/works-ids-new.json";
+    var file = pathNode.join(__dirname, "../../../content/experience/works-ids-new.json");
     return basic.getJsonData(file);
 }
 // ----------------------------------------------------------------------------
 function getJsonData_worksIds() {
     // Возвращается структура данных с идентификаторами всех выполненных работ.
-    var file = "../content/experience/works-ids.json";
+    var file = pathNode.join(__dirname, "../../../content/experience/works-ids.json");
     return basic.getJsonData(file);
 }
 // ----------------------------------------------------------------------------
 function getJsonData_workDetailsById(workId) {
     // Возвращается структура данных с детализацией конкретной выполненной работы (workId).
-    var file = "../content/experience/works/" + workId + "/work-details.json";
+    var file = pathNode.join(__dirname, "../../../content/experience/works/" + workId + "/work-details.json");
     return basic.getJsonData(file);
 }
 // ----------------------------------------------------------------------------

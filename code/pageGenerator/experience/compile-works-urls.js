@@ -15,7 +15,7 @@ function compileUrls() {
     var result = {};
     try {
         var jsonWorksIds = JSON.parse(
-            fs.readFileSync("../content/experience/works-ids.json")
+            fs.readFileSync(pathNode(__dirname, "../../../content/experience/works-ids.json"))
         );
     } catch (err) {
         console.log("ERROR! Cannot open file: works-ids.json");
@@ -31,7 +31,7 @@ function compileUrls() {
         // Притом, проверятся наличие директорий с названиями идентичными идентификаторам.
         var path = false;
         try {
-            var path = '../content/experience/works/' + i;
+            var path = pathNode.join(__dirname, '../../../content/experience/works/' + i);
             var stats = fs.lstatSync(path);
             if (stats.isDirectory() == false) {
                 throw "Is not directory!";

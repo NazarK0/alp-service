@@ -6,6 +6,7 @@
 
 var fest = require('fest');
 var fs = require("fs");
+const pathNode = require('path');
 var basicStruct = require("../getter-basic.js");
 var defaultPage = require("../page-default.js");
 var breadcrumbs = require("../getter-breadcrumbs.js");
@@ -15,7 +16,7 @@ function getPage(element) {
     var data = {};
     switch (element) {
         case "":
-            file = "../templates/partners/partners-list.xml";
+            file = pathNode.join(__dirname, "../../../templates/partners/partners-list.xml");
             data = basicStruct.getBasicStruct();
             data["breadcrumbs"] = breadcrumbs.getBasic();
             breadcrumbs.checkDelimiters(data["breadcrumbs"]);
@@ -26,7 +27,7 @@ function getPage(element) {
             return fest.render(file, data);
 
         case "peterburgskaya-nedvizhimost":
-            file = "../templates/partners/partners-company-pn.xml";
+            file = pathNode.join(__dirname, "../../..//templates/partners/partners-company-pn.xml");
             data = basicStruct.getBasicStruct();
             data.page.title = "«Петербургская недвижимость» — партнёр компании «Альп Сервис»";
             data.page.h1 = "Компания «Петербургская недвижимость»";

@@ -9,6 +9,7 @@
  */
 
 var fs = require("fs");
+const pathNode = require('path');
 
 // ----------------------------------------------------------------------------
 // Функция checkPageType определяет тип запрашиваемой страницы, пользуясь частью URL-строки (переменная element),
@@ -52,17 +53,17 @@ function checkPageType(element) {
 // ----------------------------------------------------------------------------
 
 function getCategoryId(element) {
-    var file = "../content/experience/categories-urls-compiled.json";
+    var file = pathNode.join(__dirname,"../../../content/experience/categories-urls-compiled.json");
     return getId(element, file);
 }
 
 function getWorkId(element) {
-    var file = "../content/experience/works-urls-compiled.json";
+    var file = pathNode.join(__dirname, "../../../content/experience/works-urls-compiled.json");
     return getId(element, file);
 }
 
 function getRedirectList(element) {
-    var file = "../content/experience/works-urls-http301.json";
+    var file = pathNode.join(__dirname,"../../../content/experience/works-urls-http301.json");
     return getId(element, file);
 }
 
@@ -70,13 +71,13 @@ function getId(element, file) {
     var result = undefined;
     try {
         var json = JSON.parse(
-            fs.readFileSync(file)
+            fs.readFileSync(pathNode.resolve(file))
         );
         if (typeof element == "string") {
             result = json.list[element];
         }
     } catch (err) {
-        console.log("getter-page-type.js: getId(): ERROR! Cannot open file: " + file);
+        console.log("getter-page-type.js: getId(): ERROR! Cannot open file: " + pathNode.resolve(file));
     }
     return result;
 }

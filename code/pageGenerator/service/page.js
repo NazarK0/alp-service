@@ -14,6 +14,7 @@
 
 var fest = require('fest');
 var fs = require("fs");
+const pathNode = require('path');
 var basicStruct = require("../getter-basic.js");
 var breadcrumbs = require("../getter-breadcrumbs.js");
 var servicelist = require("../getter-servicelist.js");
@@ -29,13 +30,13 @@ function getPage(element) {
         url: ""
     };
 
-    var file = "../templates/service/service-page-root.xml";
+    var file = pathNode.join(__dirname, "../../../templates/service/service-page-root.xml");
     var data = basicStruct.getBasicStruct();
 
     var type = (element == "") ? "root" : "page";
     switch (type) {
         case "root":
-            file = "../templates/service/service-page-root.xml";
+            file = pathNode.join(__dirname, "../../../templates/service/service-page-root.xml");
             data = basicStruct.getBasicStruct();
             data["breadcrumbs"] = getPageBreadcrumbs("root");
 
@@ -57,67 +58,67 @@ function getPage(element) {
                 case "krovelnye-raboty":
                     completePageData(data, "krov");
                     result.code = 200;
-                    result.html = fest.render("../templates/service/service-page-krov.xml", data);
+                    result.html = fest.render(pathNode.join(__dirname, "../../../templates/service/service-page-krov.xml"), data);
                     break;
 
                 case "fasadnye-raboty":
                     completePageData(data, "fasad");
                     result.code = 200;
-                    result.html = fest.render("../templates/service/service-page-fasad.xml", data);
+                    result.html = fest.render(pathNode.join(__dirname, "../../../templates/service/service-page-fasad.xml"), data);
                     break;
 
                 case "germetizaciya":
                     completePageData(data, "germ");
                     result.code = 200;
-                    result.html = fest.render("../templates/service/service-page-germ.xml", data);
+                    result.html = fest.render(pathNode.join(__dirname, "../../../templates/service/service-page-germ.xml"), data);
                     break;
 
                 case "montazhnye-raboty":
                     completePageData(data, "mont");
                     result.code = 200;
-                    result.html = fest.render("../templates/service/service-page-mont.xml", data);
+                    result.html = fest.render(pathNode.join(__dirname, "../../../templates/service/service-page-mont.xml"), data);
                     break;
 
                 case "demontazhnye-raboty":
                     completePageData(data, "demont");
                     result.code = 200;
-                    result.html = fest.render("../templates/service/service-page-demont.xml", data);
+                    result.html = fest.render(pathNode.join(__dirname, "../../../templates/service/service-page-demont.xml"), data);
                     break;
 
                 case "dopolnitelnye-raboty":
                     completePageData(data, "dop");
                     result.code = 200;
-                    result.html = fest.render("../templates/service/service-page-dop.xml", data);
+                    result.html = fest.render(pathNode.join(__dirname, "../../../templates/service/service-page-dop.xml"), data);
                     break;
 
                 case "vysotnyj-klining":
                     completePageData(data, "clean");
                     result.code = 200;
-                    result.html = fest.render("../templates/service/service-page-clean.xml", data);
+                    result.html = fest.render(pathNode.join(__dirname, "../../../templates/service/service-page-clean.xml"), data);
                     break;
 
                 case "uborka-snega":
                     completePageData(data, "clean-sneg");
                     result.code = 200;
-                    result.html = fest.render("../templates/service/service-page-clean-sneg.xml", data);
+                    result.html = fest.render(pathNode.join(__dirname, "../../../templates/service/service-page-clean-sneg.xml"), data);
                     break;
 
                 case "mojka-okon-i-fasadov":
                     completePageData(data, "clean-mojka");
                     result.code = 200;
-                    result.html = fest.render("../templates/service/service-page-clean-mojka.xml", data);
+                    result.html = fest.render(pathNode.join(__dirname, "../../../templates/service/service-page-clean-mojka.xml"), data);
                     break;
 
                 case "obespylivanie":
                     completePageData(data, "clean-obesp");
                     result.code = 200;
-                    result.html = fest.render("../templates/service/service-page-clean-obesp.xml", data);
+                    result.html = fest.render(pathNode.join(__dirname, "../../../index.htmltemplates/service/service-page-clean-obesp.xml"), data);
                     break;
 
                 case "poslestroitelnaya-chistka":
                     completePageData(data, "clean-posle");
                     result.code = 200;
-                    result.html = fest.render("../templates/service/service-page-clean-posle.xml", data);
+                    result.html = fest.render(pathNode.join(__dirname, "../../../templates/service/service-page-clean-posle.xml"), data);
                     break;
 
                 default:

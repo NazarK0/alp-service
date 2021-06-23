@@ -12,11 +12,12 @@
  */
 
 var fs = require("fs");
+const pathNode = require('path');
 
 function compileUrls() {
     try {
         var jsonServiceIds = JSON.parse(
-            fs.readFileSync("../content/service-ids.json")
+            fs.readFileSync(pathNode.join(__dirname, "../../..//content/service-ids.json"))
         );
     } catch (err) {
         console.log("ERROR! compile-categories-urls.js - Cannot open file: service-ids.json");

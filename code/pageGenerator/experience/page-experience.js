@@ -23,7 +23,7 @@ function getPage(element) {
     console.log("page-experience.js: getPage(): answer: type=[" + answer.type + "], id=[" + answer.id + "]");
     switch (answer.type) {
         case "root":
-            file = pathNode.join(__dirname, "../templates/experience/experience-page-root.xml");
+            file = pathNode.join(__dirname, "../../../templates/experience/experience-page-root.xml");
             data = basicStruct.getBasicStruct();
             /*data["breadcrumbs"] = breadcrumbs.getBasic();
             breadcrumbs.checkDelimiters(data["breadcrumbs"]);
@@ -39,6 +39,7 @@ function getPage(element) {
 
             var jwn = works.getJsonData_worksIdsNew();
             var workIdsMass =  (jwn !== false) ? jwn.list : [];
+            console.log(workIdsMass, 'WORK IDS')
             //var workIdsMass = ["bc-blekrec-palaza-mont-fasadnogo-osvesheniya", "russkie-samocvety-mojka-ostekleniya-05-2015", "zhelyabova-zamena-truby", "leader-tower-vysotnaya-mojka"];
             data.page["newworks"] = works.getWorksByIdsMass(workIdsMass);
 
@@ -54,7 +55,7 @@ function getPage(element) {
             return fest.render(file, data);
 
         case "category":
-            file = pathNode.join(__dirname, "../templates/experience/experience-page-category.xml");
+            file = pathNode.join(__dirname, "../../../templates/experience/experience-page-category.xml");
             data = basicStruct.getBasicStruct();
             data["breadcrumbs"] = getPageBreadcrumbs(answer.type, answer.id);
 
@@ -69,7 +70,7 @@ function getPage(element) {
             return fest.render(file, data);
 
         case "work":
-            file = pathNode.join(__dirname, "../templates/experience/experience-page-work.xml");
+            file = pathNode.join(__dirname, "../../../templates/experience/experience-page-work.xml");
             data = basicStruct.getBasicStruct();
             data["breadcrumbs"] = getPageBreadcrumbs(answer.type, answer.id);
 

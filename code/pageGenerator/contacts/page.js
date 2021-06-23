@@ -16,6 +16,7 @@ var fest = require('fest');
 var fs = require("fs");
 var basicStruct = require("../getter-basic.js");
 var breadcrumbs = require("../getter-breadcrumbs.js");
+const pathNode = require('path');
 // ----------------------------------------------------------------------------
 function getPage(element) {
     var result = {
@@ -29,7 +30,7 @@ function getPage(element) {
 
     switch(element) {
         case "":
-            file = "../templates/contacts/contacts-page-root.xml";
+            file = pathNode.join("../../../templates/contacts/contacts-page-root.xml");
             data = basicStruct.getBasicStruct();
             data["breadcrumbs"] = getPageBreadcrumbsForRootPage();
 

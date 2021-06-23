@@ -7,12 +7,13 @@
  */
 
 var fs = require("fs");
+const pathNode = require('path');
 // ----------------------------------------------------------------------------
 function compileUrls() {
     var result = {};
     try {
         var jsonPricelists = JSON.parse(
-            fs.readFileSync("../content/ceny/price-lists.json")
+            fs.readFileSync(pathNode.join(__dirname, "../../../content/ceny/price-lists.json"))
         );
     } catch (err) {
         console.log("compile-price-urls.js: compileUrls(): ERROR! Cannot open file: price-lists.json");
@@ -30,7 +31,7 @@ function compileUrls() {
         }
     }
 
-    var fName = "../content/ceny/price-urls-compiled.json";
+    var fName = pathNode.join(__dirname, "../../../content/ceny/price-urls-compiled.json");
     var jsonPricelistsUrls = JSON.parse(
         fs.readFileSync(fName)
     );

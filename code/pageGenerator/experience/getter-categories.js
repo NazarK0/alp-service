@@ -265,7 +265,6 @@ function getJsonData_serviceIds() {
 }
 // ----------------------------------------------------------------------------
 exports.getBlockForRootPage = getBlockForRootPage;
-//exports.getWorksByIdsMass = getWorksByIdsMass;
 exports.getJsonData_serviceIds = getJsonData_serviceIds;
 exports.getCategoriesForRootPage = getCategoriesForRootPage;
 exports.getCategoriesBreadcrumbs = getCategoriesBreadcrumbs;

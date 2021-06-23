@@ -1,0 +1,853 @@
+{
+    "_file_comment": "",
+    "unit": {
+        "NA": "—",
+        "MP": "метр погонный",
+        "MK": "метр квадратный",
+        "MPK": "метр кв./погонный",
+        "SH": "штука",
+        "MPS": "метр погонный/шт.",
+        "TN": "тонна"
+    },
+    "list": {
+        "PD-germ-perv": {
+            "name": "Первичная герметизация (вилатерм + герметик)",
+            "pricelists": [
+                "germ"
+            ],
+            "service_id": "germ-perv",
+            "unit": "MP",
+            "price_value": "от 80"
+        },
+        "PD-germ-vt": {
+            "name": "Вторичная герметизация швов с ремонтом",
+            "pricelists": [
+                "germ"
+            ],
+            "service_id": "germ-vt",
+            "unit": "MP",
+            "price_value": "от 200"
+        },
+        "PD-germ-falc": {
+            "name": "Герметизация фальцев металлической кровли",
+            "pricelists": [
+                "germ"
+            ],
+            "service_id": "germ-krovli",
+            "unit": "MP",
+            "price_value": "от 100"
+        },
+        "PD-germ-angar": {
+            "name": "Герметизация ангаров",
+            "pricelists": [
+                "germ"
+            ],
+            "service_id": "germ-krovli",
+            "unit": "MP",
+            "price_value": "от 160"
+        },
+        "PD-germ-vitrazh": {
+            "name": "Герметизация витражей",
+            "pricelists": [
+                "germ"
+            ],
+            "service_id": "germ-krovli",
+            "unit": "MP",
+            "price_value": "от 80"
+        },
+        "PD-germ-kvartira": {
+            "name": "Герметизация квартир",
+            "pricelists": [
+                "germ"
+            ],
+            "service_id": "germ-krovli",
+            "unit": "MP",
+            "price_value": "от 250"
+        },
+        "PD-fasad-otd-pokaska-odin": {
+            "name": "Покраска в один слой",
+            "pricelists": [
+                "fasad"
+            ],
+            "service_id": "fasad-otd-pokraska",
+            "unit": "MK",
+            "price_value": "от 80"
+        },
+        "PD-fasad-otd-pokraska-dva": {
+            "name": "Покраска в два слоя",
+            "pricelists": [
+                "fasad"
+            ],
+            "service_id": "fasad-otd-pokraska",
+            "unit": "MK",
+            "price_value": "от 150"
+        },
+        "PD-krov-naplav-ustroj": {
+            "name": "Устройство наплавляемой кровли",
+            "pricelists": [
+                "krov"
+            ],
+            "service_id": "krov-naplav-ustroj",
+            "unit": "MK",
+            "price_value": "от 110"
+        },
+        "PD-krov-zamena-krov": {
+            "name": "Частичная замена элементов старой кровли",
+            "pricelists": [
+                "krov"
+            ],
+            "service_id": "krov",
+            "unit": "MK",
+            "price_value": "от 800"
+        },
+        "PD-krov-ustr-protechek": {
+            "name": "Устранение протечек",
+            "pricelists": [
+                "krov"
+            ],
+            "service_id": "krov",
+            "unit": "SH",
+            "price_value": "от 1500"
+        },
+        "PD-krov-zamena-metal-krov": {
+            "name": "Замена металлической кровли (без замены стропил)",
+            "pricelists": [
+                "krov"
+            ],
+            "service_id": "krov",
+            "unit": "NA",
+            "price_value": "от 1500"
+        },
+        "PD-krov-zamena-stropil": {
+            "name": "Замена стропил (ремонт стропильной системы)",
+            "pricelists": [
+                "krov"
+            ],
+            "service_id": "krov",
+            "unit": "NA",
+            "price_value": "от 300"
+        },
+        "PD-clean-obesp-pered-pokras": {
+            "name": "Обеспыливание перед покрасочными работами",
+            "pricelists": [
+                "clean",
+                "clean-obesp"
+            ],
+            "service-id": "clean-obesp",
+            "unit": "MK",
+            "price_value": "от 30"
+        },
+        "PD-clean-obesp-prom-object": {
+            "name": "Обеспыливание на промышленных объектах (пищевой промышленности, автомобильной промышленности и др.)",
+            "pricelists": [
+                "clean",
+                "clean-obesp"
+            ],
+            "service-id": "clean-obesp",
+            "unit": "NA",
+            "price_value": "необходим выезд оценщика"
+        },
+        "PD-clean-sneg-plosk": {
+            "name": "Уборка снега с плоских крыш (и крыш с небольшим уклоном)",
+            "pricelists": [
+                "clean",
+                "clean-sneg"
+            ],
+            "service-id": "clean-sneg",
+            "unit": "MK",
+            "price_value": "от 20 до 50"
+        },
+        "PD-clean-sneg-skat-ogr": {
+            "name": "Уборка снега со скатной крыши с ограждением",
+            "pricelists": [
+                "clean",
+                "clean-sneg"
+            ],
+            "service-id": "clean-sneg",
+            "unit": "MK",
+            "price_value": "25"
+        },
+        "PD-clean-sneg-skat-bez-ogr": {
+            "name": "Уборка снега со скатной крыши без ограждения",
+            "pricelists": [
+                "clean",
+                "clean-sneg"
+            ],
+            "service-id": "clean-sneg",
+            "unit": "MK",
+            "price_value": "от 35"
+        },
+        "PD-clean-sneg-zagorod": {
+            "name": "Уборка снега с крыш загородных домов",
+            "pricelists": [
+                "clean",
+                "clean-sneg"
+            ],
+            "service-id": "clean-sneg",
+            "unit": "NA",
+            "price_value": "по запросу"
+        },
+        "PD-clean-sneg-avarijno": {
+            "name": "Срочная уборка снега с крыши на 1-2 метра от края (аварийная очистка)",
+            "pricelists": [
+                "clean",
+                "clean-sneg"
+            ],
+            "service-id": "clean-sneg",
+            "unit": "NA",
+            "price_value": "по запросу"
+        },
+        "PD-clean-sneg-abonent": {
+            "name": "Абонентское обслуживание кровли в течение всего сезона",
+            "pricelists": [
+                "clean",
+                "clean-sneg"
+            ],
+            "service-id": "clean-sneg",
+            "unit": "MK",
+            "price_value": "от 60"
+        },
+        "PD-dop-valka-dereva": {
+            "name": "Валка дерева",
+            "pricelists": [
+                "dop"
+            ],
+            "service_id": "dop",
+            "unit": "штука",
+            "price_value": "от 3000"
+        },
+        "PD-dop-udalenie-dereva-po-chastyam": {
+            "name": "Удаление дерева по частям",
+            "pricelists": [
+                "dop"
+            ],
+            "service_id": "dop",
+            "unit": "штука",
+            "price_value": "от 8000"
+        },
+        "PD-dop-udalenie-dereva-s-zavesh": {
+            "name": "Удаление дерева по частям с завешиванием и спуском",
+            "pricelists": [
+                "dop"
+            ],
+            "service_id": "dop",
+            "unit": "штука",
+            "price_value": "от 10000"
+        },
+        "PD-dop-podarok-v-okno": {
+            "name": "«Подарок в окно»",
+            "pricelists": [
+                "dop"
+            ],
+            "service_id": "dop",
+            "unit": "штука",
+            "price_value": "от 5000"
+        },
+        "PD-dop-ded-moroz-v-okno": {
+            "name": "«Дед мороз в окно»",
+            "pricelists": [
+                "dop"
+            ],
+            "service_id": "dop",
+            "unit": "штука",
+            "price_value": "от 5000"
+        },
+        "PD-fasad-starkraska": {
+            "name": "Очистка от старой краски шпателями и щётками",
+            "pricelists": [
+                "fasad"
+            ],
+            "service_id": "",
+            "unit": "метр квадратный",
+            "price_value": "от 30"
+        },
+        "PD-fasad-starshtukatur": {
+            "name": "Очистка от старой штукатурки (отбивка)",
+            "pricelists": [
+                "fasad"
+            ],
+            "service_id": "",
+            "unit": "метр квадратный",
+            "price_value": "от 75"
+        },
+        "PD-fasad-remtreshin": {
+            "name": "Ремонт трещин (расшивка и шпатлёвка)",
+            "pricelists": [
+                "fasad"
+            ],
+            "service_id": "",
+            "unit": "метр квадратный",
+            "price_value": "от 70"
+        },
+        "PD-fasad-udalvysol": {
+            "name": "Удаление высолов",
+            "pricelists": [
+                "fasad"
+            ],
+            "service_id": "",
+            "unit": "метр квадратный",
+            "price_value": "от 200"
+        },
+        "PD-fasad-shpatlevka": {
+            "name": "Шпатлёвка",
+            "pricelists": [
+                "fasad"
+            ],
+            "service_id": "",
+            "unit": "метр квадратный",
+            "price_value": "от 270"
+        },
+        "PD-fasad-shtukaturka": {
+            "name": "Штукатурка",
+            "pricelists": [
+                "fasad"
+            ],
+            "service_id": "",
+            "unit": "метр квадратный",
+            "price_value": "от 500"
+        },
+        "PD-fasad-peskostruj": {
+            "name": "Пескоструйная очистка фасада",
+            "pricelists": [
+                "fasad"
+            ],
+            "service_id": "",
+            "unit": "метр квадратный",
+            "price_value": "от 150"
+        },
+        "PD-fasad-pokras": {
+            "name": "Покрасочные работы",
+            "pricelists": [
+                "fasad"
+            ],
+            "service_id": "",
+            "unit": "—",
+            "price_value": "—"
+        },
+        "PD-fasad-gruntovka": {
+            "name": "Грунтовка фасада",
+            "pricelists": [
+                "fasad"
+            ],
+            "service_id": "",
+            "unit": "метр квадратный",
+            "price_value": "от 40"
+        },
+        "PD-fasad-otd-pokraska-odin": {
+            "name": "Покраска фасада в один слой",
+            "pricelists": [
+                "fasad"
+            ],
+            "service_id": "fasad-otd-pokraska",
+            "unit": "метр квадратный",
+            "price_value": "от 80"
+        },
+        "PD-fasad-otd-porkaska-dva": {
+            "name": "Покраска фасада в два слоя",
+            "pricelists": [
+                "fasad"
+            ],
+            "service_id": "fasad-otd-pokraska",
+            "unit": "метр квадратный",
+            "price_value": "от 150"
+        },
+        "PD-fasad-pokraka-okon": {
+            "name": "Покраска оконных рам",
+            "pricelists": [
+                "fasad"
+            ],
+            "service_id": "",
+            "unit": "метр погонный",
+            "price_value": "от 300"
+        },
+        "PD-fasad-pokraka-okon-reshetka": {
+            "name": "Покраска оконных рам с решётками",
+            "pricelists": [
+                "fasad"
+            ],
+            "service_id": "",
+            "unit": "метр погонный",
+            "price_value": "от 500"
+        },
+        "PD-fasad-pokraska-metallokstr": {
+            "name": "Покраска металлоконструкций",
+            "pricelists": [
+                "fasad"
+            ],
+            "service_id": "",
+            "unit": "метр кв./погонный",
+            "price_value": "от 90"
+        },
+        "PD-fasad-hydrofobization": {
+            "name": "Гидрофобизация фасада",
+            "pricelists": [
+                "fasad"
+            ],
+            "service_id": "",
+            "unit": "метр квадратный",
+            "price_value": "от 100"
+        },
+        "PD-fasad-uteplenie": {
+            "name": "Утепление фасадов",
+            "pricelists": [
+                "fasad"
+            ],
+            "service_id": "",
+            "unit": "—",
+            "price_value": "—"
+        },
+        "PD-fasad-mokrye-fasady": {
+            "name": "Мокрые фасады",
+            "pricelists": [
+                "fasad"
+            ],
+            "service_id": "",
+            "unit": "метр квадратный",
+            "price_value": "—"
+        },
+        "PD-dop-kronirovanie": {
+            "name": "Омолаживающая обрезка (кронирование)",
+            "pricelists": [
+                "dop"
+            ],
+            "service_id": "dop",
+            "unit": "штука",
+            "price_value": "от 2500"
+        },
+        "PD-dop-podnyatie-krony": {
+            "name": "Поднятие кроны (удаление веток)",
+            "pricelists": [
+                "dop"
+            ],
+            "service_id": "dop",
+            "unit": "штука",
+            "price_value": "от 800"
+        },
+        "PD-dop-truby-obsledovanie": {
+            "name": "Обследование дымовых труб",
+            "pricelists": [
+                "dop"
+            ],
+            "service_id": "dop",
+            "unit": "—",
+            "price_value": "—"
+        },
+        "PD-dop-dostup-v-pomesheniya": {
+            "name": "Доступ в помещения",
+            "pricelists": [
+                "dop"
+            ],
+            "service_id": "dop",
+            "unit": "штука",
+            "price_value": "от 5000"
+        },
+        "PD-dop-gruz-podjemspusk-negabarit": {
+            "name": "Подъём/спуск негабаритных грузов",
+            "pricelists": [
+                "dop"
+            ],
+            "service_id": "dop",
+            "unit": "—",
+            "price_value": "—"
+        },
+        "PD-dop-gruz-podjemspusk-do100kg": {
+            "name": "Подъём/спуск груза весом до 100 кг",
+            "pricelists": [
+                "dop"
+            ],
+            "service_id": "dop",
+            "unit": "штука",
+            "price_value": "от 5000"
+        },
+        "PD-dop-gruz-podjemspusk-do200kg": {
+            "name": "Подъём/спуск груза весом до 200 кг",
+            "pricelists": [
+                "dop"
+            ],
+            "service_id": "dop",
+            "unit": "штука",
+            "price_value": "от 17000"
+        },
+        "PD-dop-gruz-podjemspusk-do300kg": {
+            "name": "Подъём/спуск груза весом до 200 кг",
+            "pricelists": [
+                "dop"
+            ],
+            "service_id": "dop",
+            "unit": "штука",
+            "price_value": "от 29000"
+        },
+        "PD-dop-gruz-podjemspusk-ot300kg": {
+            "name": "Подъём/спуск груза весом от 300 кг",
+            "pricelists": [
+                "dop"
+            ],
+            "service_id": "dop",
+            "unit": "штука",
+            "price_value": "необходим выезд оценщика"
+        },
+        "PD-clean-mojka-fasadnoe-osteklenie": {
+            "name": "Мойка фасадного остекления",
+            "pricelists": [
+                "clean",
+                "clean-mojka"
+            ],
+            "service_id": "",
+            "unit": "метр квадратный",
+            "price_value": "от 20"
+        },
+        "PD-clean-mojka-vert-stekol": {
+            "name": "Высотная мойка вертикальных стёкол",
+            "pricelists": [
+                "clean",
+                "clean-mojka"
+            ],
+            "service_id": "",
+            "unit": "метр квадратный",
+            "price_value": "от 35"
+        },
+        "PD-clean-mojka-horiz-stekol": {
+            "name": "Высотная мойка горизонтальных стёкол",
+            "pricelists": [
+                "clean",
+                "clean-mojka"
+            ],
+            "service_id": "",
+            "unit": "метр квадратный",
+            "price_value": "от 45"
+        },
+        "PD-clean-mojka-fasad-appvysokdavl": {
+            "name": "Мойка фасадов (аппарат высокого давления)",
+            "pricelists": [
+                "clean",
+                "clean-mojka"
+            ],
+            "service_id": "",
+            "unit": "метр квадратный",
+            "price_value": "от 25"
+        },
+        "PD-clean-mojka-fasad-appvysokdavl-shetki": {
+            "name": "Мытьё фасадов аппаратом высокого давления с использованием моющего средства и щёток",
+            "pricelists": [
+                "clean",
+                "clean-mojka"
+            ],
+            "service_id": "",
+            "unit": "метр квадратный",
+            "price_value": "от 40"
+        },
+        "PD-clean-mojka-pomyvka-bannera": {
+            "name": "Помывка баннера, световой коробки",
+            "pricelists": [
+                "clean",
+                "clean-mojka"
+            ],
+            "service_id": "",
+            "unit": "метр квадратный",
+            "price_value": "от 240"
+        },
+        "PD-clean-mojka-okna-vitriny-vyveski": {
+            "name": "Мойка окон, витрин и рекламных вывесок",
+            "pricelists": [
+                "clean",
+                "clean-mojka"
+            ],
+            "service_id": "",
+            "unit": "метр квадратный",
+            "price_value": "от 30"
+        },
+        "PD-demont-vent": {
+            "name": "Демонтаж систем вентиляции",
+            "pricelists": [
+                "demont"
+            ],
+            "service_id": "",
+            "unit": "—",
+            "price_value": "необходим выезд оценщика"
+        },
+        "PD-demont-metal": {
+            "name": "Демонтаж металлоконструкций",
+            "pricelists": [
+                "demont"
+            ],
+            "service_id": "",
+            "unit": "тонна",
+            "price_value": "от 15000"
+        },
+        "PD-demont-kirpich-truba": {
+            "name": "Демонтаж кирпичных труб",
+            "pricelists": [
+                "demont"
+            ],
+            "service_id": "",
+            "unit": "метр погонный",
+            "price_value": "от 10000"
+        },
+        "PD-demont-beton-truba": {
+            "name": "Демонтаж бетонных труб",
+            "pricelists": [
+                "demont"
+            ],
+            "service_id": "",
+            "unit": "метр погонный",
+            "price_value": "от 20000"
+        },
+        "PD-demont-metal-trub": {
+            "name": "Демонтаж металлических труб",
+            "pricelists": [
+                "demont"
+            ],
+            "service_id": "",
+            "unit": "метр погонный",
+            "price_value": "от 3000"
+        },
+        "PD-demont-bashen-i-vyshek-svyazi": {
+            "name": "Демонтаж башен и вышек связи",
+            "pricelists": [
+                "demont"
+            ],
+            "service_id": "",
+            "unit": "метр погонный",
+            "price_value": "от 3000"
+        },
+        "PD-demont-angar": {
+            "name": "Демонтаж ангаров",
+            "pricelists": [
+                "demont"
+            ],
+            "service_id": "",
+            "unit": "—",
+            "price_value": "необходим выезд оценщика"
+        },
+        "PD-demont-reklama": {
+            "name": "Демонтаж рекламных конструкций",
+            "pricelists": [
+                "demont"
+            ],
+            "service_id": "",
+            "unit": "—",
+            "price_value": "необходим выезд оценщика"
+        },
+        "PD-demont-stroitelnye-lesa": {
+            "name": "Демонтаж строительных лесов",
+            "pricelists": [
+                "demont"
+            ],
+            "service_id": "",
+            "unit": "—",
+            "price_value": "от 60"
+        },
+        "PD-mont-vent": {
+            "name": "Монтаж систем вентиляции",
+            "pricelists": [
+                "mont"
+            ],
+            "service_id": "",
+            "unit": "—",
+            "price_value": "необходим выезд оценщика"
+        },
+        "PD-mont-vinil-brandmauer": {
+            "name": "Монтаж виниловых брандмауэров, банеров (без рамы)",
+            "pricelists": [
+                "mont"
+            ],
+            "service_id": "",
+            "unit": "метр квадратный",
+            "price_value": "от 350"
+        },
+        "PD-mont-banner": {
+            "name": "Монтаж баннеров (с монтажом конструкции)",
+            "pricelists": [
+                "mont"
+            ],
+            "service_id": "",
+            "unit": "—",
+            "price_value": "необходим выезд оценщика"
+        },
+        "PD-mont-neon": {
+            "name": "Монтаж неона",
+            "pricelists": [
+                "mont"
+            ],
+            "service_id": "",
+            "unit": "метр погонный",
+            "price_value": "от 280"
+        },
+        "PD-mont-bukvy-1m": {
+            "name": "Монтаж объёмных букв (1м. x 1м.)",
+            "pricelists": [
+                "mont"
+            ],
+            "service_id": "",
+            "unit": "штука",
+            "price_value": "от 1100"
+        },
+        "PD-mont-bukvy-05m": {
+            "name": "Монтаж объёмных букв (0,5м. x 0,5м.)",
+            "pricelists": [
+                "mont"
+            ],
+            "service_id": "",
+            "unit": "штука",
+            "price_value": "от 450"
+        },
+        "PD-mont-duralait": {
+            "name": "Монтаж дюралайта",
+            "pricelists": [
+                "mont"
+            ],
+            "service_id": "",
+            "unit": "—",
+            "price_value": "от 180"
+        },
+        "PD-mont-svetkorob": {
+            "name": "Монтаж светового короба",
+            "pricelists": [
+                "mont"
+            ],
+            "service_id": "",
+            "unit": "—",
+            "price_value": "от 1200"
+        },
+        "PD-mont-ng-ukrasheniya": {
+            "name": "Монтаж новогодних украшений",
+            "pricelists": [
+                "mont"
+            ],
+            "service_id": "",
+            "unit": "—",
+            "price_value": "необходим выезд оценщика"
+        },
+        "PD-mont-lampochki": {
+            "name": "Замена электрических лампочек",
+            "pricelists": [
+                "mont"
+            ],
+            "service_id": "",
+            "unit": "штука",
+            "price_value": "от 30"
+        },
+        "PD-mont-kamery": {
+            "name": "Установка камер видеонаблюдения",
+            "pricelists": [
+                "mont"
+            ],
+            "service_id": "",
+            "unit": "штука",
+            "price_value": "от 3000"
+        },
+        "PD-mont-kondicioner": {
+            "name": "Монтаж внешних блоков кондиционеров",
+            "pricelists": [
+                "mont"
+            ],
+            "service_id": "",
+            "unit": "штука",
+            "price_value": "3500"
+        },
+        "PD-mont-sputnik": {
+            "name": "Монтаж снутниковых антенн",
+            "pricelists": [
+                "mont"
+            ],
+            "service_id": "",
+            "unit": "штука",
+            "price_value": "от 6000"
+        },
+        "PD-mont-kabel-antennyj": {
+            "name": "Монтаж антенного кабеля",
+            "pricelists": [
+                "mont"
+            ],
+            "service_id": "",
+            "unit": "метр погонный",
+            "price_value": "от 60"
+        },
+        "PD-mont-kabel-termo": {
+            "name": "Монтаж термокабеля",
+            "pricelists": [
+                "mont"
+            ],
+            "service_id": "",
+            "unit": "метр погонный",
+            "price_value": "от 200"
+        },
+        "PD-mont-kabel-electro": {
+            "name": "Монтаж электропроводки",
+            "pricelists": [
+                "mont"
+            ],
+            "service_id": "",
+            "unit": "метр погонный",
+            "price_value": "от 80"
+        },
+        "PD-mont-kabel-molniya": {
+            "name": "Монтаж молниезащиты (громоотвод)",
+            "pricelists": [
+                "mont"
+            ],
+            "service_id": "",
+            "unit": "метр погонный",
+            "price_value": "от 120"
+        },
+        "PD-mont-stroilenye-lesa": {
+            "name": "Монтаж строительных лесов",
+            "pricelists": [
+                "mont"
+            ],
+            "service_id": "",
+            "unit": "—",
+            "price_value": "от 100"
+        },
+        "PD-mont-geberit": {
+            "name": "Монтаж ливневой канализации Geberit",
+            "pricelists": [
+                "mont"
+            ],
+            "service_id": "",
+            "unit": "—",
+            "price_value": "необходим выезд оценщика"
+        },
+        "PD-clean-posle-mojkaostekleniya": {
+            "name": "Мойка остекления после ремонта",
+            "pricelists": [
+                "clean",
+                "clean-posle"
+            ],
+            "service_id": "",
+            "unit": "метр квадратный",
+            "price_value": "от 20"
+        },
+        "PD-clean-posle-lift": {
+            "name": "Мойка остекления лифтовых шахт",
+            "pricelists": [
+                "clean",
+                "clean-posle"
+            ],
+            "service_id": "",
+            "unit": "метр квадратный",
+            "price_value": "необходим выезд оценщика"
+        },
+        "PD-clean-posle-mramor": {
+            "name": "Чистка мрамора",
+            "pricelists": [
+                "clean",
+                "clean-posle"
+            ],
+            "service_id": "",
+            "unit": "метр квадратный",
+            "price_value": "необходим выезд оценщика"
+        },
+        "PD-clean-posle-obespylivanie": {
+            "name": "Обеспыливание поверхностей после ремонта",
+            "pricelists": [
+                "clean",
+                "clean-posle",
+                "clean-obesp"
+            ],
+            "service_id": "",
+            "unit": "—",
+            "price_value": "необходим выезд оценщика"
+        }
+    }
+}
