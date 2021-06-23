@@ -332,7 +332,7 @@ function createContactsBlock() {
     var http301 = {};
     var path = pathNode.join(__dirname, "../content/contacts/");
     try {
-        res = checkThis(  addUrlsInRes( res, path + "contacts-urls.json", 1) );
+        res = checkThis( addUrlsInRes( res, path + "contacts-urls.json", 1) );
         http301 = checkThis( addHttp301( http301, path + "contacts-urls-http301.json", 2));
 
         checkDirAndCreateIfNotExist(pathNode.join(__dirname, "../compiled-data/blocks/", block));

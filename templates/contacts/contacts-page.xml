@@ -9,7 +9,11 @@
 
                 <div class="body-nav-tab">
                     <ul>
-                        <fest:for iterate="json.breadcrumbs" index="i" value="v">
+                        <fest:for
+              iterate="json.breadcrumbs"
+              index="i"
+              value="v"
+            >
                             <li>
                                 <a>
                                     <fest:attributes>
@@ -54,43 +58,89 @@
 
         <br />
 
-        <div class="main-allr" style="margin-top: 1px;    background: rgba(0,0, 0, 0.2);">
+        <div
+      class="main-allr"
+      style="margin-top: 1px;    background: rgba(0,0, 0, 0.2);"
+    >
             <div class="main-text" style="text-align: center;">
-                <h2 style="text-align: center; padding-bottom: 10px; color: gray;">Наши клиенты</h2>
+                <h2
+          style="text-align: center; padding-bottom: 10px; color: gray;"
+        >Наши клиенты</h2>
                 <ul class="brands-text-block">
                     <li>
-                        <img src="/images/brands/100px/mega.png" title="Мега" alt="Мега" />
+                        <img
+              src="/images/brands/100px/mega.png"
+              title="Мега"
+              alt="Мега"
+            />
                     </li>
                     <li>
-                        <img src="/images/brands/100px/toyota.png" title="Toyota" alt="Toyota" />
+                        <img
+              src="/images/brands/100px/toyota.png"
+              title="Toyota"
+              alt="Toyota"
+            />
                     </li>
                     <li>
-                        <img src="/images/brands/100px/hyundai.png" title="Hyundai" alt="Hyundai" />
+                        <img
+              src="/images/brands/100px/hyundai.png"
+              title="Hyundai"
+              alt="Hyundai"
+            />
                     </li>
                     <li>
-                        <img src="/images/brands/russtand3-logo-gray.png" title="Русский Стандарт" alt="Русский Стандарт" />
+                        <img
+              src="/images/brands/russtand3-logo-gray.png"
+              title="Русский Стандарт"
+              alt="Русский Стандарт"
+            />
                     </li>
                     <li>
-                        <img src="/images/brands/100px/transneft.png" title="Транснефть" alt="Транснефть" />
+                        <img
+              src="/images/brands/100px/transneft.png"
+              title="Транснефть"
+              alt="Транснефть"
+            />
                     </li>
                     <li>
-                        <img src="/images/brands/100px/gazprom.png" title="Газпром" alt="Газпром" />
+                        <img
+              src="/images/brands/100px/gazprom.png"
+              title="Газпром"
+              alt="Газпром"
+            />
                     </li>
                     <li>
-                        <img src="/images/brands/100px/ptk.png" title="ПТК" alt="ПТК" />
+                        <img
+              src="/images/brands/100px/ptk.png"
+              title="ПТК"
+              alt="ПТК"
+            />
                     </li>
                     <li>
-                        <img src="/images/brands/100px/rzhd.png" title="РЖД" alt="РЖД" />
+                        <img
+              src="/images/brands/100px/rzhd.png"
+              title="РЖД"
+              alt="РЖД"
+            />
                     </li>
                 </ul>
 
                 <br /><br />
                 <hr style="border:1px dashed #444;" />
-                <h2 style="text-align: center; padding-bottom: 10px; color: gray;"><a href="/partners">Партнёры</a></h2>
+                <h2
+          style="text-align: center; padding-bottom: 10px; color: gray;"
+        ><a href="/partners">Партнёры</a></h2>
                 <ul class="brands-text-block">
                     <li>
-                        <a href="/partners/peterburgskaya-nedvizhimost" style="border: 0px solid white; text-decoration: none;">
-                            <img src="/images/brands/100px/peterburgkaya-nedvizhimost-3.png" title="Петербургская Недвижимость" alt="Петербургская Недвижимость" />
+                        <a
+              href="/partners/peterburgskaya-nedvizhimost"
+              style="border: 0px solid white; text-decoration: none;"
+            >
+                            <img
+                src="/images/brands/100px/peterburgkaya-nedvizhimost-3.png"
+                title="Петербургская Недвижимость"
+                alt="Петербургская Недвижимость"
+              />
                         </a>
                     </li>
                 </ul>

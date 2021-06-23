@@ -4,7 +4,7 @@
 
     <fest:set name="verifications" test="json.modes.verification">
         <fest:if test="json.modes.verification">
-            <meta name='yandex-verification' content='55b40f367cd80bde'/>
+            <meta name='yandex-verification' content='55b40f367cd80bde' />
         </fest:if>
     </fest:set>
 
@@ -12,7 +12,8 @@
         <meta name="viewport">
             <fest:attributes>
                 <fest:attribute name="content">
-                    <fest:value>"width=device-width, initial-scale=1"</fest:value>
+                    <fest:value
+          >"width=device-width, initial-scale=1"</fest:value>
                 </fest:attribute>
             </fest:attributes>
         </meta>
@@ -41,10 +42,15 @@
         <link rel="stylesheet" href="/styles/main.css" />
         <link rel="stylesheet" href="/styles/navtable.css" />
         <link rel="stylesheet" href="/styles/media-queries.css" />
-        <link href="/styles/fonts-googleapis-com-css.css" rel="stylesheet" type="text/css" />
+        <link
+      href="/styles/fonts-googleapis-com-css.css"
+      rel="stylesheet"
+      type="text/css"
+    />
         <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
         <fest:get name="header_content_styles_addition" />
     </fest:set>
 
@@ -64,7 +70,12 @@
     <fest:set name="body_content_header">
         <div class="topnav">
             <a href="/" class="active">
-                <img src="/images/logo.png" alt="Альп Сервис" title="Aльп Сервис" height="16px"/>
+                <img
+          src="/images/logo.png"
+          alt="Альп Сервис"
+          title="Aльп Сервис"
+          height="16px"
+        />
             </a>
             <a href="tel:+7(812)326-26-29" class="phone-link">
                 <span id="telephone" class="phone">
@@ -74,7 +85,11 @@
             <!-- Navigation links (hidden by default) -->
             <div id="mobile-menu">
                 <ul>
-                    <fest:each iterate="json.navigation.menu" index="i" value="v">
+                    <fest:each
+            iterate="json.navigation.menu"
+            index="i"
+            value="v"
+          >
                         <li id="nav-{i}" class="menu">
                             <a class="menu">
                                 <fest:attributes>
@@ -93,13 +108,17 @@
             </div>
             <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
             <a href="javascript:void(0);" class="icon" onclick="burgerToggle()">
-                <i class="fa fa-bars"></i>
+                <i class="fa fa-bars" />
             </a>
         </div>
         <header>
             <div>
                 <a href="/" title="Промышленные альпинисты в Санкт-Петербурге">
-                    <img src="/images/logo.png" alt="Альп Сервис" title="Промышленные альпинисты компании Альп Сервис (Санкт-Петербург)" />
+                    <img
+            src="/images/logo.png"
+            alt="Альп Сервис"
+            title="Промышленные альпинисты компании Альп Сервис (Санкт-Петербург)"
+          />
                 </a>
             </div>
             <div>
@@ -113,12 +132,21 @@
                         </span>
                     </a>
                     <br />
-                    <a style="color: white;" href="mailto:info@alp-service.ru">info@alp-service.ru</a>
+                    <a
+            style="color: white;"
+            href="mailto:info@alp-service.ru"
+          >info@alp-service.ru</a>
                 </nobr>
             </div>
-            <nav class="site-menu">
+            
+        </header>
+        <nav class="site-menu">
                 <ul>
-                    <fest:each iterate="json.navigation.menu" index="i" value="v">
+                    <fest:each
+          iterate="json.navigation.menu"
+          index="i"
+          value="v"
+        >
                         <li id="nav-{i}" class="menu">
                             <a class="menu">
                                 <fest:attributes>
@@ -135,20 +163,26 @@
                     </fest:each>
                 </ul>
             </nav>
-        </header>
     </fest:set>
 
     <fest:set name="body_content_footer">
         <footer>
             <div class="footer">
-                <div style="font-size:0.8em; display:table; width: 100%; padding-top: 10px; padding-bottom: 10px;">
+                <div
+          style="font-size:0.8em; display:table; width: 100%; padding-top: 10px; padding-bottom: 10px;"
+        >
                     <div style="display:table-cell; padding-left: 10px;">
                         <![CDATA[
 						&#169; 2010–2021 Компания &laquo;Альп-Сервис&raquo; &mdash; промышленные альпинисты в Санкт-Петербурге
 					]]>
                     </div>
-                    <div style="display:table-cell; text-align: right; padding-right: 10px;">
-                        <a href="/sitemap.xml" style="margin-top: 5px;">Карта сайта</a>
+                    <div
+            style="display:table-cell; text-align: right; padding-right: 10px;"
+          >
+                        <a
+              href="/sitemap.xml"
+              style="margin-top: 5px;"
+            >Карта сайта</a>
                         <fest:space />
                     </div>
                 </div>
