@@ -436,7 +436,7 @@ function getJsonData(file) {
     var result = false;
     try {
         result = JSON.parse(
-            fs.readFileSync(file)
+            fs.readFileSync(pathNode.resolve(file))
         );
     } catch (err) {
         console.log(JS_FILE + " getJsonFile(): ERROR! Cannot open file: '" + file + "'");

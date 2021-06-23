@@ -7,6 +7,7 @@
 */
 
 var fs = require("fs");
+const pathNode = require('path');
 
 function compileUrls() {
     //var sourceList = ["root"];
@@ -67,7 +68,7 @@ function compileUrls() {
         fs.readFileSync(fName)
     );
     jsonWorksUrls.list = result;
-    fs.writeFileSync(fName, JSON.stringify(jsonWorksUrls, null, 4));
+    fs.writeFileSync(pathNode.resolve(fName), JSON.stringify(jsonWorksUrls, null, 4));
 }
 
 exports.compileUrls = compileUrls;

@@ -7,6 +7,7 @@
  */
 
 var fs = require("fs");
+const pathNode = require('path');
 // ----------------------------------------------------------------------------
 // Функция checkPageType определяет тип запрашиваемой страницы, пользуясь частью URL-строки (переменная element),
 // а также по данным JSON-файла:
@@ -40,7 +41,7 @@ function getId(element, file) {
     var result = undefined;
     try {
         var json = JSON.parse(
-            fs.readFileSync(file)
+            fs.readFileSync(pathNode.resolve(file))
         );
         if (typeof element == "string") {
             result = json.list[element];

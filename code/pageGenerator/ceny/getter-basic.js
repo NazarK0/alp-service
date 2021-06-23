@@ -9,7 +9,7 @@ function getJsonData(file) {
     var result = false;
     try {
         result = JSON.parse(
-            fs.readFileSync(file)
+            fs.readFileSync(pathNode.resolve(file))
         );
     } catch (err) {
         console.log("getter-basic.js: getJsonData(): ERROR! Cannot open file: " + file);
