@@ -103,6 +103,7 @@
         "/service/obespylivanie": "html/service/obespylivanie.html",
         "/service/poslestroitelnaya-chistka": "html/service/poslestroitelnaya-chistka.html",
         "/contacts/": "html/contacts/index.html",
+        "/contacts/contacts_url": "html/contacts/contacts_url.html",
         "/partners/": "html/partners/index.html",
         "/partners/peterburgskaya-nedvizhimost": "html/partners/peterburgskaya-nedvizhimost.html"
     },

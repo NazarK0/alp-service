@@ -1,7 +1,8 @@
 {
     "block": "contacts",
     "urls": [
-        ""
+        "",
+        "contacts_url"
     ],
     "http301": {}
 }

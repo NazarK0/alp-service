@@ -37,6 +37,7 @@
                         <fest:space />
                         <![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]]>
                         <fest:space />
+                        <br/>
                         <a>
                             <fest:attributes>
                                 <fest:attribute name="href">
@@ -44,6 +45,9 @@
                                 </fest:attribute>
                                 <fest:attribute name="title">
                                     <fest:value>v.price_name</fest:value>
+                                </fest:attribute>
+                                <fest:attribute name="class">
+                                    <fest:value>"service-price"</fest:value>
                                 </fest:attribute>
                             </fest:attributes>
                             <fest:value>v.price_name</fest:value>

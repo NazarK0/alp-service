@@ -1,119 +1,124 @@
 /* Extra small devices (phones, 600px and down) */
+
 @media only screen and (max-width: 425px) {
-  header,
-  .site-menu {
-    display: none;
-  }
-  table.pricetable {
-    font-size: 0.7rem;
-  }
-
-  .main-navigation-menu {
-    margin: 20px 5px;
-  }
-
-  .service-list .service-container {
-    width: 90%;
-  }
-
-  .service-list .service-list-details li {
-    font-size: 1rem;
-  }
-  .service-list .service-list-details {
-    align-self: flex-start;
-  }
-
-  .banner-card {
-    min-width: 240px;
-  }
-
-  .service-list .service-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+    header,
+    .site-menu {
+        display: none;
+    }
+    table.pricetable {
+        font-size: 0.7rem;
+    }
+    .main-navigation-menu {
+        margin: 20px 5px;
+    }
+    .service-list .service-container {
+        width: 90%;
+    }
+    .service-list .service-list-details li {
+        font-size: 1rem;
+    }
+    .service-list .service-list-details {
+        align-self: flex-start;
+    }
+    .banner-card {
+        min-width: 240px;
+    }
+    .service-list .service-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media only screen and (min-width: 425px) {
-  .service-list .service-list-details {
-    margin-left: 5%;
-  }
+    .service-list .service-list-details {
+        margin-left: 5%;
+    }
 }
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
+
 @media only screen and (min-width: 600px) {
-  /* .service-list .service-list-details li {
+    /* .service-list .service-list-details li {
     font-size: 0.7rem;
   } */
-  .topnav {
-    display: none;
-  }
-  header {
-    margin: 5px 43px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .site-menu {
-    /* width: 100%; */
-
-    margin: 0 20px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+    .topnav {
+        display: none;
+    }
+    header {
+        margin: 5px 43px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .site-menu {
+        /* width: 100%; */
+        margin: 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
+
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .topnav {
-    display: none;
-  }
 
-  .banner-card {
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 7px;
-    box-sizing: border-box;
-    padding: 7px 37px;
-    margin: 5px;
-    min-width: 517;
-  }
+@media only screen and (min-width: 768px) {
+    .topnav {
+        display: none;
+    }
+    .banner-card {
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 7px;
+        box-sizing: border-box;
+        padding: 7px 37px;
+        margin: 5px;
+        min-width: 517;
+    }
+    table#works td img {
+        width: 80px;
+        height: 80px;
+    }
+    table#works tr div.exp-service-tags {
+        font-size: 0.8em;
+    }
 }
+
 
 /* Large devices (laptops/desktops, 992px and up) */
+
 @media only screen and (min-width: 992px) {
-  .service-list {
-    margin: 0 30px;
-  }
-
-  .service-list > li {
-    height: 110px;
-    margin-bottom: 10px;
-    flex-direction: row;
-    justify-content: flex-start;
-  }
-
-  .service-list .service-item-title {
-    text-align: start;
-  }
-
-  .service-list .service-container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .service-list .service-list-details {
-    display: flex;
-    flex-wrap: wrap;
-    /* font-size: 0.8rem; */
-  }
-  .service-list .service-list-details li {
-    margin-right: 25px;
-  }
+    .service-list {
+        margin: 0 30px;
+    }
+    .service-list br {
+        display: none;
+    }
+    .service-list>li {
+        height: 110px;
+        margin-bottom: 10px;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .service-list .service-item-title {
+        text-align: start;
+    }
+    .service-list .service-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .service-list .service-list-details {
+        display: flex;
+        flex-wrap: wrap;
+        /* font-size: 0.8rem; */
+    }
+    .service-list .service-list-details li {
+        margin-right: 25px;
+    }
 }
+
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-}
+
+@media only screen and (min-width: 1200px) {}

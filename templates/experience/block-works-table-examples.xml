@@ -4,8 +4,8 @@
             <tbody>
                 <fest:for iterate="works" index="i" value="v">
                     <tr>
-                        <td width="70px" style="vertical-align: top;">
-                            <img src="{v.icon_img}" width="70px" height="70px" style="border: 1px solid gray;" />
+                        <td width="102px" style="vertical-align: top;">
+                            <img src="{v.icon_img}" width="102px" height="102px" style="border: 1px solid gray;" />
                         </td>
                         <td>
                             №<fest:value>i+1</fest:value>.

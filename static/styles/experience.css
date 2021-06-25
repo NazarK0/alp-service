@@ -1,107 +1,110 @@
+ul#customers {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
 
 ul#customers {
-	margin: 0px;
-	padding: 0px;
-	list-style-type: none;
+    margin-left: 0px;
+    margin-bottom: 10px;
 }
-ul#customers {
-	margin-left: 0px;
-	margin-bottom: 10px;
-}
+
 ul#customers li {
-	display: inline;
-	padding-right: 25px;
+    display: inline;
+    padding-right: 25px;
 }
+
 ul#customers li a {
-	color: #444;
-	border-bottom: 1px #444 dashed;
-	cursor:help;
+    color: #444;
+    border-bottom: 1px #444 dashed;
+    cursor: help;
 }
 
-div#categories {
-
-}
+div#categories {}
 
 div#categories div.block {
-	border: 1px dotted #AAA;
-	border-radius: 7px 7px 7px 7px;
-	margin-bottom: 5px;
-	padding: 7px;
+    border: 1px dotted #AAA;
+    border-radius: 7px 7px 7px 7px;
+    margin-bottom: 5px;
+    padding: 7px;
 }
 
 div#categories div.block div {
-	display: inline;
-	margin-right: 25px;
-	/*font-size: 1.0em;*/
-	/*font-weight: 900;*/
+    display: inline;
+    margin-right: 25px;
+    /*font-size: 1.0em;*/
+    /*font-weight: 900;*/
 }
 
 div#categories div.block ul {
-	/*display: inline;*/
-	margin: 0px;
-	margin-top: 3px;
-	padding: 0px;
+    /*display: inline;*/
+    margin: 0px;
+    margin-top: 3px;
+    padding: 0px;
 }
 
 div#categories div.block ul li {
-
-	display: inline;
-	padding-right: 25px;
+    display: inline;
+    padding-right: 25px;
 }
 
 div#categories div.block ul li a.marked {
-	background: #DDD;
-	padding-left: 5px;
-	padding-right: 5px;
+    background: #DDD;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
+ul#categories {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
 
 ul#categories {
-	margin: 0px;
-	padding: 0px;
-	list-style-type: none;
+    margin-left: 0px;
+    margin-bottom: 10px;
 }
-ul#categories {
-	margin-left: 0px;
-	margin-bottom: 10px;
-}
+
 ul#categories li {
-	display: inline;
-	padding-right: 25px;
+    display: inline;
+    padding-right: 25px;
 }
-
-
 
 table#works {
-	margin: 0px;
-	padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
+
 table#works {
-	margin-left: 23px;
-	margin-bottom: 10px;
+    margin-left: 23px;
+    margin-bottom: 10px;
 }
+
 table#works tr {
-	margin: 0px;
-	padding-top: 0px;
-	padding-right: 25px;
-	padding-bottom: 8px;
-}
-table#works tr:hover {
-	background: #EEE;
-}
-table#works tr div.exp-service-tags {
-	font-size: 0.8em;
-}
-table#works tr div.exp-service-tags span {
-	font-style: italic;
-}
-table#works tr div.exp-service-tags ul.exp-service-tags {
-	display: inline;
-	padding-left: 0px;
-}
-table#works tr div.exp-service-tags ul.exp-service-tags li {
-	padding-right: 10px;
-	display: inline;
+    margin: 0px;
+    padding-top: 0px;
+    padding-right: 25px;
+    padding-bottom: 8px;
 }
 
-	
+table#works tr:hover {
+    background: #EEE;
+}
+
+table#works tr div.exp-service-tags {
+    /* font-size: 0.8em; */
+}
+
+table#works tr div.exp-service-tags span {
+    font-style: italic;
+}
+
+table#works tr div.exp-service-tags ul.exp-service-tags {
+    display: inline;
+    padding-left: 0px;
+}
+
+table#works tr div.exp-service-tags ul.exp-service-tags li {
+    padding-right: 10px;
+    display: inline;
+}

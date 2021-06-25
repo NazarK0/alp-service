@@ -1,6 +1,7 @@
 {
-  "_file_comment": "Файл фактически не используется в роутере раздела 'contacts'.",
-  "list": {
-    "": "root"
-  }
+    "_file_comment": "Файл фактически не используется в роутере раздела 'contacts'.",
+    "list": {
+        "": "root",
+        "contacts_url": "contacts"
+    }
 }
