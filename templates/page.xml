@@ -102,6 +102,30 @@
 									</li>
                 </fest:each>
               </ul>
+							<ul class="messenge_ul">
+                <div class="subtitle">Ищите нас в соц.сетях</div>
+                <li class="messenge_ul_item">
+                    <a
+              target="_blank"
+              href="https://telegram.me/@alp-service"
+              class="burger_href"
+            >Telegram</a>
+                </li>
+                <li class="messenge_ul_item">
+                    <a
+              target="_blank"
+              href="https://api.whatsapp.com/send/?phone=+78123262629"
+              class="burger_href"
+            >WhatsApp</a>
+                </li>
+                <li class="messenge_ul_item">
+                    <a
+              target="_blank"
+              href="http://vk.com/alpinisty_promyshlennye"
+              class="burger_href"
+            >ВКонтакте</a>
+                </li>
+            </ul>
             </div>
             <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
             <a href="javascript:void(0);" class="icon" onclick="burgerTgl()">
