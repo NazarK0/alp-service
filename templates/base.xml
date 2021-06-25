@@ -9,5 +9,18 @@
 	<body>
 		<fest:get name="body_content" />
 	</body>
+	<!-- burger script -->
+	<script>
+
+							function burgerTgl() {
+									var x = document.getElementById("mobile-menu");
+									if (x.style.display === "block") {
+											x.style.display = "none";
+									} else {
+											x.style.display = "block";
+									}
+									}
+					
+				</script>
 </html>
 </fest:template>

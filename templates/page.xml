@@ -54,9 +54,6 @@
         <fest:get name="header_content_styles_addition" />
     </fest:set>
 
-
-
-
     <fest:set name="body_content">
         <fest:get name="body_content_header" />
         <fest:get name="body_content_main" />
@@ -84,33 +81,34 @@
             </a>
             <!-- Navigation links (hidden by default) -->
             <div id="mobile-menu">
-                <ul>
-                    <fest:each
-            iterate="json.navigation.menu"
-            index="i"
-            value="v"
-          >
-                        <li id="nav-{i}" class="menu">
-                            <a class="menu">
-                                <fest:attributes>
-                                    <fest:attribute name="href">
-                                        <fest:value>v.url</fest:value>
-                                    </fest:attribute>
-                                    <fest:attribute name="title">
-                                        <fest:value>v.title</fest:value>
-                                    </fest:attribute>
-                                </fest:attributes>
-                                <fest:value>v.name</fest:value>
-                            </a>
-                        </li>
-                    </fest:each>
-                </ul>
+              <ul>
+                <fest:each
+									iterate="json.navigation.menu"
+									index="i"
+									value="v"
+								>
+									<li id="nav-{i}" class="menu">
+											<a class="menu">
+													<fest:attributes>
+															<fest:attribute name="href">
+																	<fest:value>v.url</fest:value>
+															</fest:attribute>
+															<fest:attribute name="title">
+																	<fest:value>v.title</fest:value>
+															</fest:attribute>
+													</fest:attributes>
+													<fest:value>v.name</fest:value>
+											</a>
+									</li>
+                </fest:each>
+              </ul>
             </div>
             <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-            <a href="javascript:void(0);" class="icon" onclick="burgerToggle()">
+            <a href="javascript:void(0);" class="icon" onclick="burgerTgl()">
                 <i class="fa fa-bars" />
             </a>
         </div>
+				
         <header>
             <div>
                 <a href="/" title="Промышленные альпинисты в Санкт-Петербурге">
@@ -187,19 +185,9 @@
                     </div>
                 </div>
             </div>
+
         </footer>
-        <fest:script>
-            <![CDATA[
-                function burgerToggle() {
-                    var x = document.getElementById("mobile-menu");
-                    if (x.style.display === "block") {
-                        x.style.display = "none";
-                    } else {
-                        x.style.display = "block";
-                    }
-                    }
-            ]]>
-        </fest:script>
+        
     </fest:set>
 
     <fest:set name="body_content_bottom">
