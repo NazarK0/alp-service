@@ -65,13 +65,14 @@
     </fest:set>
 
     <fest:set name="body_content_header">
-        <div class="topnav">
-            <a href="/" class="active">
+        <div class="topnav" style="height: 100px">
+            <a href="/" class="active" style="position:relative;height: 23px">
                 <img
           src="/images/logo.png"
           alt="Альп Сервис"
           title="Aльп Сервис"
-          height="16px"
+          height="95px"
+          style="position:absolute;left:0px;top:4px"
         />
             </a>
             <a href="tel:+7(812)326-26-29" class="phone-link">
@@ -82,27 +83,23 @@
             <!-- Navigation links (hidden by default) -->
             <div id="mobile-menu">
               <ul>
-                <fest:each
-									iterate="json.navigation.menu"
-									index="i"
-									value="v"
-								>
-									<li id="nav-{i}" class="menu">
-											<a class="menu">
-													<fest:attributes>
-															<fest:attribute name="href">
-																	<fest:value>v.url</fest:value>
-															</fest:attribute>
-															<fest:attribute name="title">
-																	<fest:value>v.title</fest:value>
-															</fest:attribute>
-													</fest:attributes>
-													<fest:value>v.name</fest:value>
-											</a>
-									</li>
+                <fest:each iterate="json.navigation.menu" index="i" value="v">
+                    <li id="nav-{i}" class="menu">
+                            <a class="menu">
+                                    <fest:attributes>
+                                            <fest:attribute name="href">
+                                                    <fest:value>v.url</fest:value>
+                                            </fest:attribute>
+                                            <fest:attribute name="title">
+                                                    <fest:value>v.title</fest:value>
+                                            </fest:attribute>
+                                    </fest:attributes>
+                                    <fest:value>v.name</fest:value>
+                            </a>
+                    </li>
                 </fest:each>
               </ul>
-							<ul class="messenge_ul">
+			  <ul class="messenge_ul">
                 <div class="subtitle">Ищите нас в соц.сетях</div>
                 <li class="messenge_ul_item">
                     <a
@@ -124,6 +121,13 @@
               href="http://vk.com/alpinisty_promyshlennye"
               class="burger_href"
             >ВКонтакте</a>
+                </li>
+                <li class="messenge_ul_item">
+                    <a
+              target="_blank"
+              href="mailto:info@alp-service.ru"
+              class="burger_href"
+            >info@alp-service.ru</a>
                 </li>
             </ul>
             </div>
@@ -155,35 +159,35 @@
                     </a>
                     <br />
                     <a
-            style="color: white;"
-            href="mailto:info@alp-service.ru"
-          >info@alp-service.ru</a>
+                        style="color: white;"
+                        href="mailto:info@alp-service.ru"
+                    >info@alp-service.ru</a>
                 </nobr>
             </div>
             
         </header>
         <nav class="site-menu">
-                <ul>
-                    <fest:each
-          iterate="json.navigation.menu"
-          index="i"
-          value="v"
-        >
-                        <li id="nav-{i}" class="menu">
-                            <a class="menu">
-                                <fest:attributes>
-                                    <fest:attribute name="href">
-                                        <fest:value>v.url</fest:value>
-                                    </fest:attribute>
-                                    <fest:attribute name="title">
-                                        <fest:value>v.title</fest:value>
-                                    </fest:attribute>
-                                </fest:attributes>
-                                <fest:value>v.name</fest:value>
-                            </a>
-                        </li>
-                    </fest:each>
-                </ul>
+            <ul>
+                <fest:each
+                    iterate="json.navigation.menu"
+                    index="i"
+                    value="v"
+                >
+                <li id="nav-{i}" class="menu">
+                    <a class="menu">
+                        <fest:attributes>
+                            <fest:attribute name="href">
+                                <fest:value>v.url</fest:value>
+                            </fest:attribute>
+                            <fest:attribute name="title">
+                                <fest:value>v.title</fest:value>
+                            </fest:attribute>
+                        </fest:attributes>
+                        <fest:value>v.name</fest:value>
+                    </a>
+                </li>
+            </fest:each>
+        </ul>
             </nav>
     </fest:set>
 

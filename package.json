@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "node ./code/server-cached-dev",
     "compile": "node ./code/compileUrls",
-    "prod": "node ./code/server-cached-prod"
+    "prod": "node ./code/server-cached-prod",
+    "forever": "forever ./code/server-cached-prod"
   },
   "repository": {
     "type": "git",

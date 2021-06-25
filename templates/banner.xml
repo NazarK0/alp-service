@@ -23,7 +23,7 @@
                 </div>
             </div>
             <div class="banner-row contacts">
-                <h2 style="color: lightgray;">Свяжитесь с нами:</h2>
+                <h2 style="color: lightgray; text-align:center;">Свяжитесь с нами:</h2>
                 <div class="phone">
                     <a href="tel:+7(812)326-26-29" class="phone-link contact">
                         <span id="telephone">
@@ -86,15 +86,55 @@
                 </div>
             </div>
             <div class="banner-row phone">
-                <h4 style="color: lightgray;">Позвоните нам:</h4>
+                <h4 style="color: lightgray;">Свяжитесь с нами:</h4>
+                
                 <a href="tel:+7(812)326-26-29" class="phone-link">
+                    <nobr>
                     <span id="telephone">
-            +7 812
+                      +7 812<fest:space/>
                         <span>
                             <big>326-26-29</big>
                         </span>
                     </span>
+                    </nobr>
                 </a>
+                
+                <ul class="socials">
+                    <li>
+                        <a
+              target="_blank"
+              href="https://telegram.me/@alp-service"
+              class="contact"
+            >
+              Telegram
+                        </a>
+                    </li>
+                    <li>
+                        <a
+              target="_blank"
+              href="https://api.whatsapp.com/send/?phone=+78123262629"
+              class="contact"
+            >
+              WhatsApp
+                        </a>
+                    </li>
+                    <li>
+                        <a
+              target="_blank"
+              href="http://vk.com/alpinisty_promyshlennye"
+            >
+              ВКонтакте
+                        </a>
+                    </li>
+                    <li>
+                <a
+              target="_blank"
+              href="mailto:info@alp-service.ru"
+            >
+              info@alp-service.ru
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </fest:set>

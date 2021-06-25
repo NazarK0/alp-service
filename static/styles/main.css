@@ -43,18 +43,18 @@ h1 {
   padding-top: 10px;
   padding-left: 0px;
   color: #444;
-  font-size: 2.3rem;
+  font-size: 2.1rem;
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin: 0px;
   margin-bottom: 2px;
   padding-left: 0px;
 }
 
 h3 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin: 0px;
   margin-bottom: 2px;
   padding-left: 0px;
@@ -388,13 +388,19 @@ div.body-main-banner2 div.t div.trow {
   margin-bottom: 10px;
 }
 
-.banner-section .socials {
+.banner-section .socials,
+.banner-section-2 .socials {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   margin-bottom: 70px;
 }
-.banner-section .socials li {
+.banner-section-2 .socials {
+  width: 60%;
+  margin-top: 10px;
+}
+.banner-section .socials li, 
+.banner-section-2 .socials li {
   margin: 5px;
 }
 .banner-section .socials a {
@@ -786,15 +792,18 @@ li {
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav {
   display: block;
+  height: 100px;
 }
 
 .topnav .phone-link {
   display: flex;
   justify-content: center;
+  height: 50px;
 }
 
 .topnav .phone {
   color: #00ade6;
+  
 }
 
 .topnav #mobile-menu {
