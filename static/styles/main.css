@@ -399,7 +399,7 @@ div.body-main-banner2 div.t div.trow {
   width: 60%;
   margin-top: 10px;
 }
-.banner-section .socials li, 
+.banner-section .socials li,
 .banner-section-2 .socials li {
   margin: 5px;
 }
@@ -423,7 +423,7 @@ div.body-main-banner2 div.t div.trow {
   box-sizing: border-box;
   padding: 7px 37px;
   margin: 5px;
-  min-width: 200px;;
+  min-width: 200px;
 }
 
 .banner-card .block-title {
@@ -602,7 +602,6 @@ div.service-list div.specline {
 	justify-content: space-evenly;
 
 } */
-
 
 .service-list-details .bullet {
   color: #ccc;
@@ -800,13 +799,13 @@ li {
 
 .topnav .phone-link {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  align-items: center;
   height: 23px;
 }
 
 .topnav .phone {
   color: #00ade6;
-  
 }
 
 .topnav #mobile-menu {
