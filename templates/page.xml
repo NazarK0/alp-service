@@ -77,7 +77,7 @@
             </a>
             <a href="tel:+7(812)326-26-29" class="phone-link">
                 <span id="telephone" class="phone">
-          +7 812 326-26-29
+          +7 812<fest:space/>326-26-29
                 </span>
             </a>
             <!-- Navigation links (hidden by default) -->

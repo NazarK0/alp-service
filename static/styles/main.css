@@ -842,3 +842,18 @@ li {
   background-color: #444;
   color: #00ade6;
 }
+
+.contacts-list {
+  font-size: 1.2rem;
+}
+
+.contacts-list li {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 9px;
+}
+
+.contacts-list .contact-description {
+  font-weight: bold;
+  margin-right: 5px;
+}
