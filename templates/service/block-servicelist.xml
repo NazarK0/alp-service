@@ -1,9 +1,9 @@
 <fest:template xmlns:fest="http://fest.mail.ru" context_name="list">
     <fest:set name="body_content_main_inner_servicelist">
 
-        <div class="service-list">
+        <ul class="service-list">
             <fest:for iterate="json.servicelist" index="i" value="v">
-                <div class="line" style="width: 100%;">
+                <li>
                     <div>
                         <!--class=image icon-...-->
                         <fest:attributes>
@@ -15,7 +15,7 @@
                         </fest:attributes>
 
                     </div>
-                    <div class="list">
+                    <div class="service-container">
                         <a>
                             <fest:attributes>
                                 <fest:attribute name="href">
@@ -25,7 +25,7 @@
                                     <fest:value>v.name</fest:value>
                                 </fest:attribute>
                             </fest:attributes>
-                            <h3 style="padding-left: 20px;">
+                            <h3 class="service-item-title">
                                 <fest:attributes>
                                     <fest:attribute name="title">
                                         <fest:value>v.name</fest:value>
@@ -52,10 +52,10 @@
                             </fest:attributes>
                             <fest:value>v.price_name</fest:value>
                         </a>
-                        <ul style="padding-left:20px;">
+                        <ul class="service-list-details">
                             <fest:for iterate="v.children" index="j" value="w">
-                                <li style="display: inline; margin-right: 15px;">
-                                    <span style="color:#CCC;">
+                                <li>
+                                    <span class="bullet">
                                         <![CDATA[&#9632;]]>
                                         <fest:space />
                                     </span>
@@ -66,9 +66,9 @@
                         </ul>
                     </div>
 
-                </div>
+                </li>
             </fest:for>
-        </div>
+        </ul>
 
     </fest:set>
 </fest:template>
